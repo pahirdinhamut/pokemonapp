@@ -3,8 +3,9 @@ import { View, Text, ImageBackground, TextInput } from "react-native";
 import { height, width } from "../../../assets/Size/Size";
 import { textColor } from "../../../assets/COLORS/Color";
 import { Generation, Sort, Filter, Search } from "../../components/icons";
+import PokemonItem from "../../components/pokemonItem";
 import Space from "../../components/Space";
-console.log(height / 11);
+
 const HomeScreen = () => {
   const SearchRef = useRef();
 
@@ -48,7 +49,7 @@ const HomeScreen = () => {
           style={{
             backgroundColor: "#f2f2f2",
             borderRadius: 5,
-            marginVertical: 7,
+            marginVertical: height / 50,
             padding: height / 45,
           }}
         >
@@ -72,9 +73,9 @@ const HomeScreen = () => {
           </View>
         </View>
       </ImageBackground>
-      <View style={{ backgroundColor: "#b1bac4", flex: 1 }}>
+      <View style={{ flex: 1, paddingHorizontal: 20 }}>
         {/* Ppokemon items */}
-        <Text>Body</Text>
+        <PokemonItem />
       </View>
     </View>
   );
