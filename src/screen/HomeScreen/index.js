@@ -1,13 +1,46 @@
-import React, { useRef } from "react";
-import { View, Text, ImageBackground, TextInput } from "react-native";
+import React, { useRef, useState, useEffect } from "react";
+import { View, Text, ImageBackground, TextInput, FlatList } from "react-native";
 import { height, width } from "../../../assets/Size/Size";
 import { textColor } from "../../../assets/COLORS/Color";
-import { Generation, Sort, Filter, Search } from "../../components/icons";
-import PokemonItem from "../../components/pokemonItem";
-import Space from "../../components/Space";
+import {
+  Generation,
+  Sort,
+  Filter,
+  Search,
+  PokeballItem,
+} from "../../components/icons/index";
 
-const HomeScreen = () => {
-  const SearchRef = useRef();
+import Space from "../../components/Space";
+import { getAllPokemon, getPokemon } from "../../api/pokemon";
+
+import PokemonItems from "../../components/PokemonCard/PokemonItems";
+import { ScrollView } from "react-native";
+
+function HomeScreen() {
+  const [allPokemons, setAllPokemons] = useState([]);
+  const [nextUrl, setNextUrl] = useState("");
+  const [preUrl, setPreUrl] = useState("");
+  const initialURL = "https://pokeapi.co/api/v2/pokemon";
+
+  useEffect(() => {
+    async function fetchData() {
+      let response = await getAllPokemon(initialURL);
+      setNextUrl(response.next);
+      setPreUrl(response.previous);
+      await loadingPokemon(response.results);
+    }
+    fetchData();
+  }, []);
+
+  const loadingPokemon = async (data) => {
+    const _pokemonData = await Promise.all(
+      data.map(async (pokemon) => {
+        let pokemonRecord = await getPokemon(pokemon.url);
+        return pokemonRecord;
+      })
+    );
+    setAllPokemons(_pokemonData);
+  };
 
   return (
     <View style={{ flex: 1 }}>
@@ -63,7 +96,6 @@ const HomeScreen = () => {
               <Search />
               <Space size={10}>
                 <TextInput
-                  ref={SearchRef}
                   maxLength={25}
                   style={{ fontSize: 16 }}
                   placeholder={"What Pokémon are you looking for?"}
@@ -74,11 +106,22 @@ const HomeScreen = () => {
         </View>
       </ImageBackground>
       <View style={{ flex: 1, paddingHorizontal: 20 }}>
-        {/* Ppokemon items */}
-        <PokemonItem />
+        <ScrollView showsVerticalScrollIndicator={false}>
+          {allPokemons.map((item, index) => {
+            return (
+              <PokemonItems
+                key={index}
+                pokeName={item.name}
+                pokeNumber={item.id}
+                pokeImage={item.sprites.other.dream_world.front_default}
+                pokeType={item.types}
+              />
+            );
+          })}
+        </ScrollView>
       </View>
     </View>
   );
-};
+}
 
 export default HomeScreen;
