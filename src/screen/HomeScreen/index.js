@@ -1,25 +1,32 @@
-import React, { useRef, useState, useEffect } from "react";
-import { View, Text, ImageBackground, TextInput, FlatList } from "react-native";
+import React, { useRef, useState, useEffect, useCallback } from "react";
+import {
+  View,
+  Text,
+  ImageBackground,
+  TextInput,
+  ScrollView,
+  StyleSheet,
+} from "react-native";
 import { height, width } from "../../../assets/Size/Size";
 import { textColor } from "../../../assets/COLORS/Color";
-import {
-  Generation,
-  Sort,
-  Filter,
-  Search,
-  PokeballItem,
-} from "../../components/icons/index";
-
+import { Generation, Sort, Filter, Search } from "../../components/icons/index";
+import BottomSheet from "../../components/BottomSheet";
 import Space from "../../components/Space";
 import { getAllPokemon, getPokemon } from "../../api/pokemon";
-
 import PokemonItems from "../../components/PokemonCard/PokemonItems";
-import { ScrollView } from "react-native";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+
+import GenerationMode from "../../components/GenerationComponent/GenerationMode";
+import FilterMode from "../../components/Filter/FilterMode";
+import SortMode from "../../components/Sort/SortMode";
 
 function HomeScreen() {
   const [allPokemons, setAllPokemons] = useState([]);
   const [nextUrl, setNextUrl] = useState("");
   const [preUrl, setPreUrl] = useState("");
+  const [show, setShow] = useState(false);
+
+  const [selecetionMode, setSelectionMode] = useState("filter");
   const initialURL = "https://pokeapi.co/api/v2/pokemon";
 
   useEffect(() => {
@@ -29,6 +36,7 @@ function HomeScreen() {
       setPreUrl(response.previous);
       await loadingPokemon(response.results);
     }
+
     fetchData();
   }, []);
 
@@ -42,31 +50,47 @@ function HomeScreen() {
     setAllPokemons(_pokemonData);
   };
 
+  const selecetMode = (value) => {
+    switch (value) {
+      case "generation":
+        setSelectionMode("generation");
+        setShow(true);
+        break;
+      case "sort":
+        setSelectionMode("sort");
+        setShow(true);
+
+        break;
+      case "filter":
+        setSelectionMode("filter");
+        setShow(true);
+        break;
+    }
+  };
+
+  console.log(selecetionMode);
+
   return (
-    <View style={{ flex: 1 }}>
+    <GestureHandlerRootView style={[{ flex: 1 }]}>
       <ImageBackground
         style={{ height: height / 3, width: width, paddingHorizontal: 20 }}
         source={require("../../../assets/ComponentsImages/Pokeball.png")}
         resizeMode={"contain"}
       >
         {/* Hedaer Icons */}
-        <View
-          style={{
-            flexDirection: "row",
-            justifyContent: "flex-end",
-            marginTop: height / 11,
-          }}
-        >
-          <Space size={7}>
+
+        <View style={styles.headerIconContainer}>
+          <Space onPress={() => selecetMode("filter")} size={7}>
             <Generation fill={"black"} />
           </Space>
-          <Space size={7}>
+          <Space size={7} onPress={() => selecetMode("sort")}>
             <Sort fill={"black"} />
           </Space>
-          <Space size={7}>
+          <Space size={7} onPress={() => selecetMode("generation")}>
             <Filter fill={"black"} />
           </Space>
         </View>
+
         <Text style={{ fontSize: 32, fontWeight: "700" }}>Pokéwiki</Text>
         <Text
           style={{
@@ -120,8 +144,20 @@ function HomeScreen() {
           })}
         </ScrollView>
       </View>
-    </View>
+      <BottomSheet show={show} setShow={setShow}>
+        {selecetionMode === "generation" && <FilterMode />}
+        {selecetionMode === "sort" && <SortMode />}
+        {selecetionMode === "filter" && <GenerationMode />}
+      </BottomSheet>
+    </GestureHandlerRootView>
   );
 }
+const styles = StyleSheet.create({
+  headerIconContainer: {
+    flexDirection: "row",
+    justifyContent: "flex-end",
+    marginTop: height / 11,
+  },
+});
 
 export default HomeScreen;
