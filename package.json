@@ -10,6 +10,7 @@
     "svgr": "svgr ./assets/icons -d ./src/components/icons --native --icon --svg-props 'width=24,height=24'"
   },
   "dependencies": {
+    "@react-native-community/slider": "^4.3.1",
     "@svgr/cli": "^6.3.1",
     "expo": "~46.0.9",
     "expo-status-bar": "~1.4.0",
@@ -17,6 +18,7 @@
     "react-native": "0.69.5",
     "react-native-gesture-handler": "~2.5.0",
     "react-native-linear-gradient": "^2.6.2",
+    "react-native-range-slider": "^0.1.2",
     "react-native-reanimated": "~2.9.1",
     "react-native-remote-svg": "^2.0.10",
     "react-native-svg": "12.3.0"
@@ -24,10 +26,9 @@
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@types/react": "16.4.7",
-  "@types/react-dom": "16.0.6",
-  "typescript": "3.0.1",
-
-  "react-dom": "^16.0.0"
+    "@types/react-dom": "16.0.6",
+    "react-dom": "^16.0.0",
+    "typescript": "3.0.1"
   },
   "private": true
 }

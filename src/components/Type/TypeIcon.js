@@ -20,6 +20,12 @@ import {
   Steel,
   Water,
   Ice,
+  Short,
+  Tall,
+  Medium,
+  Heavy,
+  WeightNormal,
+  Light,
 } from "../icons";
 
 const TypeIcon = ({ children, onPress, name, style, width, height, color }) => {
@@ -78,6 +84,24 @@ const TypeIcon = ({ children, onPress, name, style, width, height, color }) => {
       break;
     case "ice":
       RenderIcon = Ice;
+      break;
+    case "tall":
+      RenderIcon = Tall;
+      break;
+    case "medium":
+      RenderIcon = Medium;
+      break;
+    case "short":
+      RenderIcon = Short;
+      break;
+    case "heavy":
+      RenderIcon = Heavy;
+      break;
+    case "weigthNormal":
+      RenderIcon = WeightNormal;
+      break;
+    case "light":
+      RenderIcon = Light;
       break;
     default:
       RenderIcon = Dark;

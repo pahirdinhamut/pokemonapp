@@ -25,10 +25,10 @@ const BottomSheet = ({ show, setShow, children }) => {
     })
     .onUpdate((event) => {
       translateY.value = event.translationY + context.value.y;
-      translateY.value = Math.max(translateY.value, -height / 1.5);
+      translateY.value = Math.max(translateY.value, -height + 150);
     })
     .onEnd(() => {
-      if (translateY.value > -height / 4) {
+      if (translateY.value > -height / 3) {
         scrollTo(0);
       }
     });

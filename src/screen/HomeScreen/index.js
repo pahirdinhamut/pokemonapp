@@ -156,7 +156,7 @@ const styles = StyleSheet.create({
   headerIconContainer: {
     flexDirection: "row",
     justifyContent: "flex-end",
-    marginTop: height / 11,
+    marginTop: height / 7.5,
   },
 });
 

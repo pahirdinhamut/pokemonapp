@@ -206,18 +206,18 @@ const WeightsType = [
   {
     id: "1",
     type: "light",
-    isSelecet: false,
+    isSelecet: true,
   },
   {
     id: "2",
-    type: "normal",
-    isSelecet: false,
+    type: "weigthNormal",
+    isSelecet: true,
   },
   {
     id: "3",
     type: "heavy",
-    isSelecet: false,
+    isSelecet: true,
   },
 ];
 
-export { TypesCategory, WeaknessesType, WeightsType };
+export { TypesCategory, WeaknessesType, WeightsType, HeightsTypes };

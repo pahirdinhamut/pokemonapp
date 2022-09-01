@@ -1,11 +1,20 @@
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import React, { useEffect, useState } from "react";
 import Types from "./Types";
-import { TypesCategory, WeaknessesType } from "./typesCategory";
+import {
+  TypesCategory,
+  WeaknessesType,
+  HeightsTypes,
+  WeightsType,
+} from "./typesCategory";
+
+import Slider from "@react-native-community/slider";
 
 const FilterMode = () => {
   const [allType, setAllType] = useState(TypesCategory);
   const [weaknessesType, setWeaknessesType] = useState(WeaknessesType);
+  const [heightsTypes, setHeightTypes] = useState(HeightsTypes);
+  const [getWeightsType, setWeightType] = useState(WeightsType);
   const [isSelecet, setIsSelect] = useState(false);
 
   const selectType = (item) => {
@@ -35,6 +44,36 @@ const FilterMode = () => {
       };
     });
     setWeaknessesType(newData);
+  };
+  const selectHeightTypes = (item) => {
+    const newData = heightsTypes.map((newItem) => {
+      if (newItem.id == item.id) {
+        return {
+          ...newItem,
+          isSelecet: !item.isSelecet,
+        };
+      }
+      return {
+        ...newItem,
+      };
+    });
+    setHeightTypes(newData);
+  };
+
+  const selectWeightTypes = (item) => {
+    const newData = getWeightsType.map((newItem) => {
+      if (newItem.type == item.type) {
+        return {
+          ...newItem,
+          isSelecet: false,
+        };
+      }
+      return {
+        ...newItem,
+      };
+    });
+    setWeightType(newData);
+    console.log(newData);
   };
 
   return (
@@ -74,6 +113,42 @@ const FilterMode = () => {
               <View key={index} style={{ marginRight: 10 }}>
                 <Types
                   onPress={() => selectWeakness(item)}
+                  type={item.type}
+                  isSelect={item.isSelecet}
+                />
+              </View>
+            );
+          })}
+        </ScrollView>
+      </View>
+      <View style={{ marginTop: 10 }}>
+        <Text style={{ fontSize: 16, fontWeight: "700", marginHorizontal: 20 }}>
+          Heights
+        </Text>
+        <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+          {heightsTypes.map((item, index) => {
+            return (
+              <View key={index} style={{ marginRight: 10 }}>
+                <Types
+                  onPress={() => selectHeightTypes(item)}
+                  type={item.type}
+                  isSelect={item.isSelecet}
+                />
+              </View>
+            );
+          })}
+        </ScrollView>
+      </View>
+      <View style={{ marginTop: 10 }}>
+        <Text style={{ fontSize: 16, fontWeight: "700", marginHorizontal: 20 }}>
+          Weight
+        </Text>
+        <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+          {getWeightsType.map((item, index) => {
+            return (
+              <View key={index} style={{ marginRight: 10 }}>
+                <Types
+                  onPress={() => selectWeightTypes(item)}
                   type={item.type}
                   isSelect={item.isSelecet}
                 />
