@@ -17,7 +17,7 @@ const TypeView = ({ type }) => {
       }}
     >
       <Space size={3}>
-        <TypeIcon name={type} width={14} height={14} />
+        <TypeIcon name={type} color={"white"} width={14} height={14} />
       </Space>
       <Text
         style={{

@@ -1,14 +1,87 @@
-import { StyleSheet, Text, View } from "react-native";
-import React from "react";
+import { ScrollView, StyleSheet, Text, View } from "react-native";
+import React, { useEffect, useState } from "react";
+import Types from "./Types";
+import { TypesCategory, WeaknessesType } from "./typesCategory";
 
 const FilterMode = () => {
+  const [allType, setAllType] = useState(TypesCategory);
+  const [weaknessesType, setWeaknessesType] = useState(WeaknessesType);
+  const [isSelecet, setIsSelect] = useState(false);
+
+  const selectType = (item) => {
+    const newData = allType.map((newItem) => {
+      if (newItem.id == item.id) {
+        return {
+          ...newItem,
+          isSelecet: !item.isSelecet,
+        };
+      }
+      return {
+        ...newItem,
+      };
+    });
+    setAllType(newData);
+  };
+  const selectWeakness = (item) => {
+    const newData = weaknessesType.map((newItem) => {
+      if (newItem.id == item.id) {
+        return {
+          ...newItem,
+          isSelecet: !item.isSelecet,
+        };
+      }
+      return {
+        ...newItem,
+      };
+    });
+    setWeaknessesType(newData);
+  };
+
   return (
-    <View style={{ flex: 1, paddingHorizontal: 20 }}>
-      <Text style={{ color: "black", fontSize: 22 }}>Filter</Text>
-      <Text>
-        Use advanced search to explore Pokémon by type, weakness, height and
-        more!
-      </Text>
+    <View style={{ flex: 1 }}>
+      <View style={{ marginHorizontal: 20 }}>
+        <Text style={{ color: "black", fontSize: 22 }}>Filter</Text>
+        <Text>
+          Use advanced search to explore Pokémon by type, weakness, height and
+          more!
+        </Text>
+      </View>
+      <View style={{ marginTop: 20 }}>
+        <Text style={{ fontWeight: "700", fontSize: 16, marginHorizontal: 20 }}>
+          Types
+        </Text>
+        <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+          {allType.map((item, index) => {
+            return (
+              <View key={index} style={{ marginRight: 10 }}>
+                <Types
+                  onPress={() => selectType(item)}
+                  type={item.type}
+                  isSelect={item.isSelecet}
+                />
+              </View>
+            );
+          })}
+        </ScrollView>
+      </View>
+      <View style={{ marginTop: 10 }}>
+        <Text style={{ fontSize: 16, fontWeight: "700", marginHorizontal: 20 }}>
+          Weaknesses
+        </Text>
+        <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+          {weaknessesType.map((item, index) => {
+            return (
+              <View key={index} style={{ marginRight: 10 }}>
+                <Types
+                  onPress={() => selectWeakness(item)}
+                  type={item.type}
+                  isSelect={item.isSelecet}
+                />
+              </View>
+            );
+          })}
+        </ScrollView>
+      </View>
     </View>
   );
 };

@@ -19,10 +19,10 @@ import {
   Rock,
   Steel,
   Water,
-  İce,
+  Ice,
 } from "../icons";
 
-const TypeIcon = ({ children, onPress, name, style, width, height }) => {
+const TypeIcon = ({ children, onPress, name, style, width, height, color }) => {
   let RenderIcon;
   switch (name) {
     case "grass":
@@ -76,13 +76,16 @@ const TypeIcon = ({ children, onPress, name, style, width, height }) => {
     case "normal":
       RenderIcon = Normal;
       break;
+    case "ice":
+      RenderIcon = Ice;
+      break;
     default:
       RenderIcon = Dark;
   }
   return (
     <TouchableOpacity style={{ ...styles.icon, ...style }} onPress={onPress}>
       {name ? (
-        <RenderIcon height={height} width={width} color={textColor.white} />
+        <RenderIcon height={height} width={width} fill={color} />
       ) : (
         children
       )}
