@@ -22,13 +22,12 @@ import SortMode from "../../components/Sort/SortMode";
 
 function HomeScreen() {
   const [allPokemons, setAllPokemons] = useState([]);
-  const [getSearchPokemon, setSearchPokemon] = useState([]);
+  const [searchData, setSearchData] = useState([]);
   const [nextUrl, setNextUrl] = useState("");
   const [preUrl, setPreUrl] = useState("");
   const [show, setShow] = useState(false);
-
-  const [selecetionMode, setSelectionMode] = useState("filter");
   const initialURL = "https://pokeapi.co/api/v2/pokemon";
+  const [selecetionMode, setSelectionMode] = useState("filter");
 
   useEffect(() => {
     async function fetchData() {
@@ -37,7 +36,6 @@ function HomeScreen() {
       setPreUrl(response.previous);
       await loadingPokemon(response.results);
     }
-
     fetchData();
   }, []);
 
@@ -49,6 +47,7 @@ function HomeScreen() {
       })
     );
     setAllPokemons(_pokemonData);
+    setSearchData(_pokemonData);
   };
 
   const selecetMode = (value) => {
@@ -68,33 +67,27 @@ function HomeScreen() {
         break;
     }
   };
-
-  const SearchPokemon = (value) => {
-    if (value) {
-      const newData = allPokemons.Filter(item =>{
-        const itemData = item.name ? item.name:
-      })
+  const SearchFilter = (text) => {
+    if (text) {
+      let newData = allPokemons.filter((item) => {
+        return item.name.toUpperCase().indexOf(text.toUpperCase()) > -1;
+      });
+      setSearchData(allPokemons);
+      setSearchData(newData);
     } else {
-      setAllPokemons(data);
+      setSearchData(allPokemons);
     }
-
-    const newData = allPokemons.map((item) => {
-      if (item.name == value) {
-        return {
-          ...newData,
-        };
-      }
-      console.log(newData);
-      setAllPokemons(newData);
-    });
   };
-
-  console.log(getSearchPokemon);
 
   return (
     <GestureHandlerRootView style={[{ flex: 1 }]}>
       <ImageBackground
-        style={{ height: height / 3, width: width, paddingHorizontal: 20 }}
+        style={{
+          height: height / 3,
+          width: width,
+          paddingHorizontal: 20,
+          backgroundColor: "white",
+        }}
         source={require("../../../assets/ComponentsImages/Pokeball.png")}
         resizeMode={"contain"}
       >
@@ -144,7 +137,7 @@ function HomeScreen() {
                   maxLength={25}
                   style={{ fontSize: 16 }}
                   placeholder={"What Pokémon are you looking for?"}
-                  onChangeText={(value) => SearchPokemon(value)}
+                  onChangeText={(text) => SearchFilter(text)}
                 />
               </Space>
             </View>
@@ -153,7 +146,7 @@ function HomeScreen() {
       </ImageBackground>
       <View style={{ flex: 1, paddingHorizontal: 20 }}>
         <ScrollView showsVerticalScrollIndicator={false}>
-          {allPokemons.map((item, index) => {
+          {searchData.map((item, index) => {
             return (
               <PokemonItems
                 key={index}

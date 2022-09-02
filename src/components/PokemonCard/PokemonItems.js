@@ -9,12 +9,15 @@ import styles from "./styles";
 
 import Space from "../Space";
 import { TouchableOpacity } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
 const PokemonItems = ({ pokeNumber, pokeName, pokeImage, pokeType }) => {
+  // const navigation = useNavigation();
   const pokemonBackgroundColor = pokeType[0].type.name;
 
   return (
     <TouchableOpacity
+      // onPress={() => navigation.navigate("Pokemons")}
       activeOpacity={0.8}
       style={[
         styles.container,
