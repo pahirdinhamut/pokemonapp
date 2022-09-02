@@ -9,6 +9,8 @@ import {
 } from "./typesCategory";
 
 import Slider from "@react-native-community/slider";
+import { width } from "../../../assets/Size/Size";
+import { TouchableOpacity } from "react-native-gesture-handler";
 
 const FilterMode = () => {
   const [allType, setAllType] = useState(TypesCategory);
@@ -156,6 +158,44 @@ const FilterMode = () => {
             );
           })}
         </ScrollView>
+      </View>
+      <View
+        style={{
+          flexDirection: "row",
+          marginHorizontal: 20,
+          justifyContent: "space-evenly",
+          marginTop: 40,
+        }}
+      >
+        {/* Button */}
+        <TouchableOpacity
+          style={{
+            width: width / 3,
+            backgroundColor: "#a0a3a1",
+            height: 60,
+            borderRadius: 10,
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Text style={{ color: "#484a49", fontSize: 16, fontWeight: "400" }}>
+            Rest
+          </Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={{
+            width: width / 3,
+            backgroundColor: "#ea5d60",
+            height: 60,
+            borderRadius: 10,
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Text style={{ color: "white", fontSize: 16, fontWeight: "400" }}>
+            Apply
+          </Text>
+        </TouchableOpacity>
       </View>
     </View>
   );

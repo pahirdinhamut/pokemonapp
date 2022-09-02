@@ -22,6 +22,7 @@ import SortMode from "../../components/Sort/SortMode";
 
 function HomeScreen() {
   const [allPokemons, setAllPokemons] = useState([]);
+  const [getSearchPokemon, setSearchPokemon] = useState([]);
   const [nextUrl, setNextUrl] = useState("");
   const [preUrl, setPreUrl] = useState("");
   const [show, setShow] = useState(false);
@@ -68,7 +69,27 @@ function HomeScreen() {
     }
   };
 
-  console.log(selecetionMode);
+  const SearchPokemon = (value) => {
+    if (value) {
+      const newData = allPokemons.Filter(item =>{
+        const itemData = item.name ? item.name:
+      })
+    } else {
+      setAllPokemons(data);
+    }
+
+    const newData = allPokemons.map((item) => {
+      if (item.name == value) {
+        return {
+          ...newData,
+        };
+      }
+      console.log(newData);
+      setAllPokemons(newData);
+    });
+  };
+
+  console.log(getSearchPokemon);
 
   return (
     <GestureHandlerRootView style={[{ flex: 1 }]}>
@@ -123,6 +144,7 @@ function HomeScreen() {
                   maxLength={25}
                   style={{ fontSize: 16 }}
                   placeholder={"What Pokémon are you looking for?"}
+                  onChangeText={(value) => SearchPokemon(value)}
                 />
               </Space>
             </View>

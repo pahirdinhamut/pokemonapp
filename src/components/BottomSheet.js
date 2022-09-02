@@ -25,7 +25,7 @@ const BottomSheet = ({ show, setShow, children }) => {
     })
     .onUpdate((event) => {
       translateY.value = event.translationY + context.value.y;
-      translateY.value = Math.max(translateY.value, -height + 150);
+      translateY.value = Math.max(translateY.value, -height + 300);
     })
     .onEnd(() => {
       if (translateY.value > -height / 3) {
@@ -40,7 +40,7 @@ const BottomSheet = ({ show, setShow, children }) => {
   });
 
   const showBottomSheet = () => {
-    translateY.value = withSpring(-height / 2, { damping: 50 });
+    translateY.value = withSpring(-height / 2.5, { damping: 50 });
   };
 
   useEffect(() => {
