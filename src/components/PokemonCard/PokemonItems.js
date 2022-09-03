@@ -11,13 +11,13 @@ import Space from "../Space";
 import { TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
-const PokemonItems = ({ pokeNumber, pokeName, pokeImage, pokeType }) => {
-  // const navigation = useNavigation();
-  const pokemonBackgroundColor = pokeType[0].type.name;
+const PokemonItems = ({ pokemon }) => {
+  const navigation = useNavigation();
+  const pokemonBackgroundColor = pokemon.types[0].type.name;
 
   return (
     <TouchableOpacity
-      // onPress={() => navigation.navigate("Pokemons")}
+      onPress={() => navigation.navigate("Pokemons", { pokemon: pokemon })}
       activeOpacity={0.8}
       style={[
         styles.container,
@@ -26,11 +26,11 @@ const PokemonItems = ({ pokeNumber, pokeName, pokeImage, pokeType }) => {
     >
       <View style={styles.cardContainer}>
         <View>
-          <Text style={styles.pokeNumber}>#00{pokeNumber}</Text>
-          <Text style={styles.pokeName}>{pokeName}</Text>
+          <Text style={styles.pokeNumber}>#00{pokemon.id}</Text>
+          <Text style={styles.pokeName}>{pokemon.name}</Text>
         </View>
         <View style={styles.typesContainer}>
-          {pokeType.map((item, index) => {
+          {pokemon.types.map((item, index) => {
             return (
               <Space key={index} size={3}>
                 <TypeView type={item.type.name} />
@@ -45,7 +45,7 @@ const PokemonItems = ({ pokeNumber, pokeName, pokeImage, pokeType }) => {
       <View>
         <PokeballItem width={145} height={145} />
         <SvgUri
-          uri={`${pokeImage}`}
+          uri={`${pokemon.sprites.other.dream_world.front_default}`}
           width="100%"
           height="100%"
           resizeMode={"contain"}

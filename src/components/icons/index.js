@@ -29,3 +29,5 @@ export { default as Medium } from "./Medium";
 export { default as Light } from "./Light";
 export { default as WeightNormal } from "./WeightNormal";
 export { default as Heavy } from "./Heavy";
+export { default as Back } from "./Back";
+export { default as Circle } from "./Circle";

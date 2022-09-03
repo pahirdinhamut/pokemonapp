@@ -6,6 +6,7 @@ import {
   TextInput,
   ScrollView,
   StyleSheet,
+  ActivityIndicator,
 } from "react-native";
 import { height, width } from "../../../assets/Size/Size";
 import { textColor } from "../../../assets/COLORS/Color";
@@ -14,7 +15,7 @@ import BottomSheet from "../../components/BottomSheet";
 import Space from "../../components/Space";
 import { getAllPokemon, getPokemon } from "../../api/pokemon";
 import PokemonItems from "../../components/PokemonCard/PokemonItems";
-import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { FlatList, GestureHandlerRootView } from "react-native-gesture-handler";
 
 import GenerationMode from "../../components/GenerationComponent/GenerationMode";
 import FilterMode from "../../components/Filter/FilterMode";
@@ -26,6 +27,7 @@ function HomeScreen() {
   const [nextUrl, setNextUrl] = useState("");
   const [preUrl, setPreUrl] = useState("");
   const [show, setShow] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const initialURL = "https://pokeapi.co/api/v2/pokemon";
   const [selecetionMode, setSelectionMode] = useState("filter");
 
@@ -37,12 +39,14 @@ function HomeScreen() {
       await loadingPokemon(response.results);
     }
     fetchData();
+    console.disableYellowBox = true;
   }, []);
 
   const loadingPokemon = async (data) => {
     const _pokemonData = await Promise.all(
       data.map(async (pokemon) => {
         let pokemonRecord = await getPokemon(pokemon.url);
+
         return pokemonRecord;
       })
     );
@@ -77,6 +81,24 @@ function HomeScreen() {
     } else {
       setSearchData(allPokemons);
     }
+  };
+
+  const renderLoader = () => {
+    return (
+      <View style={{ marginTop: 10 }}>
+        {isLoading && <ActivityIndicator size={"large"} color={"red"} />}
+      </View>
+    );
+  };
+
+  const loadMoreItem = async () => {
+    setIsLoading(true);
+    let data = await getAllPokemon(nextUrl);
+    await loadingPokemon(data.results);
+    setNextUrl(data.next);
+    setPreUrl(data.previous);
+    setIsLoading(false);
+    console.disableYellowBox = true;
   };
 
   return (
@@ -145,19 +167,15 @@ function HomeScreen() {
         </View>
       </ImageBackground>
       <View style={{ flex: 1, paddingHorizontal: 20 }}>
-        <ScrollView showsVerticalScrollIndicator={false}>
-          {searchData.map((item, index) => {
-            return (
-              <PokemonItems
-                key={index}
-                pokeName={item.name}
-                pokeNumber={item.id}
-                pokeImage={item.sprites.other.dream_world.front_default}
-                pokeType={item.types}
-              />
-            );
-          })}
-        </ScrollView>
+        <FlatList
+          showsVerticalScrollIndicator={false}
+          data={searchData}
+          renderItem={({ item }) => <PokemonItems pokemon={item} />}
+          keyExtractor={item => item.id}
+          ListFooterComponent={renderLoader}
+          onEndReached={loadMoreItem}
+          onEndReachedThreshold={0}
+        />
       </View>
       <BottomSheet show={show} setShow={setShow}>
         {selecetionMode === "generation" && <FilterMode />}
