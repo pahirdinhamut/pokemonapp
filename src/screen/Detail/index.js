@@ -24,6 +24,7 @@ import TypeView from "../../components/Type/TypeView";
 import Svg10X5 from "../../components/icons/10X5";
 import Menu from "./Menu";
 import Aboud from "../../components/Aboud/Aboud";
+
 const Detail = () => {
   const navigation = useNavigation();
   const route = useRoute();
@@ -138,7 +139,7 @@ const Detail = () => {
         </View>
       </View>
       <View style={styles.detail}>
-        {selecetionMode === "aboud" && <Text>aboud</Text>}
+        {selecetionMode === "aboud" && <Aboud pokemon={pokemon} />}
         {selecetionMode === "stats" && <Text>Stats</Text>}
         {selecetionMode === "evolution" && <Text>evolution</Text>}
       </View>
