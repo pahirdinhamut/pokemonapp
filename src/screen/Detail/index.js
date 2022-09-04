@@ -23,27 +23,36 @@ import { Back, Circle, PokeballItem } from "../../components/icons";
 import TypeView from "../../components/Type/TypeView";
 import Svg10X5 from "../../components/icons/10X5";
 import Menu from "./Menu";
-
+import Aboud from "../../components/Aboud/Aboud";
 const Detail = () => {
   const navigation = useNavigation();
   const route = useRoute();
   const pokemon = route.params.pokemon;
-  const [SelectNemu, setSelectMenu] = useState(false);
+  const [selectNemu, setSelectMenu] = useState(menuItem);
+  const [selectIndex, setSelectIndex] = useState(0);
+  const [pokeball, setPokeball] = useState("-6%");
+  const [selecetionMode, setSelectionMode] = useState("aboud");
+  console.log(selectIndex);
 
   const SelectMode = (value) => {
-    switch (value) {
-      case "generation":
-        setSelectionMode("generation");
-        setSelectMenu(true);
-        break;
-      case "sort":
-        setSelectionMode("sort");
-        setSelectMenu(true);
+    switch (value.name) {
+      case "aboud":
+        setSelectionMode("aboud");
+        setSelectIndex(0);
+        setPokeball("-6%");
 
         break;
-      case "filter":
-        setSelectionMode("filter");
-        setSelectMenu(true);
+      case "stats":
+        setSelectionMode("stats");
+        setSelectIndex(1);
+        setPokeball("34%");
+
+        break;
+      case "evolution":
+        setSelectionMode("evolution");
+        setSelectIndex(2);
+        setPokeball("77%");
+
         break;
     }
   };
@@ -109,16 +118,29 @@ const Detail = () => {
             marginTop: 50,
           }}
         >
-          <PokeballItem style={styles.Menu} width={100} height={100} />
-          {menuItem.map((item, index) => {
+          <PokeballItem
+            style={[styles.Menu, { left: pokeball }]}
+            width={100}
+            height={100}
+          />
+          {selectNemu.map((item, index) => {
             return (
-              <Menu key={index} title={item.name} SelectNemu={item.isSelect} />
+              <Menu
+                key={index}
+                title={item.name}
+                SelectNemu={selectIndex}
+                onPress={() => SelectMode(item)}
+                index={selectIndex}
+                style={[styles.Text, selectIndex == index && styles.selectText]}
+              />
             );
           })}
         </View>
       </View>
       <View style={styles.detail}>
-        <Text>dd</Text>
+        {selecetionMode === "aboud" && <Text>aboud</Text>}
+        {selecetionMode === "stats" && <Text>Stats</Text>}
+        {selecetionMode === "evolution" && <Text>evolution</Text>}
       </View>
     </View>
   );
@@ -143,7 +165,6 @@ const styles = StyleSheet.create({
   },
   Menu: {
     position: "absolute",
-    left: "34%",
     right: 0,
     top: -20,
     bottom: 0,
@@ -161,7 +182,16 @@ const styles = StyleSheet.create({
   },
   Text: {
     fontSize: 16,
-    fontWeight: "700",
+    fontWeight: "400",
+    opacity: 0.5,
+    textTransform: "capitalize",
+  },
+  selectText: {
+    color: textColor.white,
+    opacity: 1,
+    fontSize: 16,
+    fontWeight: "400",
+    textTransform: "capitalize",
   },
 });
 
