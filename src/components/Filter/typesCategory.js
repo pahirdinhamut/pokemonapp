@@ -206,17 +206,17 @@ const WeightsType = [
   {
     id: "1",
     type: "light",
-    isSelecet: true,
+    isSelecet: false,
   },
   {
     id: "2",
     type: "weigthNormal",
-    isSelecet: true,
+    isSelecet: false,
   },
   {
     id: "3",
     type: "heavy",
-    isSelecet: true,
+    isSelecet: false,
   },
 ];
 
