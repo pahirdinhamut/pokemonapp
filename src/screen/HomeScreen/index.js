@@ -17,7 +17,7 @@ import { getAllPokemon, getPokemon } from "../../api/pokemon";
 import PokemonItems from "../../components/PokemonCard/PokemonItems";
 import { FlatList, GestureHandlerRootView } from "react-native-gesture-handler";
 
-import GenerationMode from "../../components/GenerationComponent/GenerationMode";
+import GenerationMode from "../../components/Generation/GenerationMode";
 import FilterMode from "../../components/Filter/FilterMode";
 import SortMode from "../../components/Sort/SortMode";
 
@@ -166,12 +166,14 @@ function HomeScreen() {
           </View>
         </View>
       </ImageBackground>
-      <View style={{ flex: 1, paddingHorizontal: 20 }}>
+      <View
+        style={{ flex: 1, paddingHorizontal: 20, backgroundColor: "white" }}
+      >
         <FlatList
           showsVerticalScrollIndicator={false}
           data={searchData}
           renderItem={({ item }) => <PokemonItems pokemon={item} />}
-          keyExtractor={item => item.id}
+          keyExtractor={(item) => item.id}
           ListFooterComponent={renderLoader}
           onEndReached={loadMoreItem}
           onEndReachedThreshold={0}
