@@ -75,6 +75,17 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: height,
     borderRadius: 25,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 12,
+    },
+    shadowOpacity: 0.58,
+    shadowRadius: 16.0,
+
+    elevation: 24,
+
+    elevation: 10,
   },
   lineContainer: {
     height: 30,
