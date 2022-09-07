@@ -1,7 +1,7 @@
 const PokemonData = [
   {
     name: "Bulbasaur",
-    id: "#001",
+    id: "001",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
     xdescription:
       "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
@@ -32,7 +32,7 @@ const PokemonData = [
   },
   {
     name: "Ivysaur",
-    id: "#002",
+    id: "002",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
     xdescription:
       "There is a bud on this Pok\u00e9mon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.",
@@ -63,7 +63,7 @@ const PokemonData = [
   },
   {
     name: "Venusaur",
-    id: "#003",
+    id: "003",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
     xdescription:
       "There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.",
@@ -94,7 +94,7 @@ const PokemonData = [
   },
   {
     name: "Charmander",
-    id: "#004",
+    id: "004",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
     xdescription:
       "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pok\u00e9mon becomes enraged, the flame burns fiercely.",
@@ -125,7 +125,7 @@ const PokemonData = [
   },
   {
     name: "Charmeleon",
-    id: "#005",
+    id: "005",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png",
     xdescription:
       "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
@@ -156,7 +156,7 @@ const PokemonData = [
   },
   {
     name: "Charizard",
-    id: "#006",
+    id: "006",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
     xdescription:
       "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
@@ -187,7 +187,7 @@ const PokemonData = [
   },
   {
     name: "Squirtle",
-    id: "#007",
+    id: "007",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
     xdescription:
       "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pok\u00e9mon to swim at high speeds.",
@@ -218,7 +218,7 @@ const PokemonData = [
   },
   {
     name: "Wartortle",
-    id: "#008",
+    id: "008",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png",
     xdescription:
       "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pok\u00e9mon's toughness as a battler.",
@@ -249,7 +249,7 @@ const PokemonData = [
   },
   {
     name: "Blastoise",
-    id: "#009",
+    id: "009",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
     xdescription:
       "Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.",
@@ -280,7 +280,7 @@ const PokemonData = [
   },
   {
     name: "Caterpie",
-    id: "#010",
+    id: "010",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
     xdescription:
       "Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pok\u00e9mon releases a terrifically strong odor.",
@@ -311,7 +311,7 @@ const PokemonData = [
   },
   {
     name: "Metapod",
-    id: "#011",
+    id: "011",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png",
     xdescription:
       "The shell covering this Pok\u00e9mon's body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.",
@@ -342,7 +342,7 @@ const PokemonData = [
   },
   {
     name: "Butterfree",
-    id: "#012",
+    id: "012",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png",
     xdescription:
       "Butterfree has a superior ability to search for delicious honey from flowers. It can even search out, extract, and carry honey from flowers that are blooming over six miles from its nest.",
@@ -373,7 +373,7 @@ const PokemonData = [
   },
   {
     name: "Weedle",
-    id: "#013",
+    id: "013",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png",
     xdescription:
       "Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).",
@@ -404,7 +404,7 @@ const PokemonData = [
   },
   {
     name: "Kakuna",
-    id: "#014",
+    id: "014",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png",
     xdescription:
       "Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.",
@@ -435,7 +435,7 @@ const PokemonData = [
   },
   {
     name: "Beedrill",
-    id: "#015",
+    id: "015",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png",
     xdescription:
       "Beedrill is extremely territorial. No one should ever approach its nest\u2014this is for their own safety. If angered, they will attack in a furious swarm.",
@@ -466,7 +466,7 @@ const PokemonData = [
   },
   {
     name: "Pidgey",
-    id: "#016",
+    id: "016",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png",
     xdescription:
       "Pidgey has an extremely sharp sense of direction. It is capable of unerringly returning home to its nest, however far it may be removed from its familiar surroundings.",
@@ -497,7 +497,7 @@ const PokemonData = [
   },
   {
     name: "Pidgeotto",
-    id: "#017",
+    id: "017",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png",
     xdescription:
       "Pidgeotto claims a large area as its own territory. This Pok\u00e9mon flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.",
@@ -528,7 +528,7 @@ const PokemonData = [
   },
   {
     name: "Pidgeot",
-    id: "#018",
+    id: "018",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png",
     xdescription:
       "This Pok\u00e9mon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pok\u00e9mon.",
@@ -559,7 +559,7 @@ const PokemonData = [
   },
   {
     name: "Rattata",
-    id: "#019",
+    id: "019",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
     xdescription:
       "Rattata is cautious in the extreme. Even while it is asleep, it constantly listens by moving its ears around. It is not picky about where it lives\u2014it will make its nest anywhere.",
@@ -590,7 +590,7 @@ const PokemonData = [
   },
   {
     name: "Raticate",
-    id: "#020",
+    id: "020",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png",
     xdescription:
       "Raticate's sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.",
@@ -621,7 +621,7 @@ const PokemonData = [
   },
   {
     name: "Spearow",
-    id: "#021",
+    id: "021",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png",
     xdescription:
       "Spearow has a very loud cry that can be heard over half a mile away. If its high, keening cry is heard echoing all around, it is a sign that they are warning each other of danger.",
@@ -652,7 +652,7 @@ const PokemonData = [
   },
   {
     name: "Fearow",
-    id: "#022",
+    id: "022",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png",
     xdescription:
       "Fearow is recognized by its long neck and elongated beak. They are conveniently shaped for catching prey in soil or water. It deftly moves its long and skinny beak to pluck prey.",
@@ -683,7 +683,7 @@ const PokemonData = [
   },
   {
     name: "Ekans",
-    id: "#023",
+    id: "023",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png",
     xdescription:
       "Ekans curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head.",
@@ -714,7 +714,7 @@ const PokemonData = [
   },
   {
     name: "Arbok",
-    id: "#024",
+    id: "024",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png",
     xdescription:
       "This Pok\u00e9mon is terrifically strong in order to constrict things with its body. It can even flatten steel oil drums. Once Arbok wraps its body around its foe, escaping its crunching embrace is impossible.",
@@ -745,7 +745,7 @@ const PokemonData = [
   },
   {
     name: "Pikachu",
-    id: "#025",
+    id: "025",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
     xdescription:
       "This Pok\u00e9mon has electricity-storing pouches on its cheeks. These appear to become electrically charged during the night while Pikachu sleeps. It occasionally discharges electricity when it is dozy after waking up.",
@@ -776,7 +776,7 @@ const PokemonData = [
   },
   {
     name: "Raichu",
-    id: "#026",
+    id: "026",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png",
     xdescription:
       "This Pok\u00e9mon exudes a weak electrical charge from all over its body that makes it take on a slight glow in darkness. Raichu plants its tail in the ground to discharge electricity.",
@@ -807,7 +807,7 @@ const PokemonData = [
   },
   {
     name: "Sandshrew",
-    id: "#027",
+    id: "027",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png",
     xdescription:
       "Sandshrew has a very dry hide that is extremely tough. The Pok\u00e9mon can roll into a ball that repels any attack. At night, it burrows into the desert sand to sleep.",
@@ -838,7 +838,7 @@ const PokemonData = [
   },
   {
     name: "Sandslash",
-    id: "#028",
+    id: "028",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/028.png",
     xdescription:
       "Sandslash can roll up its body as if it were a ball covered with large spikes. In battle, this Pok\u00e9mon will try to make the foe flinch by jabbing it with its spines. It then leaps at the stunned foe to tear wildly with its sharp claws.",
@@ -869,7 +869,7 @@ const PokemonData = [
   },
   {
     name: "Nidoran\u2640",
-    id: "#029",
+    id: "029",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png",
     xdescription:
       "Nidoran\u2640 has barbs that secrete a powerful poison. They are thought to have developed as protection for this small-bodied Pok\u00e9mon. When enraged, it releases a horrible toxin from its horn.",
@@ -900,7 +900,7 @@ const PokemonData = [
   },
   {
     name: "Nidorina",
-    id: "#030",
+    id: "030",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/030.png",
     xdescription:
       "When Nidorina are with their friends or family, they keep their barbs tucked away to prevent hurting each other. This Pok\u00e9mon appears to become nervous if separated from the others.",
@@ -931,7 +931,7 @@ const PokemonData = [
   },
   {
     name: "Nidoqueen",
-    id: "#031",
+    id: "031",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/031.png",
     xdescription:
       "Nidoqueen's body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pok\u00e9mon is at its strongest when it is defending its young.",
@@ -962,7 +962,7 @@ const PokemonData = [
   },
   {
     name: "Nidoran\u2642",
-    id: "#032",
+    id: "032",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png",
     xdescription:
       "Nidoran\u2642 has developed muscles for moving its ears. Thanks to them, the ears can be freely moved in any direction. Even the slightest sound does not escape this Pok\u00e9mon's notice.",
@@ -993,7 +993,7 @@ const PokemonData = [
   },
   {
     name: "Nidorino",
-    id: "#033",
+    id: "033",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/033.png",
     xdescription:
       "Nidorino has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.",
@@ -1024,7 +1024,7 @@ const PokemonData = [
   },
   {
     name: "Nidoking",
-    id: "#034",
+    id: "034",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png",
     xdescription:
       "Nidoking's thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this Pok\u00e9mon goes on a rampage, there is no stopping it.",
@@ -1055,7 +1055,7 @@ const PokemonData = [
   },
   {
     name: "Clefairy",
-    id: "#035",
+    id: "035",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png",
     xdescription:
       "On every night of a full moon, groups of this Pok\u00e9mon come out to play. When dawn arrives, the tired Clefairy return to their quiet mountain retreats and go to sleep nestled up against each other.",
@@ -1086,7 +1086,7 @@ const PokemonData = [
   },
   {
     name: "Clefable",
-    id: "#036",
+    id: "036",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png",
     xdescription:
       "Clefable moves by skipping lightly as if it were flying using its wings. Its bouncy step lets it even walk on water. It is known to take strolls on lakes on quiet, moonlit nights.",
@@ -1117,7 +1117,7 @@ const PokemonData = [
   },
   {
     name: "Vulpix",
-    id: "#037",
+    id: "037",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png",
     xdescription:
       "Inside Vulpix's body burns a flame that never goes out. During the daytime, when the temperatures rise, this Pok\u00e9mon releases flames from its mouth to prevent its body from growing too hot.",
@@ -1148,7 +1148,7 @@ const PokemonData = [
   },
   {
     name: "Ninetales",
-    id: "#038",
+    id: "038",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png",
     xdescription:
       "Legend has it that Ninetales came into being when nine wizards possessing sacred powers merged into one. This Pok\u00e9mon is highly intelligent\u2014it can understand human speech.",
@@ -1179,7 +1179,7 @@ const PokemonData = [
   },
   {
     name: "Jigglypuff",
-    id: "#039",
+    id: "039",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png",
     xdescription:
       "When this Pok\u00e9mon sings, it never pauses to breathe. If it is in a battle against an opponent that does not easily fall asleep, Jigglypuff cannot breathe, endangering its life.",
@@ -1210,7 +1210,7 @@ const PokemonData = [
   },
   {
     name: "Wigglytuff",
-    id: "#040",
+    id: "040",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png",
     xdescription:
       "Wigglytuff's body is very flexible. By inhaling deeply, this Pok\u00e9mon can inflate itself seemingly without end. Once inflated, Wigglytuff bounces along lightly like a balloon.",
@@ -1241,7 +1241,7 @@ const PokemonData = [
   },
   {
     name: "Zubat",
-    id: "#041",
+    id: "041",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png",
     xdescription:
       "Zubat avoids sunlight because exposure causes it to become unhealthy. During the daytime, it stays in caves or under the eaves of old houses, sleeping while hanging upside down.",
@@ -1272,7 +1272,7 @@ const PokemonData = [
   },
   {
     name: "Golbat",
-    id: "#042",
+    id: "042",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png",
     xdescription:
       "Golbat bites down on prey with its four fangs and drinks the victim's blood. It becomes active on inky dark moonless nights, flying around to attack people and Pok\u00e9mon.",
@@ -1303,7 +1303,7 @@ const PokemonData = [
   },
   {
     name: "Oddish",
-    id: "#043",
+    id: "043",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png",
     xdescription:
       "Oddish searches for fertile, nutrient-rich soil, then plants itself. During the daytime, while it is planted, this Pok\u00e9mon's feet are thought to change shape and become similar to the roots of trees.",
@@ -1334,7 +1334,7 @@ const PokemonData = [
   },
   {
     name: "Gloom",
-    id: "#044",
+    id: "044",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/044.png",
     xdescription:
       "From its mouth Gloom drips honey that smells absolutely horrible. Apparently, it loves the horrid stench. It sniffs the noxious fumes and then drools even more of its honey.",
@@ -1365,7 +1365,7 @@ const PokemonData = [
   },
   {
     name: "Vileplume",
-    id: "#045",
+    id: "045",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png",
     xdescription:
       "Vileplume has the world's largest petals. They are used to attract prey that are then doused with toxic spores. Once the prey are immobilized, this Pok\u00e9mon catches and devours them.",
@@ -1396,7 +1396,7 @@ const PokemonData = [
   },
   {
     name: "Paras",
-    id: "#046",
+    id: "046",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/046.png",
     xdescription:
       "Paras has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from this Bug Pok\u00e9mon host. They are highly valued as a medicine for extending life.",
@@ -1427,7 +1427,7 @@ const PokemonData = [
   },
   {
     name: "Parasect",
-    id: "#047",
+    id: "047",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/047.png",
     xdescription:
       "Parasect is known to infest large trees en masse and drain nutrients from the lower trunk and roots. When an infested tree dies, they move onto another tree all at once.",
@@ -1458,7 +1458,7 @@ const PokemonData = [
   },
   {
     name: "Venonat",
-    id: "#048",
+    id: "048",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/048.png",
     xdescription:
       "Venonat is said to have evolved with a coat of thin, stiff hair that covers its entire body for protection. It possesses large eyes that never fail to spot even minuscule prey.",
@@ -1489,7 +1489,7 @@ const PokemonData = [
   },
   {
     name: "Venomoth",
-    id: "#049",
+    id: "049",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/049.png",
     xdescription:
       "Venomoth is nocturnal\u2014it is a Pok\u00e9mon that only becomes active at night. Its favorite prey are small insects that gather around streetlights, attracted by the light in the darkness.",
@@ -1520,7 +1520,7 @@ const PokemonData = [
   },
   {
     name: "Diglett",
-    id: "#050",
+    id: "050",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png",
     xdescription:
       "Diglett are raised in most farms. The reason is simple\u2014 wherever this Pok\u00e9mon burrows, the soil is left perfectly tilled for planting crops. This soil is made ideal for growing delicious vegetables.",
@@ -1551,7 +1551,7 @@ const PokemonData = [
   },
   {
     name: "Dugtrio",
-    id: "#051",
+    id: "051",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/051.png",
     xdescription:
       "Dugtrio are actually triplets that emerged from one body. As a result, each triplet thinks exactly like the other two triplets. They work cooperatively to burrow endlessly.",
@@ -1582,7 +1582,7 @@ const PokemonData = [
   },
   {
     name: "Meowth",
-    id: "#052",
+    id: "052",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png",
     xdescription:
       "Meowth withdraws its sharp claws into its paws to slinkily sneak about without making any incriminating footsteps. For some reason, this Pok\u00e9mon loves shiny coins that glitter with light.",
@@ -1613,7 +1613,7 @@ const PokemonData = [
   },
   {
     name: "Persian",
-    id: "#053",
+    id: "053",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/053.png",
     xdescription:
       "Persian has six bold whiskers that give it a look of toughness. The whiskers sense air movements to determine what is in the Pok\u00e9mon's surrounding vicinity. It becomes docile if grabbed by the whiskers.",
@@ -1644,7 +1644,7 @@ const PokemonData = [
   },
   {
     name: "Psyduck",
-    id: "#054",
+    id: "054",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png",
     xdescription:
       "If it uses its mysterious power, Psyduck can't remember having done so. It apparently can't form a memory of such an event because it goes into an altered state that is much like deep sleep.",
@@ -1675,7 +1675,7 @@ const PokemonData = [
   },
   {
     name: "Golduck",
-    id: "#055",
+    id: "055",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png",
     xdescription:
       "Golduck is the fastest swimmer among all Pok\u00e9mon. It swims effortlessly, even in a rough, stormy sea. It sometimes rescues people from wrecked ships floundering in high seas.",
@@ -1706,7 +1706,7 @@ const PokemonData = [
   },
   {
     name: "Mankey",
-    id: "#056",
+    id: "056",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/056.png",
     xdescription:
       "When Mankey starts shaking and its nasal breathing turns rough, it's a sure sign that it is becoming angry. However, because it goes into a towering rage almost instantly, it is impossible for anyone to flee its wrath.",
@@ -1737,7 +1737,7 @@ const PokemonData = [
   },
   {
     name: "Primeape",
-    id: "#057",
+    id: "057",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/057.png",
     xdescription:
       "When Primeape becomes furious, its blood circulation is boosted. In turn, its muscles are made even stronger. However, it also becomes much less intelligent at the same time.",
@@ -1768,7 +1768,7 @@ const PokemonData = [
   },
   {
     name: "Growlithe",
-    id: "#058",
+    id: "058",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png",
     xdescription:
       "Growlithe has a superb sense of smell. Once it smells anything, this Pok\u00e9mon won't forget the scent, no matter what. It uses its advanced olfactory sense to determine the emotions of other living things.",
@@ -1799,7 +1799,7 @@ const PokemonData = [
   },
   {
     name: "Arcanine",
-    id: "#059",
+    id: "059",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png",
     xdescription:
       "Arcanine is known for its high speed. It is said to be capable of running over 6,200 miles in a single day and night. The fire that blazes wildly within this Pok\u00e9mon's body is its source of power.",
@@ -1830,7 +1830,7 @@ const PokemonData = [
   },
   {
     name: "Poliwag",
-    id: "#060",
+    id: "060",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/060.png",
     xdescription:
       "Poliwag has a very thin skin. It is possible to see the Pok\u00e9mon's spiral innards right through the skin. Despite its thinness, however, the skin is also very flexible. Even sharp fangs bounce right off it.",
@@ -1861,7 +1861,7 @@ const PokemonData = [
   },
   {
     name: "Poliwhirl",
-    id: "#061",
+    id: "061",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/061.png",
     xdescription:
       "The surface of Poliwhirl's body is always wet and slick with a slimy fluid. Because of this slippery covering, it can easily slip and slide out of the clutches of any enemy in battle.",
@@ -1892,7 +1892,7 @@ const PokemonData = [
   },
   {
     name: "Poliwrath",
-    id: "#062",
+    id: "062",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/062.png",
     xdescription:
       "Poliwrath's highly developed, brawny muscles never grow fatigued, however much it exercises. It is so tirelessly strong, this Pok\u00e9mon can swim back and forth across the ocean without effort.",
@@ -1923,7 +1923,7 @@ const PokemonData = [
   },
   {
     name: "Abra",
-    id: "#063",
+    id: "063",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png",
     xdescription:
       "Abra needs to sleep for eighteen hours a day. If it doesn't, this Pok\u00e9mon loses its ability to use telekinetic powers. If it is attacked, Abra escapes using Teleport while it is still sleeping.",
@@ -1954,7 +1954,7 @@ const PokemonData = [
   },
   {
     name: "Kadabra",
-    id: "#064",
+    id: "064",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/064.png",
     xdescription:
       "Kadabra holds a silver spoon in its hand. The spoon is used to amplify the alpha waves in its brain. Without the spoon, the Pok\u00e9mon is said to be limited to half the usual amount of its telekinetic powers.",
@@ -1985,7 +1985,7 @@ const PokemonData = [
   },
   {
     name: "Alakazam",
-    id: "#065",
+    id: "065",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png",
     xdescription:
       "Alakazam's brain continually grows, infinitely multiplying brain cells. This amazing brain gives this Pok\u00e9mon an astoundingly high IQ of 5,000. It has a thorough memory of everything that has occurred in the world.",
@@ -2016,7 +2016,7 @@ const PokemonData = [
   },
   {
     name: "Machop",
-    id: "#066",
+    id: "066",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png",
     xdescription:
       "Machop exercises by hefting around a Graveler as if it were a barbell. There are some Machop that travel the world in a quest to master all kinds of martial arts.",
@@ -2047,7 +2047,7 @@ const PokemonData = [
   },
   {
     name: "Machoke",
-    id: "#067",
+    id: "067",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/067.png",
     xdescription:
       "Machoke undertakes bodybuilding every day even as it helps people with tough, physically demanding labor. On its days off, this Pok\u00e9mon heads to the fields and mountains to exercise and train.",
@@ -2078,7 +2078,7 @@ const PokemonData = [
   },
   {
     name: "Machamp",
-    id: "#068",
+    id: "068",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/068.png",
     xdescription:
       "Machamp is known as the Pok\u00e9mon that has mastered every kind of martial arts. If it grabs hold of the foe with its four arms, the battle is all but over. The hapless foe is thrown far over the horizon.",
@@ -2109,7 +2109,7 @@ const PokemonData = [
   },
   {
     name: "Bellsprout",
-    id: "#069",
+    id: "069",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/069.png",
     xdescription:
       "Bellsprout's thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, this Pok\u00e9mon spits a corrosive fluid that melts even iron.",
@@ -2140,7 +2140,7 @@ const PokemonData = [
   },
   {
     name: "Weepinbell",
-    id: "#070",
+    id: "070",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/070.png",
     xdescription:
       "Weepinbell has a large hook on its rear end. At night, the Pok\u00e9mon hooks on to a tree branch and goes to sleep. If it moves around in its sleep, it may wake up to find itself on the ground.",
@@ -2171,7 +2171,7 @@ const PokemonData = [
   },
   {
     name: "Victreebel",
-    id: "#071",
+    id: "071",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/071.png",
     xdescription:
       "Victreebel has a long vine that extends from its head. This vine is waved and flicked about as if it were an animal to attract prey. When an unsuspecting prey draws near, this Pok\u00e9mon swallows it whole.",
@@ -2202,7 +2202,7 @@ const PokemonData = [
   },
   {
     name: "Tentacool",
-    id: "#072",
+    id: "072",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/072.png",
     xdescription:
       "Tentacool absorbs sunlight and refracts it using water inside its body to convert it into beam energy. This Pok\u00e9mon shoots beams from the small round organ above its eyes.",
@@ -2233,7 +2233,7 @@ const PokemonData = [
   },
   {
     name: "Tentacruel",
-    id: "#073",
+    id: "073",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/073.png",
     xdescription:
       "Tentacruel has tentacles that can be freely elongated and shortened at will. It ensnares prey with its tentacles and weakens the prey by dosing it with a harsh toxin. It can catch up to 80 prey at the same time.",
@@ -2264,7 +2264,7 @@ const PokemonData = [
   },
   {
     name: "Geodude",
-    id: "#074",
+    id: "074",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png",
     xdescription:
       "When Geodude sleeps deeply, it buries itself halfway into the ground. It will not awaken even if hikers step on it unwittingly. In the morning, this Pok\u00e9mon rolls downhill in search of food.",
@@ -2295,7 +2295,7 @@ const PokemonData = [
   },
   {
     name: "Graveler",
-    id: "#075",
+    id: "075",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/075.png",
     xdescription:
       "Rocks are Graveler's favorite food. This Pok\u00e9mon will climb a mountain from the base to the summit, crunchingly feasting on rocks all the while. Upon reaching the peak, it rolls back down to the bottom.",
@@ -2326,7 +2326,7 @@ const PokemonData = [
   },
   {
     name: "Golem",
-    id: "#076",
+    id: "076",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/076.png",
     xdescription:
       "Golem is known for rolling down from mountains. To prevent them from rolling into the homes of people downhill, grooves have been dug into the sides of mountains to serve as guideways for diverting this Pok\u00e9mon's course.",
@@ -2357,7 +2357,7 @@ const PokemonData = [
   },
   {
     name: "Ponyta",
-    id: "#077",
+    id: "077",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png",
     xdescription:
       "Ponyta is very weak at birth. It can barely stand up. This Pok\u00e9mon becomes stronger by stumbling and falling to keep up with its parent.",
@@ -2388,7 +2388,7 @@ const PokemonData = [
   },
   {
     name: "Rapidash",
-    id: "#078",
+    id: "078",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/078.png",
     xdescription:
       "Rapidash usually can be seen casually cantering in the fields and plains. However, when this Pok\u00e9mon turns serious, its fiery manes flare and blaze as it gallops its way up to 150 mph.",
@@ -2419,7 +2419,7 @@ const PokemonData = [
   },
   {
     name: "Slowpoke",
-    id: "#079",
+    id: "079",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/079.png",
     xdescription:
       "Slowpoke uses its tail to catch prey by dipping it in water at the side of a river. However, this Pok\u00e9mon often forgets what it's doing and often spends entire days just loafing at water's edge.",
@@ -2450,7 +2450,7 @@ const PokemonData = [
   },
   {
     name: "Slowbro",
-    id: "#080",
+    id: "080",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/080.png",
     xdescription:
       "Slowbro's tail has a Shellder firmly attached with a bite. As a result, the tail can't be used for fishing anymore. This causes Slowbro to grudgingly swim and catch prey instead.",
@@ -2481,7 +2481,7 @@ const PokemonData = [
   },
   {
     name: "Magnemite",
-    id: "#081",
+    id: "081",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png",
     xdescription:
       "Magnemite floats in the air by emitting electromagnetic waves from the units at its sides. These waves block gravity. This Pok\u00e9mon becomes incapable of flight if its internal electrical supply is depleted.",
@@ -2510,7 +2510,7 @@ const PokemonData = [
   },
   {
     name: "Magneton",
-    id: "#082",
+    id: "082",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/082.png",
     xdescription:
       "Magneton emits a powerful magnetic force that is fatal to electronics and precision instruments. Because of this, it is said that some towns warn people to keep this Pok\u00e9mon inside a Pok\u00e9 Ball.",
@@ -2539,7 +2539,7 @@ const PokemonData = [
   },
   {
     name: "Farfetch'd",
-    id: "#083",
+    id: "083",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/083.png",
     xdescription:
       "Farfetch'd is always seen with a stalk from a plant of some sort. Apparently, there are good stalks and bad stalks. This Pok\u00e9mon has been known to fight with others over stalks.",
@@ -2570,7 +2570,7 @@ const PokemonData = [
   },
   {
     name: "Doduo",
-    id: "#084",
+    id: "084",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/084.png",
     xdescription:
       "Doduo's two heads contain completely identical brains. A scientific study reported that on rare occasions, there will be examples of this Pok\u00e9mon possessing different sets of brains.",
@@ -2601,7 +2601,7 @@ const PokemonData = [
   },
   {
     name: "Dodrio",
-    id: "#085",
+    id: "085",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/085.png",
     xdescription:
       "Apparently, the heads aren't the only parts of the body that Dodrio has three of. It has three sets of hearts and lungs as well, so it is capable of running long distances without rest.",
@@ -2632,7 +2632,7 @@ const PokemonData = [
   },
   {
     name: "Seel",
-    id: "#086",
+    id: "086",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/086.png",
     xdescription:
       "Seel hunts for prey in the frigid sea underneath sheets of ice. When it needs to breathe, it punches a hole through the ice with the sharply protruding section of its head.",
@@ -2663,7 +2663,7 @@ const PokemonData = [
   },
   {
     name: "Dewgong",
-    id: "#087",
+    id: "087",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/087.png",
     xdescription:
       "Dewgong loves to snooze on bitterly cold ice. The sight of this Pok\u00e9mon sleeping on a glacier was mistakenly thought to be a mermaid by a mariner long ago.",
@@ -2694,7 +2694,7 @@ const PokemonData = [
   },
   {
     name: "Grimer",
-    id: "#088",
+    id: "088",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/088.png",
     xdescription:
       "Grimer emerged from the sludge that settled on a polluted seabed. This Pok\u00e9mon loves anything filthy. It constantly leaks a horribly germ-infested fluid from all over its body.",
@@ -2725,7 +2725,7 @@ const PokemonData = [
   },
   {
     name: "Muk",
-    id: "#089",
+    id: "089",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/089.png",
     xdescription:
       "This Pok\u00e9mon's favorite food is anything that is repugnantly filthy. In dirty towns where people think nothing of throwing away litter on the streets, Muk are certain to gather.",
@@ -2756,7 +2756,7 @@ const PokemonData = [
   },
   {
     name: "Shellder",
-    id: "#090",
+    id: "090",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/090.png",
     xdescription:
       "At night, this Pok\u00e9mon uses its broad tongue to burrow a hole in the seafloor sand and then sleep in it. While it is sleeping, Shellder closes its shell, but leaves its tongue hanging out.",
@@ -2787,7 +2787,7 @@ const PokemonData = [
   },
   {
     name: "Cloyster",
-    id: "#091",
+    id: "091",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/091.png",
     xdescription:
       "Cloyster is capable of swimming in the sea. It does so by swallowing water, then jetting it out toward the rear. This Pok\u00e9mon shoots spikes from its shell using the same system.",
@@ -2818,7 +2818,7 @@ const PokemonData = [
   },
   {
     name: "Gastly",
-    id: "#092",
+    id: "092",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png",
     xdescription:
       "Gastly is largely composed of gaseous matter. When exposed to a strong wind, the gaseous body quickly dwindles away. Groups of this Pok\u00e9mon cluster under the eaves of houses to escape the ravages of wind.",
@@ -2849,7 +2849,7 @@ const PokemonData = [
   },
   {
     name: "Haunter",
-    id: "#093",
+    id: "093",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png",
     xdescription:
       "Haunter is a dangerous Pok\u00e9mon. If one beckons you while floating in darkness, you must never approach it. This Pok\u00e9mon will try to lick you with its tongue and steal your life away.",
@@ -2880,7 +2880,7 @@ const PokemonData = [
   },
   {
     name: "Gengar",
-    id: "#094",
+    id: "094",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png",
     xdescription:
       "Sometimes, on a dark night, your shadow thrown by a streetlight will suddenly and startlingly overtake you. It is actually a Gengar running past you, pretending to be your shadow.",
@@ -2911,7 +2911,7 @@ const PokemonData = [
   },
   {
     name: "Onix",
-    id: "#095",
+    id: "095",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png",
     xdescription:
       "Onix has a magnet in its brain. It acts as a compass so that this Pok\u00e9mon does not lose direction while it is tunneling. As it grows older, its body becomes increasingly rounder and smoother.",
@@ -2942,7 +2942,7 @@ const PokemonData = [
   },
   {
     name: "Drowzee",
-    id: "#096",
+    id: "096",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/096.png",
     xdescription:
       "If your nose becomes itchy while you are sleeping, it's a sure sign that one of these Pok\u00e9mon is standing above your pillow and trying to eat your dream through your nostrils.",
@@ -2973,7 +2973,7 @@ const PokemonData = [
   },
   {
     name: "Hypno",
-    id: "#097",
+    id: "097",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/097.png",
     xdescription:
       "Hypno holds a pendulum in its hand. The arcing movement and glitter of the pendulum lull the foe into a deep state of hypnosis. While this Pok\u00e9mon searches for prey, it polishes the pendulum.",
@@ -3004,7 +3004,7 @@ const PokemonData = [
   },
   {
     name: "Krabby",
-    id: "#098",
+    id: "098",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png",
     xdescription:
       "Krabby live on beaches, burrowed inside holes dug into the sand. On sandy beaches with little in the way of food, these Pok\u00e9mon can be seen squabbling with each other over territory.",
@@ -3035,7 +3035,7 @@ const PokemonData = [
   },
   {
     name: "Kingler",
-    id: "#099",
+    id: "099",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/099.png",
     xdescription:
       "Kingler has an enormous, oversized claw. It waves this huge claw in the air to communicate with others. However, because the claw is so heavy, the Pok\u00e9mon quickly tires.",
@@ -3066,7 +3066,7 @@ const PokemonData = [
   },
   {
     name: "Voltorb",
-    id: "#100",
+    id: "100",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/100.png",
     xdescription:
       "Voltorb is extremely sensitive\u2014it explodes at the slightest of shocks. It is rumored that it was first created when a Pok\u00e9 Ball was exposed to a powerful pulse of energy.",
@@ -3095,7 +3095,7 @@ const PokemonData = [
   },
   {
     name: "Electrode",
-    id: "#101",
+    id: "101",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/101.png",
     xdescription:
       "One of Electrode's characteristics is its attraction to electricity. It is a problematical Pok\u00e9mon that congregates mostly at electrical power plants to feed on electricity that has just been generated.",
@@ -3124,7 +3124,7 @@ const PokemonData = [
   },
   {
     name: "Exeggcute",
-    id: "#102",
+    id: "102",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/102.png",
     xdescription:
       "This Pok\u00e9mon consists of six eggs that form a closely knit cluster. The six eggs attract each other and spin around. When cracks increasingly appear on the eggs, Exeggcute is close to evolution.",
@@ -3155,7 +3155,7 @@ const PokemonData = [
   },
   {
     name: "Exeggutor",
-    id: "#103",
+    id: "103",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/103.png",
     xdescription:
       "Exeggutor originally came from the tropics. Its heads steadily grow larger from exposure to strong sunlight. It is said that when the heads fall off, they group together to form Exeggcute.",
@@ -3186,7 +3186,7 @@ const PokemonData = [
   },
   {
     name: "Cubone",
-    id: "#104",
+    id: "104",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/104.png",
     xdescription:
       "Cubone pines for the mother it will never see again. Seeing a likeness of its mother in the full moon, it cries. The stains on the skull the Pok\u00e9mon wears are made by the tears it sheds.",
@@ -3217,7 +3217,7 @@ const PokemonData = [
   },
   {
     name: "Marowak",
-    id: "#105",
+    id: "105",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/105.png",
     xdescription:
       "Marowak is the evolved form of a Cubone that has overcome its sadness at the loss of its mother and grown tough. This Pok\u00e9mon's tempered and hardened spirit is not easily broken.",
@@ -3248,7 +3248,7 @@ const PokemonData = [
   },
   {
     name: "Hitmonlee",
-    id: "#106",
+    id: "106",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/106.png",
     xdescription:
       "Hitmonlee's legs freely contract and stretch. Using these springlike legs, it bowls over foes with devastating kicks. After battle, it rubs down its legs and loosens the muscles to overcome fatigue.",
@@ -3279,7 +3279,7 @@ const PokemonData = [
   },
   {
     name: "Hitmonchan",
-    id: "#107",
+    id: "107",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/107.png",
     xdescription:
       "Hitmonchan is said to possess the spirit of a boxer who had been working toward a world championship. This Pok\u00e9mon has an indomitable spirit and will never give up in the face of adversity.",
@@ -3310,7 +3310,7 @@ const PokemonData = [
   },
   {
     name: "Lickitung",
-    id: "#108",
+    id: "108",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/108.png",
     xdescription:
       "Whenever Lickitung comes across something new, it will unfailingly give it a lick. It does so because it memorizes things by texture and by taste. It is somewhat put off by sour things.",
@@ -3341,7 +3341,7 @@ const PokemonData = [
   },
   {
     name: "Koffing",
-    id: "#109",
+    id: "109",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/109.png",
     xdescription:
       "Koffing embodies toxic substances. It mixes the toxins with raw garbage to set off a chemical reaction that results in a terribly powerful poison gas. The higher the temperature, the more gas is concocted by this Pok\u00e9mon.",
@@ -3372,7 +3372,7 @@ const PokemonData = [
   },
   {
     name: "Weezing",
-    id: "#110",
+    id: "110",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/110.png",
     xdescription:
       "Weezing alternately shrinks and inflates its twin bodies to mix together toxic gases inside. The more the gases are mixed, the more powerful the toxins become. The Pok\u00e9mon also becomes more putrid.",
@@ -3403,7 +3403,7 @@ const PokemonData = [
   },
   {
     name: "Rhyhorn",
-    id: "#111",
+    id: "111",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/111.png",
     xdescription:
       "Rhyhorn's brain is very small. It is so dense, while on a run it forgets why it started running in the first place. It apparently remembers sometimes if it demolishes something.",
@@ -3434,7 +3434,7 @@ const PokemonData = [
   },
   {
     name: "Rhydon",
-    id: "#112",
+    id: "112",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/112.png",
     xdescription:
       "Rhydon has a horn that serves as a drill. It is used for destroying rocks and boulders. This Pok\u00e9mon occasionally rams into streams of magma, but the armor-like hide prevents it from feeling the heat.",
@@ -3465,7 +3465,7 @@ const PokemonData = [
   },
   {
     name: "Chansey",
-    id: "#113",
+    id: "113",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/113.png",
     xdescription:
       "Chansey lays nutritionally excellent eggs on an everyday basis. The eggs are so delicious, they are easily and eagerly devoured by even those people who have lost their appetite.",
@@ -3496,7 +3496,7 @@ const PokemonData = [
   },
   {
     name: "Tangela",
-    id: "#114",
+    id: "114",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/114.png",
     xdescription:
       "Tangela's vines snap off easily if they are grabbed. This happens without pain, allowing it to make a quick getaway. The lost vines are replaced by newly grown vines the very next day.",
@@ -3527,7 +3527,7 @@ const PokemonData = [
   },
   {
     name: "Kangaskhan",
-    id: "#115",
+    id: "115",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/115.png",
     xdescription:
       "If you come across a young Kangaskhan playing by itself, you must never disturb it or attempt to catch it. The baby Pok\u00e9mon's parent is sure to be in the area, and it will become violently enraged at you.",
@@ -3558,7 +3558,7 @@ const PokemonData = [
   },
   {
     name: "Horsea",
-    id: "#116",
+    id: "116",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/116.png",
     xdescription:
       "If Horsea senses danger, it will reflexively spray a dense black ink from its mouth and try to escape. This Pok\u00e9mon swims by cleverly flapping the fin on its back.",
@@ -3589,7 +3589,7 @@ const PokemonData = [
   },
   {
     name: "Seadra",
-    id: "#117",
+    id: "117",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/117.png",
     xdescription:
       "Seadra generates whirlpools by spinning its body. The whirlpools are strong enough to swallow even fishing boats. This Pok\u00e9mon weakens prey with these currents, then swallows it whole.",
@@ -3620,7 +3620,7 @@ const PokemonData = [
   },
   {
     name: "Goldeen",
-    id: "#118",
+    id: "118",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/118.png",
     xdescription:
       "Goldeen loves swimming wild and free in rivers and ponds. If one of these Pok\u00e9mon is placed in an aquarium, it will shatter even the thickest glass with one ram of its horn and make its escape.",
@@ -3651,7 +3651,7 @@ const PokemonData = [
   },
   {
     name: "Seaking",
-    id: "#119",
+    id: "119",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/119.png",
     xdescription:
       "Seaking is very protective of its eggs. The male and female will take turns patrolling around their nest and eggs. The guarding of eggs by these Pok\u00e9mon goes on for over a month.",
@@ -3682,7 +3682,7 @@ const PokemonData = [
   },
   {
     name: "Staryu",
-    id: "#120",
+    id: "120",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/120.png",
     xdescription:
       "Staryu apparently communicates with the stars in the night sky by flashing the red core at the center of its body. If parts of its body are torn, this Pok\u00e9mon simply regenerates the missing pieces and limbs.",
@@ -3711,7 +3711,7 @@ const PokemonData = [
   },
   {
     name: "Starmie",
-    id: "#121",
+    id: "121",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/121.png",
     xdescription:
       "Starmie swims through water by spinning its star-shaped body as if it were a propeller on a ship. The core at the center of this Pok\u00e9mon's body glows in seven colors.",
@@ -3740,7 +3740,7 @@ const PokemonData = [
   },
   {
     name: "Mr. Mime",
-    id: "#122",
+    id: "122",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/122.png",
     xdescription:
       "Mr. Mime is a master of pantomime. Its gestures and motions convince watchers that something unseeable actually exists. Once the watchers are convinced, the unseeable thing exists as if it were real.",
@@ -3771,7 +3771,7 @@ const PokemonData = [
   },
   {
     name: "Scyther",
-    id: "#123",
+    id: "123",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/123.png",
     xdescription:
       "Scyther is blindingly fast. Its blazing speed enhances the effectiveness of the twin scythes on its forearms. This Pok\u00e9mon's scythes are so effective, they can slice through thick logs in one wicked stroke.",
@@ -3802,7 +3802,7 @@ const PokemonData = [
   },
   {
     name: "Jynx",
-    id: "#124",
+    id: "124",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/124.png",
     xdescription:
       "Jynx walks rhythmically, swaying and shaking its hips as if it were dancing. Its motions are so bouncingly alluring, people seeing it are compelled to shake their hips without giving any thought to what they are doing.",
@@ -3833,7 +3833,7 @@ const PokemonData = [
   },
   {
     name: "Electabuzz",
-    id: "#125",
+    id: "125",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/125.png",
     xdescription:
       "When a storm arrives, gangs of this Pok\u00e9mon compete with each other to scale heights that are likely to be stricken by lightning bolts. Some towns use Electabuzz in place of lightning rods.",
@@ -3864,7 +3864,7 @@ const PokemonData = [
   },
   {
     name: "Magmar",
-    id: "#126",
+    id: "126",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/126.png",
     xdescription:
       "In battle, Magmar blows out intensely hot flames from all over its body to intimidate its opponent. This Pok\u00e9mon's fiery bursts create heat waves that ignite grass and trees in its surroundings.",
@@ -3895,7 +3895,7 @@ const PokemonData = [
   },
   {
     name: "Pinsir",
-    id: "#127",
+    id: "127",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/127.png",
     xdescription:
       "Pinsir has a pair of massive horns. Protruding from the surface of these horns are thorns. These thorns are driven deeply into the foe's body when the pincer closes, making it tough for the foe to escape.",
@@ -3926,7 +3926,7 @@ const PokemonData = [
   },
   {
     name: "Tauros",
-    id: "#128",
+    id: "128",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/128.png",
     xdescription:
       "This Pok\u00e9mon is not satisfied unless it is rampaging at all times. If there is no opponent for Tauros to battle, it will charge at thick trees and knock them down to calm itself.",
@@ -3957,7 +3957,7 @@ const PokemonData = [
   },
   {
     name: "Magikarp",
-    id: "#129",
+    id: "129",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png",
     xdescription:
       "Magikarp is virtually useless in battle as it can only splash around. As a result, it is considered to be weak. However, it is actually a very hardy Pok\u00e9mon that can survive in any body of water no matter how polluted it is.",
@@ -3988,7 +3988,7 @@ const PokemonData = [
   },
   {
     name: "Gyarados",
-    id: "#130",
+    id: "130",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/130.png",
     xdescription:
       "Once Gyarados goes on a rampage, its ferociously violent blood doesn't calm until it has burned everything down. There are records of this Pok\u00e9mon's rampages lasting a whole month.",
@@ -4019,7 +4019,7 @@ const PokemonData = [
   },
   {
     name: "Lapras",
-    id: "#131",
+    id: "131",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png",
     xdescription:
       "People have driven Lapras almost to the point of extinction. In the evenings, this Pok\u00e9mon is said to sing plaintively as it seeks what few others of its kind still remain.",
@@ -4050,7 +4050,7 @@ const PokemonData = [
   },
   {
     name: "Ditto",
-    id: "#132",
+    id: "132",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/132.png",
     xdescription:
       "Ditto rearranges its cell structure to transform itself into other shapes. However, if it tries to transform itself into something by relying on its memory, this Pok\u00e9mon manages to get details wrong.",
@@ -4079,7 +4079,7 @@ const PokemonData = [
   },
   {
     name: "Eevee",
-    id: "#133",
+    id: "133",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
     xdescription:
       "Eevee has an unstable genetic makeup that suddenly mutates due to the environment in which it lives. Radiation from various stones causes this Pok\u00e9mon to evolve.",
@@ -4120,7 +4120,7 @@ const PokemonData = [
   },
   {
     name: "Vaporeon",
-    id: "#134",
+    id: "134",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/134.png",
     xdescription:
       "Vaporeon underwent a spontaneous mutation and grew fins and gills that allow it to live underwater. This Pok\u00e9mon has the ability to freely control water.",
@@ -4161,7 +4161,7 @@ const PokemonData = [
   },
   {
     name: "Jolteon",
-    id: "#135",
+    id: "135",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/135.png",
     xdescription:
       "Jolteon's cells generate a low level of electricity. This power is amplified by the static electricity of its fur, enabling the Pok\u00e9mon to drop thunderbolts. The bristling fur is made of electrically charged needles.",
@@ -4202,7 +4202,7 @@ const PokemonData = [
   },
   {
     name: "Flareon",
-    id: "#136",
+    id: "136",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/136.png",
     xdescription:
       "Flareon's fluffy fur has a functional purpose\u2014it releases heat into the air so that its body does not get excessively hot. This Pok\u00e9mon's body temperature can rise to a maximum of 1,650 degrees Fahrenheit.",
@@ -4243,7 +4243,7 @@ const PokemonData = [
   },
   {
     name: "Porygon",
-    id: "#137",
+    id: "137",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/137.png",
     xdescription:
       "Porygon is capable of reverting itself entirely back to program data and entering cyberspace. This Pok\u00e9mon is copy protected so it cannot be duplicated by copying.",
@@ -4272,7 +4272,7 @@ const PokemonData = [
   },
   {
     name: "Omanyte",
-    id: "#138",
+    id: "138",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/138.png",
     xdescription:
       "Omanyte is one of the ancient and long-since-extinct Pok\u00e9mon that have been regenerated from fossils by people. If attacked by an enemy, it withdraws itself inside its hard shell.",
@@ -4303,7 +4303,7 @@ const PokemonData = [
   },
   {
     name: "Omastar",
-    id: "#139",
+    id: "139",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/139.png",
     xdescription:
       "Omastar uses its tentacles to capture its prey. It is believed to have become extinct because its shell grew too large and heavy, causing its movements to become too slow and ponderous.",
@@ -4334,7 +4334,7 @@ const PokemonData = [
   },
   {
     name: "Kabuto",
-    id: "#140",
+    id: "140",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/140.png",
     xdescription:
       "Kabuto is a Pok\u00e9mon that has been regenerated from a fossil. However, in extremely rare cases, living examples have been discovered. The Pok\u00e9mon has not changed at all for 300 million years.",
@@ -4365,7 +4365,7 @@ const PokemonData = [
   },
   {
     name: "Kabutops",
-    id: "#141",
+    id: "141",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/141.png",
     xdescription:
       "Kabutops swam underwater to hunt for its prey in ancient times. The Pok\u00e9mon was apparently evolving from being a water dweller to living on land as evident from the beginnings of change in its gills and legs.",
@@ -4396,7 +4396,7 @@ const PokemonData = [
   },
   {
     name: "Aerodactyl",
-    id: "#142",
+    id: "142",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/142.png",
     xdescription:
       "Aerodactyl is a Pok\u00e9mon from the age of dinosaurs. It was regenerated from genetic material extracted from amber. It is imagined to have been the king of the skies in ancient times.",
@@ -4427,7 +4427,7 @@ const PokemonData = [
   },
   {
     name: "Snorlax",
-    id: "#143",
+    id: "143",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png",
     xdescription:
       "Snorlax's typical day consists of nothing more than eating and sleeping. It is such a docile Pok\u00e9mon that there are children who use its expansive belly as a place to play.",
@@ -4458,7 +4458,7 @@ const PokemonData = [
   },
   {
     name: "Articuno",
-    id: "#144",
+    id: "144",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/144.png",
     xdescription:
       "Articuno is a legendary bird Pok\u00e9mon that can control ice. The flapping of its wings chills the air. As a result, it is said that when this Pok\u00e9mon flies, snow will fall.",
@@ -4487,7 +4487,7 @@ const PokemonData = [
   },
   {
     name: "Zapdos",
-    id: "#145",
+    id: "145",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/145.png",
     xdescription:
       "Zapdos is a legendary bird Pok\u00e9mon that has the ability to control electricity. It usually lives in thunderclouds. The Pok\u00e9mon gains power if it is stricken by lightning bolts.",
@@ -4516,7 +4516,7 @@ const PokemonData = [
   },
   {
     name: "Moltres",
-    id: "#146",
+    id: "146",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/146.png",
     xdescription:
       "Moltres is a legendary bird Pok\u00e9mon that has the ability to control fire. If this Pok\u00e9mon is injured, it is said to dip its body in the molten magma of a volcano to burn and heal itself.",
@@ -4545,7 +4545,7 @@ const PokemonData = [
   },
   {
     name: "Dratini",
-    id: "#147",
+    id: "147",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/147.png",
     xdescription:
       "Dratini continually molts and sloughs off its old skin. It does so because the life energy within its body steadily builds to reach uncontrollable levels.",
@@ -4576,7 +4576,7 @@ const PokemonData = [
   },
   {
     name: "Dragonair",
-    id: "#148",
+    id: "148",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/148.png",
     xdescription:
       "Dragonair stores an enormous amount of energy inside its body. It is said to alter weather conditions in its vicinity by discharging energy from the crystals on its neck and tail.",
@@ -4607,7 +4607,7 @@ const PokemonData = [
   },
   {
     name: "Dragonite",
-    id: "#149",
+    id: "149",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png",
     xdescription:
       "Dragonite is capable of circling the globe in just 16 hours. It is a kindhearted Pok\u00e9mon that leads lost and foundering ships in a storm to the safety of land.",
@@ -4638,7 +4638,7 @@ const PokemonData = [
   },
   {
     name: "Mewtwo",
-    id: "#150",
+    id: "150",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
     xdescription:
       "Mewtwo is a Pok\u00e9mon that was created by genetic manipulation. However, even though the scientific power of humans created this Pok\u00e9mon's body, they failed to endow Mewtwo with a compassionate heart.",
@@ -4667,7 +4667,7 @@ const PokemonData = [
   },
   {
     name: "Mew",
-    id: "#151",
+    id: "151",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png",
     xdescription:
       "Mew is said to possess the genetic composition of all Pok\u00e9mon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.",
@@ -4696,7 +4696,7 @@ const PokemonData = [
   },
   {
     name: "Chikorita",
-    id: "#152",
+    id: "152",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/152.png",
     xdescription:
       "In battle, Chikorita waves its leaf around to keep the foe at bay. However, a sweet fragrance also wafts from the leaf, becalming the battling Pok\u00e9mon and creating a cozy, friendly atmosphere all around.",
@@ -4727,7 +4727,7 @@ const PokemonData = [
   },
   {
     name: "Bayleef",
-    id: "#153",
+    id: "153",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/153.png",
     xdescription:
       "Bayleef's neck is ringed by curled-up leaves. Inside each tubular leaf is a small shoot of a tree. The fragrance of this shoot makes people peppy.",
@@ -4758,7 +4758,7 @@ const PokemonData = [
   },
   {
     name: "Meganium",
-    id: "#154",
+    id: "154",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/154.png",
     xdescription:
       "The fragrance of Meganium's flower soothes and calms emotions. In battle, this Pok\u00e9mon gives off more of its becalming scent to blunt the foe's fighting spirit.",
@@ -4789,7 +4789,7 @@ const PokemonData = [
   },
   {
     name: "Cyndaquil",
-    id: "#155",
+    id: "155",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/155.png",
     xdescription:
       "Cyndaquil protects itself by flaring up the flames on its back. The flames are vigorous if the Pok\u00e9mon is angry. However, if it is tired, the flames splutter fitfully with incomplete combustion.",
@@ -4820,7 +4820,7 @@ const PokemonData = [
   },
   {
     name: "Quilava",
-    id: "#156",
+    id: "156",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/156.png",
     xdescription:
       "Quilava keeps its foes at bay with the intensity of its flames and gusts of superheated air. This Pok\u00e9mon applies its outstanding nimbleness to dodge attacks even while scorching the foe with flames.",
@@ -4851,7 +4851,7 @@ const PokemonData = [
   },
   {
     name: "Typhlosion",
-    id: "#157",
+    id: "157",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/157.png",
     xdescription:
       "Typhlosion obscures itself behind a shimmering heat haze that it creates using its intensely hot flames. This Pok\u00e9mon creates blazing explosive blasts that burn everything to cinders.",
@@ -4882,7 +4882,7 @@ const PokemonData = [
   },
   {
     name: "Totodile",
-    id: "#158",
+    id: "158",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/158.png",
     xdescription:
       "Despite the smallness of its body, Totodile's jaws are very powerful. While the Pok\u00e9mon may think it is just playfully nipping, its bite has enough power to cause serious injury.",
@@ -4913,7 +4913,7 @@ const PokemonData = [
   },
   {
     name: "Croconaw",
-    id: "#159",
+    id: "159",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/159.png",
     xdescription:
       "Once Croconaw has clamped its jaws on its foe, it will absolutely not let go. Because the tips of its fangs are forked back like barbed fishhooks, they become impossible to remove when they have sunk in.",
@@ -4944,7 +4944,7 @@ const PokemonData = [
   },
   {
     name: "Feraligatr",
-    id: "#160",
+    id: "160",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/160.png",
     xdescription:
       "Feraligatr intimidates its foes by opening its huge mouth. In battle, it will kick the ground hard with its thick and powerful hind legs to charge at the foe at an incredible speed.",
@@ -4975,7 +4975,7 @@ const PokemonData = [
   },
   {
     name: "Sentret",
-    id: "#161",
+    id: "161",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/161.png",
     xdescription:
       "When Sentret sleeps, it does so while another stands guard. The sentry wakes the others at the first sign of danger. When this Pok\u00e9mon becomes separated from its pack, it becomes incapable of sleep due to fear.",
@@ -5006,7 +5006,7 @@ const PokemonData = [
   },
   {
     name: "Furret",
-    id: "#162",
+    id: "162",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/162.png",
     xdescription:
       "Furret has a very slim build. When under attack, it can slickly squirm through narrow spaces and get away. In spite of its short limbs, this Pok\u00e9mon is very nimble and fleet.",
@@ -5037,7 +5037,7 @@ const PokemonData = [
   },
   {
     name: "Hoothoot",
-    id: "#163",
+    id: "163",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/163.png",
     xdescription:
       "Hoothoot has an internal organ that senses and tracks the earth's rotation. Using this special organ, this Pok\u00e9mon begins hooting at precisely the same time every day.",
@@ -5068,7 +5068,7 @@ const PokemonData = [
   },
   {
     name: "Noctowl",
-    id: "#164",
+    id: "164",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/164.png",
     xdescription:
       "Noctowl never fails at catching prey in darkness. This Pok\u00e9mon owes its success to its superior vision that allows it to see in minimal light, and to its soft, supple wings that make no sound in flight.",
@@ -5099,7 +5099,7 @@ const PokemonData = [
   },
   {
     name: "Ledyba",
-    id: "#165",
+    id: "165",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/165.png",
     xdescription:
       "Ledyba secretes an aromatic fluid from where its legs join its body. This fluid is used for communicating with others. This Pok\u00e9mon conveys its feelings to others by altering the fluid's scent.",
@@ -5130,7 +5130,7 @@ const PokemonData = [
   },
   {
     name: "Ledian",
-    id: "#166",
+    id: "166",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/166.png",
     xdescription:
       "It is said that in lands with clean air, where the stars fill the sky, there live Ledian in countless numbers. There is a good reason for this\u2014the Pok\u00e9mon uses the light of the stars as its energy.",
@@ -5161,7 +5161,7 @@ const PokemonData = [
   },
   {
     name: "Spinarak",
-    id: "#167",
+    id: "167",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/167.png",
     xdescription:
       "The web spun by Spinarak can be considered its second nervous system. It is said that this Pok\u00e9mon can determine what kind of prey is touching its web just by the tiny vibrations it feels through the web's strands.",
@@ -5192,7 +5192,7 @@ const PokemonData = [
   },
   {
     name: "Ariados",
-    id: "#168",
+    id: "168",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/168.png",
     xdescription:
       "Ariados's feet are tipped with tiny hooked claws that enable it to scuttle on ceilings and vertical walls. This Pok\u00e9mon constricts the foe with thin and strong silk webbing.",
@@ -5223,7 +5223,7 @@ const PokemonData = [
   },
   {
     name: "Crobat",
-    id: "#169",
+    id: "169",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/169.png",
     xdescription:
       "Crobat sneaks up on its intended prey using wings that barely make a sound. This Pok\u00e9mon rests by hanging on a tree branch with its rear legs that serve as wings.",
@@ -5254,7 +5254,7 @@ const PokemonData = [
   },
   {
     name: "Chinchou",
-    id: "#170",
+    id: "170",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/170.png",
     xdescription:
       "Chinchou's two antennas are filled with cells that generate strong electricity. This Pok\u00e9mon's cells create so much electrical power, it even makes itself tingle slightly.",
@@ -5285,7 +5285,7 @@ const PokemonData = [
   },
   {
     name: "Lanturn",
-    id: "#171",
+    id: "171",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/171.png",
     xdescription:
       "Lanturn is known to emit light. If you peer down into the dark sea from a ship at night, you can sometimes see this Pok\u00e9mon's light rising from the depths where it swims. It gives the sea an appearance of a starlit night.",
@@ -5316,7 +5316,7 @@ const PokemonData = [
   },
   {
     name: "Pichu",
-    id: "#172",
+    id: "172",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/172.png",
     xdescription:
       "When Pichu plays with others, it may short out electricity with another Pichu, creating a shower of sparks. In that event, this Pok\u00e9mon will begin crying, startled by the flash of sparks.",
@@ -5347,7 +5347,7 @@ const PokemonData = [
   },
   {
     name: "Cleffa",
-    id: "#173",
+    id: "173",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/173.png",
     xdescription:
       "On nights with many shooting stars, Cleffa can be seen dancing in a ring. They dance through the night and stop only at the break of day, when these Pok\u00e9mon quench their thirst with the morning dew.",
@@ -5378,7 +5378,7 @@ const PokemonData = [
   },
   {
     name: "Igglybuff",
-    id: "#174",
+    id: "174",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/174.png",
     xdescription:
       "Igglybuff has a soft and plushy body that feels very much like a marshmallow. From this body wafts a gently sweet fragrance that soothes and calms the emotions of its foes.",
@@ -5409,7 +5409,7 @@ const PokemonData = [
   },
   {
     name: "Togepi",
-    id: "#175",
+    id: "175",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/175.png",
     xdescription:
       "As its energy, Togepi uses the positive emotions of compassion and pleasure exuded by people and Pok\u00e9mon. This Pok\u00e9mon stores up feelings of happiness inside its shell, then shares them with others.",
@@ -5440,7 +5440,7 @@ const PokemonData = [
   },
   {
     name: "Togetic",
-    id: "#176",
+    id: "176",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/176.png",
     xdescription:
       "Togetic is said to be a Pok\u00e9mon that brings good fortune. When the Pok\u00e9mon spots someone who is pure of heart, it is said to appear and share its happiness with that person.",
@@ -5471,7 +5471,7 @@ const PokemonData = [
   },
   {
     name: "Natu",
-    id: "#177",
+    id: "177",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/177.png",
     xdescription:
       "Natu has a highly developed jumping ability. The Pok\u00e9mon flaps and leaps onto tree branches that are taller than grown-up people to pick at the tree's new shoots.",
@@ -5502,7 +5502,7 @@ const PokemonData = [
   },
   {
     name: "Xatu",
-    id: "#178",
+    id: "178",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/178.png",
     xdescription:
       "Xatu is known to stand motionless while staring at the sun all day long. Some people revere it as a mystical Pok\u00e9mon out of their belief that Xatu is in possession of the power to see into the future.",
@@ -5533,7 +5533,7 @@ const PokemonData = [
   },
   {
     name: "Mareep",
-    id: "#179",
+    id: "179",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/179.png",
     xdescription:
       "Mareep's fluffy coat of wool rubs together and builds a static charge. The more static electricity is charged, the more brightly the lightbulb at the tip of its tail glows.",
@@ -5564,7 +5564,7 @@ const PokemonData = [
   },
   {
     name: "Flaaffy",
-    id: "#180",
+    id: "180",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/180.png",
     xdescription:
       "Flaaffy's wool quality changes so that it can generate a high amount of static electricity with a small amount of wool. The bare and slick parts of its hide are shielded against electricity.",
@@ -5595,7 +5595,7 @@ const PokemonData = [
   },
   {
     name: "Ampharos",
-    id: "#181",
+    id: "181",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/181.png",
     xdescription:
       "Ampharos gives off so much light that it can be seen even from space. People in the old days used the light of this Pok\u00e9mon to send signals back and forth with others far away.",
@@ -5626,7 +5626,7 @@ const PokemonData = [
   },
   {
     name: "Bellossom",
-    id: "#182",
+    id: "182",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/182.png",
     xdescription:
       "A Bellossom grows flowers more beautifully if it has evolved from a smelly Gloom\u2014the more stinky the better. At night, this Pok\u00e9mon closes its petals and goes to sleep.",
@@ -5657,7 +5657,7 @@ const PokemonData = [
   },
   {
     name: "Marill",
-    id: "#183",
+    id: "183",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/183.png",
     xdescription:
       "When fishing for food at the edge of a fast-running stream, Marill wraps its tail around the trunk of a tree. This Pok\u00e9mon's tail is flexible and configured to stretch.",
@@ -5688,7 +5688,7 @@ const PokemonData = [
   },
   {
     name: "Azumarill",
-    id: "#184",
+    id: "184",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/184.png",
     xdescription:
       "Azumarill can make balloons out of air. It makes these air balloons if it spots a drowning Pok\u00e9mon. The air balloons enable the Pok\u00e9mon in trouble to breathe.",
@@ -5719,7 +5719,7 @@ const PokemonData = [
   },
   {
     name: "Sudowoodo",
-    id: "#185",
+    id: "185",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/185.png",
     xdescription:
       "Sudowoodo camouflages itself as a tree to avoid being attacked by enemies. However, because its hands remain green throughout the year, the Pok\u00e9mon is easily identified as a fake during the winter.",
@@ -5750,7 +5750,7 @@ const PokemonData = [
   },
   {
     name: "Politoed",
-    id: "#186",
+    id: "186",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/186.png",
     xdescription:
       "The curled hair on Politoed's head is proof of its status as a king. It is said that the longer and more curled the hair, the more respect this Pok\u00e9mon earns from its peers.",
@@ -5781,7 +5781,7 @@ const PokemonData = [
   },
   {
     name: "Hoppip",
-    id: "#187",
+    id: "187",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/187.png",
     xdescription:
       "This Pok\u00e9mon drifts and floats with the wind. If it senses the approach of strong winds, Hoppip links its leaves with other Hoppip to prepare against being blown away.",
@@ -5812,7 +5812,7 @@ const PokemonData = [
   },
   {
     name: "Skiploom",
-    id: "#188",
+    id: "188",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/188.png",
     xdescription:
       "Skiploom's flower blossoms when the temperature rises above 64 degrees Fahrenheit. How much the flower opens depends on the temperature. For that reason, this Pok\u00e9mon is sometimes used as a thermometer.",
@@ -5843,7 +5843,7 @@ const PokemonData = [
   },
   {
     name: "Jumpluff",
-    id: "#189",
+    id: "189",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/189.png",
     xdescription:
       "Jumpluff rides warm southern winds to cross the sea and fly to foreign lands. The Pok\u00e9mon descends to the ground when it encounters cold air while it is floating.",
@@ -5874,7 +5874,7 @@ const PokemonData = [
   },
   {
     name: "Aipom",
-    id: "#190",
+    id: "190",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/190.png",
     xdescription:
       "Aipom's tail ends in a hand-like appendage that can be cleverly manipulated. However, because the Pok\u00e9mon uses its tail so much, its real hands have become rather clumsy.",
@@ -5905,7 +5905,7 @@ const PokemonData = [
   },
   {
     name: "Sunkern",
-    id: "#191",
+    id: "191",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/191.png",
     xdescription:
       "Sunkern tries to move as little as it possibly can. It does so because it tries to conserve all the nutrients it has stored in its body for its evolution. It will not eat a thing, subsisting only on morning dew.",
@@ -5936,7 +5936,7 @@ const PokemonData = [
   },
   {
     name: "Sunflora",
-    id: "#192",
+    id: "192",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/192.png",
     xdescription:
       "Sunflora converts solar energy into nutrition. It moves around actively in the daytime when it is warm. It stops moving as soon as the sun goes down for the night.",
@@ -5967,7 +5967,7 @@ const PokemonData = [
   },
   {
     name: "Yanma",
-    id: "#193",
+    id: "193",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/193.png",
     xdescription:
       "Yanma is capable of seeing 360 degrees without having to move its eyes. It is a great flier that is adept at making sudden stops and turning midair. This Pok\u00e9mon uses its flying ability to quickly chase down targeted prey.",
@@ -5998,7 +5998,7 @@ const PokemonData = [
   },
   {
     name: "Wooper",
-    id: "#194",
+    id: "194",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/194.png",
     xdescription:
       "Wooper usually lives in water. However, it occasionally comes out onto land in search of food. On land, it coats its body with a gooey, toxic film.",
@@ -6029,7 +6029,7 @@ const PokemonData = [
   },
   {
     name: "Quagsire",
-    id: "#195",
+    id: "195",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/195.png",
     xdescription:
       "Quagsire hunts for food by leaving its mouth wide open in water and waiting for its prey to blunder in unaware. Because the Pok\u00e9mon does not move, it does not get very hungry.",
@@ -6060,7 +6060,7 @@ const PokemonData = [
   },
   {
     name: "Espeon",
-    id: "#196",
+    id: "196",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/196.png",
     xdescription:
       "Espeon is extremely loyal to any Trainer it considers to be worthy. It is said that this Pok\u00e9mon developed its precognitive powers to protect its Trainer from harm.",
@@ -6101,7 +6101,7 @@ const PokemonData = [
   },
   {
     name: "Umbreon",
-    id: "#197",
+    id: "197",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/197.png",
     xdescription:
       "Umbreon evolved as a result of exposure to the moon's waves. It hides silently in darkness and waits for its foes to make a move. The rings on its body glow when it leaps to attack.",
@@ -6142,7 +6142,7 @@ const PokemonData = [
   },
   {
     name: "Murkrow",
-    id: "#198",
+    id: "198",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/198.png",
     xdescription:
       "Murkrow was feared and loathed as the alleged bearer of ill fortune. This Pok\u00e9mon shows strong interest in anything that sparkles or glitters. It will even try to steal rings from women.",
@@ -6173,7 +6173,7 @@ const PokemonData = [
   },
   {
     name: "Slowking",
-    id: "#199",
+    id: "199",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/199.png",
     xdescription:
       "Slowking undertakes research every day in an effort to solve the mysteries of the world. However, this Pok\u00e9mon apparently forgets everything it has learned if the Shellder on its head comes off.",
@@ -6204,7 +6204,7 @@ const PokemonData = [
   },
   {
     name: "Misdreavus",
-    id: "#200",
+    id: "200",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/200.png",
     xdescription:
       "Misdreavus frightens people with a creepy, sobbing cry. The Pok\u00e9mon apparently uses its red spheres to absorb the fearful feelings of foes and turn them into nutrition.",
@@ -6235,7 +6235,7 @@ const PokemonData = [
   },
   {
     name: "Unown",
-    id: "#201",
+    id: "201",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/201.png",
     xdescription:
       "This Pok\u00e9mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
@@ -6264,7 +6264,7 @@ const PokemonData = [
   },
   {
     name: "Wobbuffet",
-    id: "#202",
+    id: "202",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/202.png",
     xdescription:
       "Wobbuffet does nothing but endure attacks\u2014it won't attack on its own. However, it won't endure an attack on its tail. When that happens, the Pok\u00e9mon will try to take the foe with it using Destiny Bond.",
@@ -6295,7 +6295,7 @@ const PokemonData = [
   },
   {
     name: "Girafarig",
-    id: "#203",
+    id: "203",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/203.png",
     xdescription:
       "Girafarig's rear head contains a tiny brain that is too small for thinking. However, the rear head doesn't need to sleep, so it can keep watch over its surroundings 24 hours a day.",
@@ -6326,7 +6326,7 @@ const PokemonData = [
   },
   {
     name: "Pineco",
-    id: "#204",
+    id: "204",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/204.png",
     xdescription:
       "Pineco hangs from a tree branch and patiently waits for prey to come along. If the Pok\u00e9mon is disturbed while eating by someone shaking its tree, it drops down to the ground and explodes with no warning.",
@@ -6357,7 +6357,7 @@ const PokemonData = [
   },
   {
     name: "Forretress",
-    id: "#205",
+    id: "205",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/205.png",
     xdescription:
       "Forretress conceals itself inside its hardened steel shell. The shell is opened when the Pok\u00e9mon is catching prey, but it does so at such a quick pace that the shell's inside cannot be seen.",
@@ -6388,7 +6388,7 @@ const PokemonData = [
   },
   {
     name: "Dunsparce",
-    id: "#206",
+    id: "206",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/206.png",
     xdescription:
       "Dunsparce has a drill for its tail. It uses this tail to burrow into the ground backward. This Pok\u00e9mon is known to make its nest in complex shapes deep under the ground.",
@@ -6419,7 +6419,7 @@ const PokemonData = [
   },
   {
     name: "Gligar",
-    id: "#207",
+    id: "207",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/207.png",
     xdescription:
       "Gligar glides through the air without a sound as if it were sliding. This Pok\u00e9mon hangs on to the face of its foe using its clawed hind legs and the large pincers on its forelegs, then injects the prey with its poison barb.",
@@ -6450,7 +6450,7 @@ const PokemonData = [
   },
   {
     name: "Steelix",
-    id: "#208",
+    id: "208",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/208.png",
     xdescription:
       "Steelix lives even further underground than Onix. This Pok\u00e9mon is known to dig toward the earth's core. There are records of this Pok\u00e9mon reaching a depth of over six-tenths of a mile underground.",
@@ -6481,7 +6481,7 @@ const PokemonData = [
   },
   {
     name: "Snubbull",
-    id: "#209",
+    id: "209",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/209.png",
     xdescription:
       "By baring its fangs and making a scary face, Snubbull sends smaller Pok\u00e9mon scurrying away in terror. However, this Pok\u00e9mon seems a little sad at making its foes flee.",
@@ -6512,7 +6512,7 @@ const PokemonData = [
   },
   {
     name: "Granbull",
-    id: "#210",
+    id: "210",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/210.png",
     xdescription:
       "Granbull has a particularly well-developed lower jaw. The enormous fangs are heavy, causing the Pok\u00e9mon to tip its head back for balance. Unless it is startled, it will not try to bite indiscriminately.",
@@ -6543,7 +6543,7 @@ const PokemonData = [
   },
   {
     name: "Qwilfish",
-    id: "#211",
+    id: "211",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/211.png",
     xdescription:
       "Qwilfish sucks in water, inflating itself. This Pok\u00e9mon uses the pressure of the water it swallowed to shoot toxic quills all at once from all over its body. It finds swimming somewhat challenging.",
@@ -6574,7 +6574,7 @@ const PokemonData = [
   },
   {
     name: "Scizor",
-    id: "#212",
+    id: "212",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/212.png",
     xdescription:
       "Scizor has a body with the hardness of steel. It is not easily fazed by ordinary sorts of attacks. This Pok\u00e9mon flaps its wings to regulate its body temperature.",
@@ -6605,7 +6605,7 @@ const PokemonData = [
   },
   {
     name: "Shuckle",
-    id: "#213",
+    id: "213",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/213.png",
     xdescription:
       "Shuckle quietly hides itself under rocks, keeping its body concealed inside its hard shell while eating berries it has stored away. The berries mix with its body fluids to become a juice.",
@@ -6636,7 +6636,7 @@ const PokemonData = [
   },
   {
     name: "Heracross",
-    id: "#214",
+    id: "214",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/214.png",
     xdescription:
       "Heracross has sharp claws on its feet. These are planted firmly into the ground or the bark of a tree, giving the Pok\u00e9mon a secure and solid footing to forcefully fling away foes with its proud horn.",
@@ -6667,7 +6667,7 @@ const PokemonData = [
   },
   {
     name: "Sneasel",
-    id: "#215",
+    id: "215",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/215.png",
     xdescription:
       "Sneasel scales trees by punching its hooked claws into the bark. This Pok\u00e9mon seeks out unguarded nests and steals eggs for food while the parents are away.",
@@ -6698,7 +6698,7 @@ const PokemonData = [
   },
   {
     name: "Teddiursa",
-    id: "#216",
+    id: "216",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/216.png",
     xdescription:
       "This Pok\u00e9mon likes to lick its palms that are sweetened by being soaked in honey. Teddiursa concocts its own honey by blending fruits and pollen collected by Beedrill.",
@@ -6729,7 +6729,7 @@ const PokemonData = [
   },
   {
     name: "Ursaring",
-    id: "#217",
+    id: "217",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/217.png",
     xdescription:
       "In the forests inhabited by Ursaring, it is said that there are many streams and towering trees where they gather food. This Pok\u00e9mon walks through its forest gathering food every day.",
@@ -6760,7 +6760,7 @@ const PokemonData = [
   },
   {
     name: "Slugma",
-    id: "#218",
+    id: "218",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/218.png",
     xdescription:
       "Slugma does not have any blood in its body. Instead, intensely hot magma circulates throughout this Pok\u00e9mon's body, carrying essential nutrients and oxygen to its organs.",
@@ -6791,7 +6791,7 @@ const PokemonData = [
   },
   {
     name: "Magcargo",
-    id: "#219",
+    id: "219",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/219.png",
     xdescription:
       "Magcargo's body temperature is approximately 18,000 degrees Fahrenheit. Water is vaporized on contact. If this Pok\u00e9mon is caught in the rain, the raindrops instantly turn into steam, cloaking the area in a thick fog.",
@@ -6822,7 +6822,7 @@ const PokemonData = [
   },
   {
     name: "Swinub",
-    id: "#220",
+    id: "220",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/220.png",
     xdescription:
       "Swinub roots for food by rubbing its snout against the ground. Its favorite food is a mushroom that grows under the cover of dead grass. This Pok\u00e9mon occasionally roots out hot springs.",
@@ -6853,7 +6853,7 @@ const PokemonData = [
   },
   {
     name: "Piloswine",
-    id: "#221",
+    id: "221",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/221.png",
     xdescription:
       "Piloswine is covered by a thick coat of long hair that enables it to endure the freezing cold. This Pok\u00e9mon uses its tusks to dig up food that has been buried under ice.",
@@ -6884,7 +6884,7 @@ const PokemonData = [
   },
   {
     name: "Corsola",
-    id: "#222",
+    id: "222",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/222.png",
     xdescription:
       "Clusters of Corsola congregate in warm seas where they serve as ideal hiding places for smaller Pok\u00e9mon. When the water temperature falls, this Pok\u00e9mon migrates to the southern seas.",
@@ -6915,7 +6915,7 @@ const PokemonData = [
   },
   {
     name: "Remoraid",
-    id: "#223",
+    id: "223",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/223.png",
     xdescription:
       "Remoraid sucks in water, then expels it at high velocity using its abdominal muscles to shoot down flying prey. When evolution draws near, this Pok\u00e9mon travels downstream from rivers.",
@@ -6946,7 +6946,7 @@ const PokemonData = [
   },
   {
     name: "Octillery",
-    id: "#224",
+    id: "224",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/224.png",
     xdescription:
       "Octillery grabs onto its foe using its tentacles. This Pok\u00e9mon tries to immobilize it before delivering the finishing blow. If the foe turns out to be too strong, Octillery spews ink to escape.",
@@ -6977,7 +6977,7 @@ const PokemonData = [
   },
   {
     name: "Delibird",
-    id: "#225",
+    id: "225",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/225.png",
     xdescription:
       "Delibird carries its food bundled up in its tail. There once was a famous explorer who managed to reach the peak of the world's highest mountain, thanks to one of these Pok\u00e9mon sharing its food.",
@@ -7008,7 +7008,7 @@ const PokemonData = [
   },
   {
     name: "Mantine",
-    id: "#226",
+    id: "226",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/226.png",
     xdescription:
       "On sunny days, schools of Mantine can be seen elegantly leaping over the sea's waves. This Pok\u00e9mon is not bothered by the Remoraid that hitches rides.",
@@ -7039,7 +7039,7 @@ const PokemonData = [
   },
   {
     name: "Skarmory",
-    id: "#227",
+    id: "227",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/227.png",
     xdescription:
       "Skarmory's steel wings become tattered and bashed in from repeated battles. Once a year, the battered wings grow back completely, restoring the cutting edges to their pristine state.",
@@ -7070,7 +7070,7 @@ const PokemonData = [
   },
   {
     name: "Houndour",
-    id: "#228",
+    id: "228",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/228.png",
     xdescription:
       "Houndour hunt as a coordinated pack. They communicate with each other using a variety of cries to corner their prey. This Pok\u00e9mon's remarkable teamwork is unparalleled.",
@@ -7101,7 +7101,7 @@ const PokemonData = [
   },
   {
     name: "Houndoom",
-    id: "#229",
+    id: "229",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/229.png",
     xdescription:
       "In a Houndoom pack, the one with its horns raked sharply toward the back serves a leadership role. These Pok\u00e9mon choose their leader by fighting among themselves.",
@@ -7132,7 +7132,7 @@ const PokemonData = [
   },
   {
     name: "Kingdra",
-    id: "#230",
+    id: "230",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/230.png",
     xdescription:
       "Kingdra sleeps on the seafloor where it is otherwise devoid of life. When a storm arrives, the Pok\u00e9mon is said to awaken and wander about in search of prey.",
@@ -7163,7 +7163,7 @@ const PokemonData = [
   },
   {
     name: "Phanpy",
-    id: "#231",
+    id: "231",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/231.png",
     xdescription:
       "Phanpy uses its long nose to shower itself. When others gather around, they thoroughly douse each other with water. These Pok\u00e9mon can be seen drying their soaking-wet bodies at the edge of water.",
@@ -7194,7 +7194,7 @@ const PokemonData = [
   },
   {
     name: "Donphan",
-    id: "#232",
+    id: "232",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/232.png",
     xdescription:
       "If Donphan were to tackle with its hard body, even a house could be destroyed. Using its massive strength, the Pok\u00e9mon helps clear rock and mud slides that block mountain trails.",
@@ -7225,7 +7225,7 @@ const PokemonData = [
   },
   {
     name: "Porygon2",
-    id: "#233",
+    id: "233",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/233.png",
     xdescription:
       "Porygon2 was created by humans using the power of science. The man-made Pok\u00e9mon has been endowed with artificial intelligence that enables it to learn new gestures and emotions on its own.",
@@ -7254,7 +7254,7 @@ const PokemonData = [
   },
   {
     name: "Stantler",
-    id: "#234",
+    id: "234",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/234.png",
     xdescription:
       "Stantler's magnificent antlers were traded at high prices as works of art. As a result, this Pok\u00e9mon was hunted close to extinction by those who were after the priceless antlers.",
@@ -7285,7 +7285,7 @@ const PokemonData = [
   },
   {
     name: "Smeargle",
-    id: "#235",
+    id: "235",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/235.png",
     xdescription:
       "Smeargle marks the boundaries of its territory using a body fluid that leaks out from the tip of its tail. Over 5,000 different marks left by this Pok\u00e9mon have been found.",
@@ -7316,7 +7316,7 @@ const PokemonData = [
   },
   {
     name: "Tyrogue",
-    id: "#236",
+    id: "236",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/236.png",
     xdescription:
       "Tyrogue becomes stressed out if it does not get to train every day. When raising this Pok\u00e9mon, the Trainer must establish and uphold various training methods.",
@@ -7347,7 +7347,7 @@ const PokemonData = [
   },
   {
     name: "Hitmontop",
-    id: "#237",
+    id: "237",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/237.png",
     xdescription:
       "Hitmontop spins on its head at high speed, all the while delivering kicks. This technique is a remarkable mix of both offense and defense at the same time. The Pok\u00e9mon travels faster spinning than it does walking.",
@@ -7378,7 +7378,7 @@ const PokemonData = [
   },
   {
     name: "Smoochum",
-    id: "#238",
+    id: "238",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/238.png",
     xdescription:
       "Smoochum actively runs about, but also falls quite often. Whenever the chance arrives, it will look for its reflection to make sure its face hasn't become dirty.",
@@ -7409,7 +7409,7 @@ const PokemonData = [
   },
   {
     name: "Elekid",
-    id: "#239",
+    id: "239",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/239.png",
     xdescription:
       "Elekid stores electricity in its body. If it touches metal and accidentally discharges all its built-up electricity, this Pok\u00e9mon begins swinging its arms in circles to recharge itself.",
@@ -7440,7 +7440,7 @@ const PokemonData = [
   },
   {
     name: "Magby",
-    id: "#240",
+    id: "240",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/240.png",
     xdescription:
       "Magby's state of health is determined by observing the fire it breathes. If the Pok\u00e9mon is spouting yellow flames from its mouth, it is in good health. When it is fatigued, black smoke will be mixed in with the flames.",
@@ -7471,7 +7471,7 @@ const PokemonData = [
   },
   {
     name: "Miltank",
-    id: "#241",
+    id: "241",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/241.png",
     xdescription:
       "Miltank gives over five gallons of milk on a daily basis. Its sweet milk is enjoyed by children and grown-ups alike. People who can't drink milk turn it into yogurt and eat it instead.",
@@ -7502,7 +7502,7 @@ const PokemonData = [
   },
   {
     name: "Blissey",
-    id: "#242",
+    id: "242",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/242.png",
     xdescription:
       "Blissey senses sadness with its fluffy coat of fur. If it does so, this Pok\u00e9mon will rush over to a sad person, no matter how far away, to share a Lucky Egg that brings a smile to any face.",
@@ -7533,7 +7533,7 @@ const PokemonData = [
   },
   {
     name: "Raikou",
-    id: "#243",
+    id: "243",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/243.png",
     xdescription:
       "Raikou embodies the speed of lightning. The roars of this Pok\u00e9mon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down.",
@@ -7562,7 +7562,7 @@ const PokemonData = [
   },
   {
     name: "Entei",
-    id: "#244",
+    id: "244",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/244.png",
     xdescription:
       "Entei embodies the passion of magma. This Pok\u00e9mon is thought to have been born in the eruption of a volcano. It sends up massive bursts of fire that utterly consume all that they touch.",
@@ -7591,7 +7591,7 @@ const PokemonData = [
   },
   {
     name: "Suicune",
-    id: "#245",
+    id: "245",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/245.png",
     xdescription:
       "Suicune embodies the compassion of a pure spring of water. It runs across the land with gracefulness. This Pok\u00e9mon has the power to purify dirty water.",
@@ -7620,7 +7620,7 @@ const PokemonData = [
   },
   {
     name: "Larvitar",
-    id: "#246",
+    id: "246",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/246.png",
     xdescription:
       "Larvitar is born deep under the ground. To come up to the surface, this Pok\u00e9mon must eat its way through the soil above. Until it does so, Larvitar cannot see its parents.",
@@ -7651,7 +7651,7 @@ const PokemonData = [
   },
   {
     name: "Pupitar",
-    id: "#247",
+    id: "247",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/247.png",
     xdescription:
       "Pupitar creates a gas inside its body that it compresses and forcefully ejects to propel itself like a jet. The body is very durable\u2014it avoids damage even if it hits solid steel.",
@@ -7682,7 +7682,7 @@ const PokemonData = [
   },
   {
     name: "Tyranitar",
-    id: "#248",
+    id: "248",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/248.png",
     xdescription:
       "Tyranitar is so overwhelmingly powerful, it can bring down a whole mountain to make its nest. This Pok\u00e9mon wanders about in mountains seeking new opponents to fight.",
@@ -7721,7 +7721,7 @@ const PokemonData = [
   },
   {
     name: "Lugia",
-    id: "#249",
+    id: "249",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/249.png",
     xdescription:
       "Lugia's wings pack devastating power\u2014a light fluttering of its wings can blow apart regular houses. As a result, this Pok\u00e9mon chooses to live out of sight deep under the sea.",
@@ -7750,7 +7750,7 @@ const PokemonData = [
   },
   {
     name: "Ho-Oh",
-    id: "#250",
+    id: "250",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/250.png",
     xdescription:
       "Ho-Oh's feathers glow in seven colors depending on the angle at which they are struck by light. These feathers are said to bring happiness to the bearers. This Pok\u00e9mon is said to live at the foot of a rainbow.",
@@ -7779,7 +7779,7 @@ const PokemonData = [
   },
   {
     name: "Celebi",
-    id: "#251",
+    id: "251",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/251.png",
     xdescription:
       "This Pok\u00e9mon came from the future by crossing over time. It is thought that so long as Celebi appears, a bright and shining future awaits us.",
@@ -7808,7 +7808,7 @@ const PokemonData = [
   },
   {
     name: "Treecko",
-    id: "#252",
+    id: "252",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/252.png",
     xdescription:
       "Treecko is cool, calm, and collected\u2014it never panics under any situation. If a bigger foe were to glare at this Pok\u00e9mon, it would glare right back without conceding an inch of ground.",
@@ -7839,7 +7839,7 @@ const PokemonData = [
   },
   {
     name: "Grovyle",
-    id: "#253",
+    id: "253",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/253.png",
     xdescription:
       "This Pok\u00e9mon adeptly flies from branch to branch in trees. In a forest, no Pok\u00e9mon can ever hope to catch a fleeing Grovyle however fast they may be.",
@@ -7870,7 +7870,7 @@ const PokemonData = [
   },
   {
     name: "Sceptile",
-    id: "#254",
+    id: "254",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/254.png",
     xdescription:
       "Sceptile has seeds growing on its back. They are said to be bursting with nutrients that revitalize trees. This Pok\u00e9mon raises the trees in a forest with loving care.",
@@ -7901,7 +7901,7 @@ const PokemonData = [
   },
   {
     name: "Torchic",
-    id: "#255",
+    id: "255",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/255.png",
     xdescription:
       "Torchic has a place inside its body where it keeps its flame. Give it a hug\u2014it will be glowing with warmth. This Pok\u00e9mon is covered all over by a fluffy coat of down.",
@@ -7932,7 +7932,7 @@ const PokemonData = [
   },
   {
     name: "Combusken",
-    id: "#256",
+    id: "256",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/256.png",
     xdescription:
       "Combusken battles with the intensely hot flames it spews from its beak and with outstandingly destructive kicks. This Pok\u00e9mon's cry is very loud and distracting.",
@@ -7963,7 +7963,7 @@ const PokemonData = [
   },
   {
     name: "Blaziken",
-    id: "#257",
+    id: "257",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/257.png",
     xdescription:
       "Blaziken has incredibly strong legs\u2014it can easily clear a 30-story building in one leap. This Pok\u00e9mon's blazing punches leave its foes scorched and blackened.",
@@ -7994,7 +7994,7 @@ const PokemonData = [
   },
   {
     name: "Mudkip",
-    id: "#258",
+    id: "258",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/258.png",
     xdescription:
       "In water, Mudkip breathes using the gills on its cheeks. If it is faced with a tight situation in battle, this Pok\u00e9mon will unleash its amazing power\u2014it can crush rocks bigger than itself.",
@@ -8025,7 +8025,7 @@ const PokemonData = [
   },
   {
     name: "Marshtomp",
-    id: "#259",
+    id: "259",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/259.png",
     xdescription:
       "Marshtomp is much faster at traveling through mud than it is at swimming. This Pok\u00e9mon's hindquarters exhibit obvious development, giving it the ability to walk on just its hind legs.",
@@ -8056,7 +8056,7 @@ const PokemonData = [
   },
   {
     name: "Swampert",
-    id: "#260",
+    id: "260",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/260.png",
     xdescription:
       "Swampert predicts storms by sensing subtle differences in the sounds of waves and tidal winds with its fins. If a storm is approaching, it piles up boulders to protect itself.",
@@ -8087,7 +8087,7 @@ const PokemonData = [
   },
   {
     name: "Poochyena",
-    id: "#261",
+    id: "261",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/261.png",
     xdescription:
       "Poochyena is an omnivore\u2014it will eat anything. A distinguishing feature is how large its fangs are compared to its body. This Pok\u00e9mon tries to intimidate its foes by making the hair on its tail bristle out.",
@@ -8118,7 +8118,7 @@ const PokemonData = [
   },
   {
     name: "Mightyena",
-    id: "#262",
+    id: "262",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/262.png",
     xdescription:
       "Mightyena travel and act as a pack in the wild. The memory of its life in the wild compels the Pok\u00e9mon to obey only those Trainers that it recognizes to possess superior skill.",
@@ -8149,7 +8149,7 @@ const PokemonData = [
   },
   {
     name: "Zigzagoon",
-    id: "#263",
+    id: "263",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/263.png",
     xdescription:
       "The hair on Zigzagoon's back is bristly. It rubs the hard back hair against trees to leave its territorial markings. This Pok\u00e9mon may play dead to fool foes in battle.",
@@ -8180,7 +8180,7 @@ const PokemonData = [
   },
   {
     name: "Linoone",
-    id: "#264",
+    id: "264",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/264.png",
     xdescription:
       "When hunting, Linoone will make a beeline straight for the prey at a full run. While this Pok\u00e9mon is capable of topping 60 mph, it has to come to a screeching halt before it can turn.",
@@ -8211,7 +8211,7 @@ const PokemonData = [
   },
   {
     name: "Wurmple",
-    id: "#265",
+    id: "265",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/265.png",
     xdescription:
       "Wurmple is targeted by Swellow as prey. This Pok\u00e9mon will try to resist by pointing the spikes on its rear at the attacking predator. It will weaken the foe by leaking poison from the spikes.",
@@ -8242,7 +8242,7 @@ const PokemonData = [
   },
   {
     name: "Silcoon",
-    id: "#266",
+    id: "266",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/266.png",
     xdescription:
       "Silcoon was thought to endure hunger and not consume anything before its evolution. However, it is now thought that this Pok\u00e9mon slakes its thirst by drinking rainwater that collects on its silk.",
@@ -8273,7 +8273,7 @@ const PokemonData = [
   },
   {
     name: "Beautifly",
-    id: "#267",
+    id: "267",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/267.png",
     xdescription:
       "Beautifly has a long mouth like a coiled needle, which is very convenient for collecting pollen from flowers. This Pok\u00e9mon rides the spring winds as it flits around gathering pollen.",
@@ -8304,7 +8304,7 @@ const PokemonData = [
   },
   {
     name: "Cascoon",
-    id: "#268",
+    id: "268",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/268.png",
     xdescription:
       "If it is attacked, Cascoon remains motionless however badly it may be hurt. It does so because if it were to move, its body would be weak upon evolution. This Pok\u00e9mon will also not forget the pain it endured.",
@@ -8335,7 +8335,7 @@ const PokemonData = [
   },
   {
     name: "Dustox",
-    id: "#269",
+    id: "269",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/269.png",
     xdescription:
       "When Dustox flaps its wings, a fine dust is scattered all over. This dust is actually a powerful poison that will even make a pro wrestler sick. This Pok\u00e9mon searches for food using its antennae like radar.",
@@ -8366,7 +8366,7 @@ const PokemonData = [
   },
   {
     name: "Lotad",
-    id: "#270",
+    id: "270",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/270.png",
     xdescription:
       "Lotad is said to have dwelled on land before. However, this Pok\u00e9mon is thought to have returned to water because the leaf on its head grew large and heavy. It now lives by floating atop the water.",
@@ -8397,7 +8397,7 @@ const PokemonData = [
   },
   {
     name: "Lombre",
-    id: "#271",
+    id: "271",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/271.png",
     xdescription:
       "Lombre's entire body is covered by a slippery, slimy film. It feels horribly unpleasant to be touched by this Pok\u00e9mon's hands. Lombre is often mistaken for a human child.",
@@ -8428,7 +8428,7 @@ const PokemonData = [
   },
   {
     name: "Ludicolo",
-    id: "#272",
+    id: "272",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/272.png",
     xdescription:
       "Upon hearing an upbeat and cheerful rhythm, the cells in Ludicolo's body become very energetic and active. Even in battle, this Pok\u00e9mon will exhibit an amazing amount of power.",
@@ -8459,7 +8459,7 @@ const PokemonData = [
   },
   {
     name: "Seedot",
-    id: "#273",
+    id: "273",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/273.png",
     xdescription:
       "Seedot looks exactly like an acorn when it is dangling from a tree branch. It startles other Pok\u00e9mon by suddenly moving. This Pok\u00e9mon polishes its body once a day using leaves.",
@@ -8490,7 +8490,7 @@ const PokemonData = [
   },
   {
     name: "Nuzleaf",
-    id: "#274",
+    id: "274",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/274.png",
     xdescription:
       "This Pok\u00e9mon pulls out the leaf on its head and makes a flute with it. The sound of Nuzleaf's flute strikes fear and uncertainty in the hearts of people lost in a forest.",
@@ -8521,7 +8521,7 @@ const PokemonData = [
   },
   {
     name: "Shiftry",
-    id: "#275",
+    id: "275",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/275.png",
     xdescription:
       "Shiftry's large fans generate awesome gusts of wind at a speed close to 100 feet per second. The whipped-up wind blows anything away. This Pok\u00e9mon chooses to live quietly deep in forests.",
@@ -8552,7 +8552,7 @@ const PokemonData = [
   },
   {
     name: "Taillow",
-    id: "#276",
+    id: "276",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/276.png",
     xdescription:
       "Taillow is young\u2014it has only just left its nest. As a result, it sometimes becomes lonesome and cries at night. This Pok\u00e9mon feeds on Wurmple that live in forests.",
@@ -8583,7 +8583,7 @@ const PokemonData = [
   },
   {
     name: "Swellow",
-    id: "#277",
+    id: "277",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/277.png",
     xdescription:
       "Swellow is very conscientious about the upkeep of its glossy wings. Once two Swellow are gathered, they diligently take care of cleaning each other's wings.",
@@ -8614,7 +8614,7 @@ const PokemonData = [
   },
   {
     name: "Wingull",
-    id: "#278",
+    id: "278",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/278.png",
     xdescription:
       "Wingull rides updrafts rising from the sea by extending its long and narrow wings to glide. This Pok\u00e9mon's long beak is useful for catching prey.",
@@ -8645,7 +8645,7 @@ const PokemonData = [
   },
   {
     name: "Pelipper",
-    id: "#279",
+    id: "279",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/279.png",
     xdescription:
       "Pelipper searches for food while in flight by skimming the wave tops. This Pok\u00e9mon dips its large bill in the sea to scoop up food, then swallows everything in one big gulp.",
@@ -8676,7 +8676,7 @@ const PokemonData = [
   },
   {
     name: "Ralts",
-    id: "#280",
+    id: "280",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/280.png",
     xdescription:
       "Ralts has the ability to sense the emotions of people. If its Trainer is in a cheerful mood, this Pok\u00e9mon grows cheerful and joyous in the same way.",
@@ -8707,7 +8707,7 @@ const PokemonData = [
   },
   {
     name: "Kirlia",
-    id: "#281",
+    id: "281",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/281.png",
     xdescription:
       "Kirlia uses the horns on its head to amplify its psychokinetic power. When the Pok\u00e9mon uses its power, the air around it becomes distorted, creating mirages of nonexistent scenery.",
@@ -8738,7 +8738,7 @@ const PokemonData = [
   },
   {
     name: "Gardevoir",
-    id: "#282",
+    id: "282",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/282.png",
     xdescription:
       "Gardevoir has the psychokinetic power to distort the dimensions and create a small black hole. This Pok\u00e9mon will try to protect its Trainer even at the risk of its own life.",
@@ -8769,7 +8769,7 @@ const PokemonData = [
   },
   {
     name: "Surskit",
-    id: "#283",
+    id: "283",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/283.png",
     xdescription:
       "If Surskit senses danger, it secretes a thick, sugary syrup from the tip of its head. There are some Pok\u00e9mon that love eating this syrup.",
@@ -8800,7 +8800,7 @@ const PokemonData = [
   },
   {
     name: "Masquerain",
-    id: "#284",
+    id: "284",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/284.png",
     xdescription:
       "Masquerain's antennas have eyelike patterns that usually give it an angry look. If the \u201ceyes\" are droopy and appear sad, it is said to be a sign that a heavy rainfall is on its way.",
@@ -8831,7 +8831,7 @@ const PokemonData = [
   },
   {
     name: "Shroomish",
-    id: "#285",
+    id: "285",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/285.png",
     xdescription:
       "If Shroomish senses danger, it shakes its body and scatters spores from the top of its head. This Pok\u00e9mon's spores are so toxic, they make trees and weeds wilt.",
@@ -8862,7 +8862,7 @@ const PokemonData = [
   },
   {
     name: "Breloom",
-    id: "#286",
+    id: "286",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/286.png",
     xdescription:
       "The seeds ringing Breloom's tail are made of hardened toxic spores. It is horrible to eat the seeds. Just taking a bite of this Pok\u00e9mon's seed will cause your stomach to rumble.",
@@ -8893,7 +8893,7 @@ const PokemonData = [
   },
   {
     name: "Slakoth",
-    id: "#287",
+    id: "287",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/287.png",
     xdescription:
       "Slakoth's heart beats just once a minute. Whatever happens, it is content to loaf around motionless. It is rare to see this Pok\u00e9mon in motion.",
@@ -8924,7 +8924,7 @@ const PokemonData = [
   },
   {
     name: "Vigoroth",
-    id: "#288",
+    id: "288",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/288.png",
     xdescription:
       "Vigoroth is simply incapable of remaining still. Even when it tries to sleep, the blood in its veins grows agitated, compelling this Pok\u00e9mon to run wild throughout the jungle before it can settle down.",
@@ -8955,7 +8955,7 @@ const PokemonData = [
   },
   {
     name: "Slaking",
-    id: "#289",
+    id: "289",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/289.png",
     xdescription:
       "Wherever Slaking live, rings of over a yard in diameter appear in grassy fields. They are made by the Pok\u00e9mon as it eats all the grass within reach while lying prone on the ground.",
@@ -8986,7 +8986,7 @@ const PokemonData = [
   },
   {
     name: "Nincada",
-    id: "#290",
+    id: "290",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/290.png",
     xdescription:
       "Nincada lives underground. It uses its sharp claws to carve the roots of trees and absorb moisture and nutrients. This Pok\u00e9mon can't withstand bright sunlight so avoids it.",
@@ -9017,7 +9017,7 @@ const PokemonData = [
   },
   {
     name: "Ninjask",
-    id: "#291",
+    id: "291",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/291.png",
     xdescription:
       "If Ninjask is not trained properly, it will refuse to obey the Trainer and cry loudly continuously. Because of this quality, this Pok\u00e9mon is said to be one that puts the Trainer's abilities to the test.",
@@ -9048,7 +9048,7 @@ const PokemonData = [
   },
   {
     name: "Shedinja",
-    id: "#292",
+    id: "292",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/292.png",
     xdescription:
       "Shedinja is a peculiar Pok\u00e9mon. It seems to appear unsought in a Pok\u00e9 Ball after a Nincada evolves. This bizarre Pok\u00e9mon is entirely immobile\u2014it doesn't even breathe.",
@@ -9077,7 +9077,7 @@ const PokemonData = [
   },
   {
     name: "Whismur",
-    id: "#293",
+    id: "293",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/293.png",
     xdescription:
       "Whismur is very timid. If it starts to cry loudly, it becomes startled by its own crying and cries even harder. When it finally stops crying, the Pok\u00e9mon goes to sleep, all tired out.",
@@ -9108,7 +9108,7 @@ const PokemonData = [
   },
   {
     name: "Loudred",
-    id: "#294",
+    id: "294",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/294.png",
     xdescription:
       "Loudred shouts while stamping its feet. After it finishes shouting, this Pok\u00e9mon becomes incapable of hearing anything for a while. This is considered to be a weak point.",
@@ -9139,7 +9139,7 @@ const PokemonData = [
   },
   {
     name: "Exploud",
-    id: "#295",
+    id: "295",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/295.png",
     xdescription:
       "Exploud communicates its feelings to the others by emitting whistle-like sounds from the tubes on its body. This Pok\u00e9mon only raises its voice when it is in battle.",
@@ -9170,7 +9170,7 @@ const PokemonData = [
   },
   {
     name: "Makuhita",
-    id: "#296",
+    id: "296",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/296.png",
     xdescription:
       "Makuhita has a tireless spirit\u2014it will never give up hope. It eats a lot of food, gets plenty of sleep, and it trains very rigorously. By living that way, this Pok\u00e9mon packs its body with energy.",
@@ -9201,7 +9201,7 @@ const PokemonData = [
   },
   {
     name: "Hariyama",
-    id: "#297",
+    id: "297",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/297.png",
     xdescription:
       "Hariyama's thick body may appear fat, but it is actually a hunk of solid muscle. If this Pok\u00e9mon bears down and tightens all its muscles, its body becomes as hard as a rock.",
@@ -9232,7 +9232,7 @@ const PokemonData = [
   },
   {
     name: "Azurill",
-    id: "#298",
+    id: "298",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/298.png",
     xdescription:
       "Azurill's tail is large and bouncy. It is packed full of the nutrients this Pok\u00e9mon needs to grow. Azurill can be seen bouncing and playing on its big, rubbery tail.",
@@ -9263,7 +9263,7 @@ const PokemonData = [
   },
   {
     name: "Nosepass",
-    id: "#299",
+    id: "299",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/299.png",
     xdescription:
       "Nosepass had been said to be completely unmoving, with its magnetic nose pointed due north. However, close observation has revealed that the Pok\u00e9mon actually moves by a little over 3/8 of an inch every year.",
@@ -9294,7 +9294,7 @@ const PokemonData = [
   },
   {
     name: "Skitty",
-    id: "#300",
+    id: "300",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/300.png",
     xdescription:
       "Skitty is known to chase around playfully after its own tail. In the wild, this Pok\u00e9mon lives in holes in the trees of forests. It is very popular as a pet because of its adorable looks.",
@@ -9325,7 +9325,7 @@ const PokemonData = [
   },
   {
     name: "Delcatty",
-    id: "#301",
+    id: "301",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/301.png",
     xdescription:
       "Delcatty sleeps anywhere it wants without keeping a permanent nest. If other Pok\u00e9mon approach it as it sleeps, this Pok\u00e9mon will never fight\u2014it will just move away somewhere else.",
@@ -9356,7 +9356,7 @@ const PokemonData = [
   },
   {
     name: "Sableye",
-    id: "#302",
+    id: "302",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/302.png",
     xdescription:
       "Sableye digs the ground with sharpened claws to find rocks that it eats. Substances in the eaten rocks crystallize and rise up to the Pok\u00e9mon's body surface.",
@@ -9387,7 +9387,7 @@ const PokemonData = [
   },
   {
     name: "Mawile",
-    id: "#303",
+    id: "303",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/303.png",
     xdescription:
       "Don't be taken in by this Pok\u00e9mon's cute face\u2014it's very dangerous. Mawile fools the foe into letting down its guard, then chomps down with its massive jaws. The steel jaws are really horns that have been transformed.",
@@ -9418,7 +9418,7 @@ const PokemonData = [
   },
   {
     name: "Aron",
-    id: "#304",
+    id: "304",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/304.png",
     xdescription:
       "Aron has a body of steel. With one all-out charge, this Pok\u00e9mon can demolish even a heavy dump truck. The destroyed dump truck then becomes a handy meal for the Pok\u00e9mon.",
@@ -9449,7 +9449,7 @@ const PokemonData = [
   },
   {
     name: "Lairon",
-    id: "#305",
+    id: "305",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/305.png",
     xdescription:
       "Lairon feeds on iron contained in rocks and water. It makes its nest on mountains where iron ore is buried. As a result, the Pok\u00e9mon often clashes with humans mining the iron ore.",
@@ -9480,7 +9480,7 @@ const PokemonData = [
   },
   {
     name: "Aggron",
-    id: "#306",
+    id: "306",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/306.png",
     xdescription:
       "Aggron is protective of its environment. If its mountain is ravaged by a landslide or a fire, this Pok\u00e9mon will haul topsoil to the area, plant trees, and beautifully restore its own territory.",
@@ -9511,7 +9511,7 @@ const PokemonData = [
   },
   {
     name: "Meditite",
-    id: "#307",
+    id: "307",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/307.png",
     xdescription:
       "Meditite heightens its inner energy through meditation. It survives on just one berry a day. Minimal eating is another aspect of this Pok\u00e9mon's training.",
@@ -9542,7 +9542,7 @@ const PokemonData = [
   },
   {
     name: "Medicham",
-    id: "#308",
+    id: "308",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/308.png",
     xdescription:
       "Through the power of meditation, Medicham developed its sixth sense. It gained the ability to use psychokinetic powers. This Pok\u00e9mon is known to meditate for a whole month without eating.",
@@ -9573,7 +9573,7 @@ const PokemonData = [
   },
   {
     name: "Electrike",
-    id: "#309",
+    id: "309",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/309.png",
     xdescription:
       "Electrike runs faster than the human eye can follow. The friction from running is converted into electricity, which is then stored in this Pok\u00e9mon's fur.",
@@ -9604,7 +9604,7 @@ const PokemonData = [
   },
   {
     name: "Manectric",
-    id: "#310",
+    id: "310",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/310.png",
     xdescription:
       "Manectric discharges strong electricity from its mane. The mane is used for collecting electricity in the atmosphere. This Pok\u00e9mon creates thunderclouds above its head.",
@@ -9635,7 +9635,7 @@ const PokemonData = [
   },
   {
     name: "Plusle",
-    id: "#311",
+    id: "311",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/311.png",
     xdescription:
       "When Plusle is cheering on its partner, it flashes with electric sparks from all over its body. If its partner loses, this Pok\u00e9mon cries loudly.",
@@ -9666,7 +9666,7 @@ const PokemonData = [
   },
   {
     name: "Minun",
-    id: "#312",
+    id: "312",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/312.png",
     xdescription:
       "Minun loves to cheer on its partner in battle. It gives off sparks from its body while it is doing so. If its partner is in trouble, this Pok\u00e9mon gives off increasing amounts of sparks.",
@@ -9697,7 +9697,7 @@ const PokemonData = [
   },
   {
     name: "Volbeat",
-    id: "#313",
+    id: "313",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/313.png",
     xdescription:
       "Volbeat's tail glows like a lightbulb. With other Volbeat, it uses its tail to draw geometric shapes in the night sky. This Pok\u00e9mon loves the sweet aroma given off by Illumise.",
@@ -9728,7 +9728,7 @@ const PokemonData = [
   },
   {
     name: "Illumise",
-    id: "#314",
+    id: "314",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/314.png",
     xdescription:
       "Illumise leads a flight of illuminated Volbeat to draw signs in the night sky. This Pok\u00e9mon is said to earn greater respect from its peers by composing more complex designs in the sky.",
@@ -9759,7 +9759,7 @@ const PokemonData = [
   },
   {
     name: "Roselia",
-    id: "#315",
+    id: "315",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/315.png",
     xdescription:
       "On extremely rare occasions, a Roselia is said to appear with its flowers in unusual colors. The thorns on this Pok\u00e9mon's head contain a vicious poison.",
@@ -9790,7 +9790,7 @@ const PokemonData = [
   },
   {
     name: "Gulpin",
-    id: "#316",
+    id: "316",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/316.png",
     xdescription:
       "Most of Gulpin's body is made up of its stomach\u2014its heart and brain are very small in comparison. This Pok\u00e9mon's stomach contains special enzymes that dissolve anything.",
@@ -9821,7 +9821,7 @@ const PokemonData = [
   },
   {
     name: "Swalot",
-    id: "#317",
+    id: "317",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/317.png",
     xdescription:
       "Swalot has no teeth, so what it eats, it swallows whole, no matter what. Its cavernous mouth yawns widely. An automobile tire could easily fit inside this Pok\u00e9mon's mouth.",
@@ -9852,7 +9852,7 @@ const PokemonData = [
   },
   {
     name: "Carvanha",
-    id: "#318",
+    id: "318",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/318.png",
     xdescription:
       "If anything invades Carvanha's territory, it will swarm and tear at the intruder with its pointed fangs. On its own, however, this Pok\u00e9mon turns suddenly timid.",
@@ -9883,7 +9883,7 @@ const PokemonData = [
   },
   {
     name: "Sharpedo",
-    id: "#319",
+    id: "319",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/319.png",
     xdescription:
       "Sharpedo can swim at speeds of up to 75 mph by jetting seawater out of its backside. This Pok\u00e9mon's drawback is its inability to swim long distances.",
@@ -9914,7 +9914,7 @@ const PokemonData = [
   },
   {
     name: "Wailmer",
-    id: "#320",
+    id: "320",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/320.png",
     xdescription:
       "Wailmer can store water inside its body to transform itself into a ball for bouncing around on the ground. By filling itself up with more water, this Pok\u00e9mon can elevate the height of its bounces.",
@@ -9945,7 +9945,7 @@ const PokemonData = [
   },
   {
     name: "Wailord",
-    id: "#321",
+    id: "321",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/321.png",
     xdescription:
       "When chasing prey, Wailord herds them by leaping out of the water and making a humongous splash. It is breathtaking to see this Pok\u00e9mon leaping out of the sea with others in its pod.",
@@ -9976,7 +9976,7 @@ const PokemonData = [
   },
   {
     name: "Numel",
-    id: "#322",
+    id: "322",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/322.png",
     xdescription:
       "Numel stores magma of almost 2,200 degrees Fahrenheit within its body. If it gets wet, the magma cools and hardens. In that event, the Pok\u00e9mon's body grows heavy and its movements become sluggish.",
@@ -10007,7 +10007,7 @@ const PokemonData = [
   },
   {
     name: "Camerupt",
-    id: "#323",
+    id: "323",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/323.png",
     xdescription:
       "The humps on Camerupt's back are formed by a transformation of its bones. They sometimes blast out molten magma. This Pok\u00e9mon apparently erupts often when it is enraged.",
@@ -10038,7 +10038,7 @@ const PokemonData = [
   },
   {
     name: "Torkoal",
-    id: "#324",
+    id: "324",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/324.png",
     xdescription:
       "Torkoal generates energy by burning coal. It grows weaker as the fire dies down. When it is preparing for battle, this Pok\u00e9mon burns more coal.",
@@ -10069,7 +10069,7 @@ const PokemonData = [
   },
   {
     name: "Spoink",
-    id: "#325",
+    id: "325",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/325.png",
     xdescription:
       "Spoink keeps a pearl on top of its head. The pearl functions to amplify this Pok\u00e9mon's psychokinetic powers. It is therefore on a constant search for a bigger pearl.",
@@ -10100,7 +10100,7 @@ const PokemonData = [
   },
   {
     name: "Grumpig",
-    id: "#326",
+    id: "326",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/326.png",
     xdescription:
       "Grumpig uses the black pearls on its body to wield its fantastic powers. When it is doing so, it dances bizarrely. This Pok\u00e9mon's black pearls are valuable as works of art.",
@@ -10131,7 +10131,7 @@ const PokemonData = [
   },
   {
     name: "Spinda",
-    id: "#327",
+    id: "327",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/327.png",
     xdescription:
       "No two Spinda are said to have identical spot patterns on their hides. This Pok\u00e9mon moves in a curious manner as if it is stumbling in dizziness. Its lurching movements can cause the opponent to become confused.",
@@ -10162,7 +10162,7 @@ const PokemonData = [
   },
   {
     name: "Trapinch",
-    id: "#328",
+    id: "328",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/328.png",
     xdescription:
       "Trapinch is a patient hunter. It digs an inescapable pit in a desert and waits for its prey to come tumbling down. This Pok\u00e9mon can go a whole week without access to any water.",
@@ -10193,7 +10193,7 @@ const PokemonData = [
   },
   {
     name: "Vibrava",
-    id: "#329",
+    id: "329",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/329.png",
     xdescription:
       "Vibrava's wings have not yet completed the process of growing. Rather than flying long distances, they are more useful for generating ultrasonic waves by vibrating.",
@@ -10224,7 +10224,7 @@ const PokemonData = [
   },
   {
     name: "Flygon",
-    id: "#330",
+    id: "330",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/330.png",
     xdescription:
       'Flygon whips up a sandstorm by flapping its wings. The wings create a series of notes that sound like singing. Because the \u201csinging" is the only thing that can be heard in a sandstorm, this Pok\u00e9mon is said to be the desert spirit.',
@@ -10255,7 +10255,7 @@ const PokemonData = [
   },
   {
     name: "Cacnea",
-    id: "#331",
+    id: "331",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/331.png",
     xdescription:
       "The more arid and harsh the environment, the more pretty and fragrant a flower Cacnea grows. This Pok\u00e9mon battles by wildly swinging its thorny arms.",
@@ -10286,7 +10286,7 @@ const PokemonData = [
   },
   {
     name: "Cacturne",
-    id: "#332",
+    id: "332",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/332.png",
     xdescription:
       "If a traveler is going through a desert in the thick of night, Cacturne will follow in a ragtag group. The Pok\u00e9mon are biding their time, waiting for the traveler to tire and become incapable of moving.",
@@ -10317,7 +10317,7 @@ const PokemonData = [
   },
   {
     name: "Swablu",
-    id: "#333",
+    id: "333",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/333.png",
     xdescription:
       "Swablu loves to make things clean. If it spots something dirty, it will wipe and polish it with its cottony wings. If its wings become dirty, this Pok\u00e9mon finds a stream and showers itself.",
@@ -10348,7 +10348,7 @@ const PokemonData = [
   },
   {
     name: "Altaria",
-    id: "#334",
+    id: "334",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/334.png",
     xdescription:
       "Altaria sings in a gorgeous soprano. Its wings are like cotton clouds. This Pok\u00e9mon catches updrafts with its buoyant wings and soars way up into the wild blue yonder.",
@@ -10379,7 +10379,7 @@ const PokemonData = [
   },
   {
     name: "Zangoose",
-    id: "#335",
+    id: "335",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/335.png",
     xdescription:
       "Zangoose usually stays on all fours, but when angered, it gets up on its hind legs and extends its claws. This Pok\u00e9mon shares a bitter rivalry with Seviper that dates back over generations.",
@@ -10410,7 +10410,7 @@ const PokemonData = [
   },
   {
     name: "Seviper",
-    id: "#336",
+    id: "336",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/336.png",
     xdescription:
       "Seviper's swordlike tail serves two purposes\u2014it slashes foes and douses them with secreted poison. This Pok\u00e9mon will not give up its long-running blood feud with Zangoose.",
@@ -10441,7 +10441,7 @@ const PokemonData = [
   },
   {
     name: "Lunatone",
-    id: "#337",
+    id: "337",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/337.png",
     xdescription:
       "Lunatone becomes active around the time of the full moon. Instead of walking, it moves by floating in midair. The Pok\u00e9mon's intimidating red eyes cause all those who see it to become transfixed with fear.",
@@ -10470,7 +10470,7 @@ const PokemonData = [
   },
   {
     name: "Solrock",
-    id: "#338",
+    id: "338",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/338.png",
     xdescription:
       "Sunlight is the source of Solrock's power. It is said to possess the ability to read the emotions of others. This Pok\u00e9mon gives off intense heat while rotating its body.",
@@ -10499,7 +10499,7 @@ const PokemonData = [
   },
   {
     name: "Barboach",
-    id: "#339",
+    id: "339",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/339.png",
     xdescription:
       "Barboach's body is covered with a slimy film. If a foe grabs it, this Pok\u00e9mon just slips out of the enemy's grip. This Pok\u00e9mon grows weak if the slimy coating dries up.",
@@ -10530,7 +10530,7 @@ const PokemonData = [
   },
   {
     name: "Whiscash",
-    id: "#340",
+    id: "340",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/340.png",
     xdescription:
       "If Whiscash goes on a wild rampage, it sets off a quake-like tremor with a radius of over three miles. This Pok\u00e9mon has the ability to predict real earthquakes.",
@@ -10561,7 +10561,7 @@ const PokemonData = [
   },
   {
     name: "Corphish",
-    id: "#341",
+    id: "341",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/341.png",
     xdescription:
       "Corphish catches prey with its sharp claws. It has no likes or dislikes when it comes to food\u2014it will eat anything. This Pok\u00e9mon has no trouble living in filthy water.",
@@ -10592,7 +10592,7 @@ const PokemonData = [
   },
   {
     name: "Crawdaunt",
-    id: "#342",
+    id: "342",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/342.png",
     xdescription:
       "Crawdaunt molts (sheds) its shell regularly. Immediately after molting, its shell is soft and tender. Until the shell hardens, this Pok\u00e9mon hides in its streambed burrow to avoid attack from its foes.",
@@ -10623,7 +10623,7 @@ const PokemonData = [
   },
   {
     name: "Baltoy",
-    id: "#343",
+    id: "343",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/343.png",
     xdescription:
       "As soon as it spots others of its kind, Baltoy congregates with them and then begins crying noisily in unison. This Pok\u00e9mon sleeps while cleverly balancing itself on its one foot.",
@@ -10652,7 +10652,7 @@ const PokemonData = [
   },
   {
     name: "Claydol",
-    id: "#344",
+    id: "344",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/344.png",
     xdescription:
       "Claydol is an enigma that appeared from a clay statue made by an ancient civilization dating back 20,000 years. This Pok\u00e9mon shoots beams from both its hands.",
@@ -10681,7 +10681,7 @@ const PokemonData = [
   },
   {
     name: "Lileep",
-    id: "#345",
+    id: "345",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/345.png",
     xdescription:
       "Lileep is an ancient Pok\u00e9mon that was regenerated from a fossil. It remains permanently anchored to a rock. From its immobile perch, this Pok\u00e9mon intently scans for prey with its two eyes.",
@@ -10712,7 +10712,7 @@ const PokemonData = [
   },
   {
     name: "Cradily",
-    id: "#346",
+    id: "346",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/346.png",
     xdescription:
       "Cradily's body serves as an anchor, preventing it from being washed away in rough seas. This Pok\u00e9mon secretes a strong digestive fluid from its tentacles.",
@@ -10743,7 +10743,7 @@ const PokemonData = [
   },
   {
     name: "Anorith",
-    id: "#347",
+    id: "347",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/347.png",
     xdescription:
       "Anorith is said to be a type of Pok\u00e9mon predecessor, with eight wings at the sides of its body. This Pok\u00e9mon swam in the primordial sea by undulating these eight wings.",
@@ -10774,7 +10774,7 @@ const PokemonData = [
   },
   {
     name: "Armaldo",
-    id: "#348",
+    id: "348",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/348.png",
     xdescription:
       "Armaldo is a Pok\u00e9mon species that became extinct in prehistoric times. This Pok\u00e9mon is said to have walked on its hind legs, which would have been more convenient for life on land.",
@@ -10805,7 +10805,7 @@ const PokemonData = [
   },
   {
     name: "Feebas",
-    id: "#349",
+    id: "349",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/349.png",
     xdescription:
       "While Feebas's body is in tatters, it has a hardy and tenacious life force that enables it to live anywhere. However, this Pok\u00e9mon is also slow and dimwitted, making it an easy catch.",
@@ -10836,7 +10836,7 @@ const PokemonData = [
   },
   {
     name: "Milotic",
-    id: "#350",
+    id: "350",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/350.png",
     xdescription:
       "Milotic live at the bottom of large lakes. When this Pok\u00e9mon's body glows a vivid pink, it releases a pulsing wave of energy that brings soothing calm to troubled hearts.",
@@ -10867,7 +10867,7 @@ const PokemonData = [
   },
   {
     name: "Castform",
-    id: "#351",
+    id: "351",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/351.png",
     xdescription:
       "Castform borrows the power of nature to transform itself into the guises of the sun, rain, and snow-clouds. This Pok\u00e9mon's feelings change with the weather.",
@@ -10898,7 +10898,7 @@ const PokemonData = [
   },
   {
     name: "Kecleon",
-    id: "#352",
+    id: "352",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/352.png",
     xdescription:
       "Kecleon alters its body coloration to blend in with its surroundings, allowing it to sneak up on its prey unnoticed. Then it lashes out with its long, stretchy tongue to instantly ensnare the unsuspecting target.",
@@ -10929,7 +10929,7 @@ const PokemonData = [
   },
   {
     name: "Shuppet",
-    id: "#353",
+    id: "353",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/353.png",
     xdescription:
       "Shuppet grows by feeding on dark emotions, such as vengefulness and envy, in the hearts of people. It roams through cities in search of grudges that taint people.",
@@ -10960,7 +10960,7 @@ const PokemonData = [
   },
   {
     name: "Banette",
-    id: "#354",
+    id: "354",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/354.png",
     xdescription:
       "A cursed energy permeated the stuffing of a discarded and forgotten plush doll, giving it new life as Banette. The Pok\u00e9mon's energy would escape if it were to ever open its mouth.",
@@ -10991,7 +10991,7 @@ const PokemonData = [
   },
   {
     name: "Duskull",
-    id: "#355",
+    id: "355",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/355.png",
     xdescription:
       "Duskull wanders lost among the deep darkness of midnight. There is an oft-told admonishment given to misbehaving children that this Pok\u00e9mon will spirit away bad children who earn scoldings from their mothers.",
@@ -11022,7 +11022,7 @@ const PokemonData = [
   },
   {
     name: "Dusclops",
-    id: "#356",
+    id: "356",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/356.png",
     xdescription:
       "Dusclops absorbs anything, however large the object may be. This Pok\u00e9mon hypnotizes its foe by waving its hands in a macabre manner and by bringing its single eye to bear. The hypnotized foe is made to do Dusclops's bidding.",
@@ -11053,7 +11053,7 @@ const PokemonData = [
   },
   {
     name: "Tropius",
-    id: "#357",
+    id: "357",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/357.png",
     xdescription:
       "Children of the southern tropics eat as snacks the fruit that grows in bunches around the neck of Tropius. This Pok\u00e9mon flies by flapping the leaves on its back as if they were wings.",
@@ -11084,7 +11084,7 @@ const PokemonData = [
   },
   {
     name: "Chimecho",
-    id: "#358",
+    id: "358",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/358.png",
     xdescription:
       "In high winds, Chimecho cries as it hangs from a tree branch or the eaves of a building using a suction cup on its head. This Pok\u00e9mon plucks berries with its long tail and eats them.",
@@ -11115,7 +11115,7 @@ const PokemonData = [
   },
   {
     name: "Absol",
-    id: "#359",
+    id: "359",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/359.png",
     xdescription:
       "Absol has the ability to foretell the coming of natural disasters. It lives in a harsh, rugged mountain environment. This Pok\u00e9mon very rarely ventures down from the mountains.",
@@ -11146,7 +11146,7 @@ const PokemonData = [
   },
   {
     name: "Wynaut",
-    id: "#360",
+    id: "360",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/360.png",
     xdescription:
       "Wynaut gather on moonlit nights to play by squeezing up against each other. By being squeezed, this Pok\u00e9mon gains endurance and is trained to dole out powerful counterattacks.",
@@ -11177,7 +11177,7 @@ const PokemonData = [
   },
   {
     name: "Snorunt",
-    id: "#361",
+    id: "361",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/361.png",
     xdescription:
       "Snorunt survives by eating only snow and ice. Old folklore claims that a house visited by this Pok\u00e9mon is sure to prosper for many generations to come.",
@@ -11208,7 +11208,7 @@ const PokemonData = [
   },
   {
     name: "Glalie",
-    id: "#362",
+    id: "362",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/362.png",
     xdescription:
       "Glalie has the ability to freely control ice. For example, it can instantly freeze its prey solid. After immobilizing its prey in ice, this Pok\u00e9mon enjoys eating it in leisurely fashion.",
@@ -11239,7 +11239,7 @@ const PokemonData = [
   },
   {
     name: "Spheal",
-    id: "#363",
+    id: "363",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/363.png",
     xdescription:
       "Spheal always travels by rolling around on its ball-like body. When the season for ice floes arrives, this Pok\u00e9mon can be seen rolling about on ice and crossing the sea.",
@@ -11270,7 +11270,7 @@ const PokemonData = [
   },
   {
     name: "Sealeo",
-    id: "#364",
+    id: "364",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/364.png",
     xdescription:
       "Sealeo often balances and rolls things on the tip of its nose. While the Pok\u00e9mon is rolling something, it checks the object's aroma and texture to determine whether it likes the object or not.",
@@ -11301,7 +11301,7 @@ const PokemonData = [
   },
   {
     name: "Walrein",
-    id: "#365",
+    id: "365",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/365.png",
     xdescription:
       "Walrein swims all over in frigid seawater while crushing icebergs with its grand, imposing tusks. Its thick layer of blubber makes enemy attacks bounce off harmlessly.",
@@ -11332,7 +11332,7 @@ const PokemonData = [
   },
   {
     name: "Clamperl",
-    id: "#366",
+    id: "366",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/366.png",
     xdescription:
       "Clamperl grows while being protected by its rock-hard shell. When its body becomes too large to fit inside the shell, it is sure evidence that this Pok\u00e9mon is getting close to evolution.",
@@ -11363,7 +11363,7 @@ const PokemonData = [
   },
   {
     name: "Huntail",
-    id: "#367",
+    id: "367",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/367.png",
     xdescription:
       "Huntail's tail is shaped like a fish. It uses the tail to attract prey, then swallows the prey whole with its large, gaping mouth. This Pok\u00e9mon swims by wiggling its slender body like a snake.",
@@ -11394,7 +11394,7 @@ const PokemonData = [
   },
   {
     name: "Gorebyss",
-    id: "#368",
+    id: "368",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/368.png",
     xdescription:
       "Although Gorebyss is the very picture of elegance and beauty while swimming, it is also cruel. When it spots prey, this Pok\u00e9mon inserts its thin mouth into the prey's body and drains the prey of its body fluids.",
@@ -11425,7 +11425,7 @@ const PokemonData = [
   },
   {
     name: "Relicanth",
-    id: "#369",
+    id: "369",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/369.png",
     xdescription:
       "Relicanth is a rare species that was discovered in deep-sea explorations. This Pok\u00e9mon's body withstands the enormous water pressure of the ocean depths. Its body is covered in tough scales that are like craggy rocks.",
@@ -11456,7 +11456,7 @@ const PokemonData = [
   },
   {
     name: "Luvdisc",
-    id: "#370",
+    id: "370",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/370.png",
     xdescription:
       "Luvdisc's heart-shaped body is a symbol of love and romance. It is said that any couple meeting this Pok\u00e9mon is promised a loving relationship that never ends.",
@@ -11487,7 +11487,7 @@ const PokemonData = [
   },
   {
     name: "Bagon",
-    id: "#371",
+    id: "371",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/371.png",
     xdescription:
       "Bagon harbors a never-ending dream of one day soaring high among the clouds. As if trying to dispel its frustration over its inability to fly, this Pok\u00e9mon slams its hard head against huge rocks and shatters them into pebbles.",
@@ -11518,7 +11518,7 @@ const PokemonData = [
   },
   {
     name: "Shelgon",
-    id: "#372",
+    id: "372",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/372.png",
     xdescription:
       "Covering Shelgon's body are outgrowths much like bones. The shell is very hard and bounces off enemy attacks. When awaiting evolution, this Pok\u00e9mon hides away in a cavern.",
@@ -11549,7 +11549,7 @@ const PokemonData = [
   },
   {
     name: "Salamence",
-    id: "#373",
+    id: "373",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/373.png",
     xdescription:
       "By evolving into Salamence, this Pok\u00e9mon finally realizes its long-held dream of growing wings. To express its joy, it flies and wheels all over the sky while spouting flames from its mouth.",
@@ -11580,7 +11580,7 @@ const PokemonData = [
   },
   {
     name: "Beldum",
-    id: "#374",
+    id: "374",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/374.png",
     xdescription:
       "Beldum keeps itself floating by generating a magnetic force that repels earth's natural magnetism. When it sleeps, this Pok\u00e9mon anchors itself to a cliff using the hooks on its rear.",
@@ -11609,7 +11609,7 @@ const PokemonData = [
   },
   {
     name: "Metang",
-    id: "#375",
+    id: "375",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/375.png",
     xdescription:
       "When two Beldum fuse together, Metang is formed. The brains of the Beldum are joined by a magnetic nervous system. This Pok\u00e9mon turns its arms to the rear for traveling at high speed.",
@@ -11638,7 +11638,7 @@ const PokemonData = [
   },
   {
     name: "Metagross",
-    id: "#376",
+    id: "376",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/376.png",
     xdescription:
       "Metagross is the result of two Metang achieving fusion. When hunting, this Pok\u00e9mon pins the prey to the ground under its massive body. It then eats the helpless victim using the large mouth on its stomach.",
@@ -11667,7 +11667,7 @@ const PokemonData = [
   },
   {
     name: "Regirock",
-    id: "#377",
+    id: "377",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/377.png",
     xdescription:
       "Regirock's body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.",
@@ -11696,7 +11696,7 @@ const PokemonData = [
   },
   {
     name: "Regice",
-    id: "#378",
+    id: "378",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/378.png",
     xdescription:
       "Regice cloaks itself with frigid air of -328 degrees Fahrenheit. Things will freeze solid just by going near this Pok\u00e9mon. Its icy body is so cold, it will not melt even if it is immersed in magma.",
@@ -11725,7 +11725,7 @@ const PokemonData = [
   },
   {
     name: "Registeel",
-    id: "#379",
+    id: "379",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/379.png",
     xdescription:
       "Registeel was imprisoned by people in ancient times. The metal composing its body is thought to be a curious substance that is not of this earth.",
@@ -11754,7 +11754,7 @@ const PokemonData = [
   },
   {
     name: "Latias",
-    id: "#380",
+    id: "380",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/380.png",
     xdescription:
       "Latias is highly intelligent and capable of understanding human speech. It is covered with a glass-like down. The Pok\u00e9mon enfolds its body with its down and refracts light to alter its appearance.",
@@ -11785,7 +11785,7 @@ const PokemonData = [
   },
   {
     name: "Latios",
-    id: "#381",
+    id: "381",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/381.png",
     xdescription:
       "Latios will only open its heart to a Trainer with a compassionate spirit. This Pok\u00e9mon can fly faster than a jet plane by folding its forelegs to minimize air resistance.",
@@ -11816,7 +11816,7 @@ const PokemonData = [
   },
   {
     name: "Kyogre",
-    id: "#382",
+    id: "382",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/382.png",
     xdescription:
       "Kyogre is said to be the personification of the sea itself. Legends tell of its many clashes against Groudon, as each sought to gain the power of nature.",
@@ -11845,7 +11845,7 @@ const PokemonData = [
   },
   {
     name: "Groudon",
-    id: "#383",
+    id: "383",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/383.png",
     xdescription:
       "Through Primal Reversion and with nature's full power, it will take back its true form. It can cause magma to erupt and expand the landmass of the world.",
@@ -11874,7 +11874,7 @@ const PokemonData = [
   },
   {
     name: "Rayquaza",
-    id: "#384",
+    id: "384",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/384.png",
     xdescription:
       "It flies forever through the ozone layer, consuming meteoroids for sustenance. The many meteoroids in its body provide the energy it needs to Mega Evolve.",
@@ -11903,7 +11903,7 @@ const PokemonData = [
   },
   {
     name: "Jirachi",
-    id: "#385",
+    id: "385",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/385.png",
     xdescription:
       "Jirachi will awaken from its sleep of a thousand years if you sing to it in a voice of purity. It is said to make true any wish that people desire.",
@@ -11932,7 +11932,7 @@ const PokemonData = [
   },
   {
     name: "Deoxys",
-    id: "#386",
+    id: "386",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/386.png",
     xdescription:
       "Deoxys emerged from a virus that came from space. It is highly intelligent and wields psychokinetic powers. This Pok\u00e9mon shoots lasers from the crystalline organ on its chest.",
@@ -11961,7 +11961,7 @@ const PokemonData = [
   },
   {
     name: "Turtwig",
-    id: "#387",
+    id: "387",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/387.png",
     xdescription:
       "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.",
@@ -11992,7 +11992,7 @@ const PokemonData = [
   },
   {
     name: "Grotle",
-    id: "#388",
+    id: "388",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/388.png",
     xdescription:
       "It knows where pure water wells up. It carries fellow Pok\u00e9mon there on its back.",
@@ -12023,7 +12023,7 @@ const PokemonData = [
   },
   {
     name: "Torterra",
-    id: "#389",
+    id: "389",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/389.png",
     xdescription:
       "Small Pok\u00e9mon occasionally gather on its unmoving back to begin building their nests.",
@@ -12054,7 +12054,7 @@ const PokemonData = [
   },
   {
     name: "Chimchar",
-    id: "#390",
+    id: "390",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/390.png",
     xdescription:
       "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.",
@@ -12085,7 +12085,7 @@ const PokemonData = [
   },
   {
     name: "Monferno",
-    id: "#391",
+    id: "391",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/391.png",
     xdescription:
       "It uses ceilings and walls to launch aerial attacks. Its fiery tail is but one weapon.",
@@ -12116,7 +12116,7 @@ const PokemonData = [
   },
   {
     name: "Infernape",
-    id: "#392",
+    id: "392",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/392.png",
     xdescription:
       "It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style.",
@@ -12147,7 +12147,7 @@ const PokemonData = [
   },
   {
     name: "Piplup",
-    id: "#393",
+    id: "393",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/393.png",
     xdescription:
       "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
@@ -12178,7 +12178,7 @@ const PokemonData = [
   },
   {
     name: "Prinplup",
-    id: "#394",
+    id: "394",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/394.png",
     xdescription:
       "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees.",
@@ -12209,7 +12209,7 @@ const PokemonData = [
   },
   {
     name: "Empoleon",
-    id: "#395",
+    id: "395",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/395.png",
     xdescription:
       "The three horns that extend from its beak attest to its power. The leader has the biggest horns.",
@@ -12240,7 +12240,7 @@ const PokemonData = [
   },
   {
     name: "Starly",
-    id: "#396",
+    id: "396",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/396.png",
     xdescription:
       "They flock around mountains and fields, chasing after bug Pok\u00e9mon. Their singing is noisy and annoying.",
@@ -12271,7 +12271,7 @@ const PokemonData = [
   },
   {
     name: "Staravia",
-    id: "#397",
+    id: "397",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/397.png",
     xdescription:
       "It lives in forests and fields. Squabbles over territory occur when flocks collide.",
@@ -12302,7 +12302,7 @@ const PokemonData = [
   },
   {
     name: "Staraptor",
-    id: "#398",
+    id: "398",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/398.png",
     xdescription:
       "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
@@ -12333,7 +12333,7 @@ const PokemonData = [
   },
   {
     name: "Bidoof",
-    id: "#399",
+    id: "399",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/399.png",
     xdescription:
       "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.",
@@ -12364,7 +12364,7 @@ const PokemonData = [
   },
   {
     name: "Bibarel",
-    id: "#400",
+    id: "400",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/400.png",
     xdescription:
       "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
@@ -12395,7 +12395,7 @@ const PokemonData = [
   },
   {
     name: "Kricketot",
-    id: "#401",
+    id: "401",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/401.png",
     xdescription:
       "When its antennae hit each other, it sounds like the music of a xylophone.",
@@ -12426,7 +12426,7 @@ const PokemonData = [
   },
   {
     name: "Kricketune",
-    id: "#402",
+    id: "402",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/402.png",
     xdescription:
       "It signals its emotions with its melodies. Scientists are studying these melodic patterns.",
@@ -12457,7 +12457,7 @@ const PokemonData = [
   },
   {
     name: "Shinx",
-    id: "#403",
+    id: "403",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/403.png",
     xdescription:
       "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
@@ -12488,7 +12488,7 @@ const PokemonData = [
   },
   {
     name: "Luxio",
-    id: "#404",
+    id: "404",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/404.png",
     xdescription:
       "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
@@ -12519,7 +12519,7 @@ const PokemonData = [
   },
   {
     name: "Luxray",
-    id: "#405",
+    id: "405",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/405.png",
     xdescription:
       "Luxray's ability to see through objects comes in handy when it's scouting for danger.",
@@ -12550,7 +12550,7 @@ const PokemonData = [
   },
   {
     name: "Budew",
-    id: "#406",
+    id: "406",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/406.png",
     xdescription:
       "Over the winter, it closes its bud and endures the cold. In spring, the bud opens and releases pollen.",
@@ -12581,7 +12581,7 @@ const PokemonData = [
   },
   {
     name: "Roserade",
-    id: "#407",
+    id: "407",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/407.png",
     xdescription:
       "With the movements of a dancer, it strikes with whips that are densely lined with poison thorns.",
@@ -12612,7 +12612,7 @@ const PokemonData = [
   },
   {
     name: "Cranidos",
-    id: "#408",
+    id: "408",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/408.png",
     xdescription:
       "A lifelong jungle dweller from 100 million years ago, it would snap obstructing trees with headbutts.",
@@ -12643,7 +12643,7 @@ const PokemonData = [
   },
   {
     name: "Rampardos",
-    id: "#409",
+    id: "409",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/409.png",
     xdescription:
       "Its skull is as hard as iron. It is a brute that tears down jungle trees while catching prey.",
@@ -12674,7 +12674,7 @@ const PokemonData = [
   },
   {
     name: "Shieldon",
-    id: "#410",
+    id: "410",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/410.png",
     xdescription:
       "It was generated from a fossil dug out of a layer of clay that was older than anyone knows. It has a sturdy face.",
@@ -12705,7 +12705,7 @@ const PokemonData = [
   },
   {
     name: "Bastiodon",
-    id: "#411",
+    id: "411",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/411.png",
     xdescription:
       "Any frontal attack is repulsed. It is a docile Pok\u00e9mon that feeds on grass and berries.",
@@ -12736,7 +12736,7 @@ const PokemonData = [
   },
   {
     name: "Burmy",
-    id: "#412",
+    id: "412",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/412.png",
     xdescription:
       "If its cloak is broken in battle, it quickly remakes the cloak with materials nearby.",
@@ -12767,7 +12767,7 @@ const PokemonData = [
   },
   {
     name: "Wormadam",
-    id: "#413",
+    id: "413",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/413.png",
     xdescription:
       "When Burmy evolved, its cloak became a part of this Pok\u00e9mon's body. The cloak is never shed.",
@@ -12798,7 +12798,7 @@ const PokemonData = [
   },
   {
     name: "Mothim",
-    id: "#414",
+    id: "414",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/414.png",
     xdescription:
       "It flutters around at night and steals honey from the Combee hive.",
@@ -12829,7 +12829,7 @@ const PokemonData = [
   },
   {
     name: "Combee",
-    id: "#415",
+    id: "415",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/415.png",
     xdescription:
       "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep.",
@@ -12860,7 +12860,7 @@ const PokemonData = [
   },
   {
     name: "Vespiquen",
-    id: "#416",
+    id: "416",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/416.png",
     xdescription:
       "Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by Combee.",
@@ -12891,7 +12891,7 @@ const PokemonData = [
   },
   {
     name: "Pachirisu",
-    id: "#417",
+    id: "417",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/417.png",
     xdescription:
       "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
@@ -12922,7 +12922,7 @@ const PokemonData = [
   },
   {
     name: "Buizel",
-    id: "#418",
+    id: "418",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/418.png",
     xdescription:
       "It inflates the flotation sac around its neck and pokes its head out of the water to see what is going on.",
@@ -12953,7 +12953,7 @@ const PokemonData = [
   },
   {
     name: "Floatzel",
-    id: "#419",
+    id: "419",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/419.png",
     xdescription:
       "Its flotation sac developed as a result of pursuing aquatic prey. It can double as a rubber raft.",
@@ -12984,7 +12984,7 @@ const PokemonData = [
   },
   {
     name: "Cherubi",
-    id: "#420",
+    id: "420",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/420.png",
     xdescription:
       "It evolves by sucking the energy out of the small ball where it had been storing nutrients.",
@@ -13015,7 +13015,7 @@ const PokemonData = [
   },
   {
     name: "Cherrim",
-    id: "#421",
+    id: "421",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/421.png",
     xdescription:
       "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body.",
@@ -13046,7 +13046,7 @@ const PokemonData = [
   },
   {
     name: "Shellos",
-    id: "#422",
+    id: "422",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/422.png",
     xdescription: "Its shape and coloration vary, depending on its habitat.",
     ydescription:
@@ -13076,7 +13076,7 @@ const PokemonData = [
   },
   {
     name: "Gastrodon",
-    id: "#423",
+    id: "423",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/423.png",
     xdescription:
       "It apparently had a huge shell for protection in ancient times. It lives in shallow tidal pools.",
@@ -13107,7 +13107,7 @@ const PokemonData = [
   },
   {
     name: "Ambipom",
-    id: "#424",
+    id: "424",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/424.png",
     xdescription:
       "To eat, it deftly shucks nuts with its two tails. It rarely uses its arms now.",
@@ -13138,7 +13138,7 @@ const PokemonData = [
   },
   {
     name: "Drifloon",
-    id: "#425",
+    id: "425",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/425.png",
     xdescription:
       "These Pok\u00e9mon are called the \u201cSignpost for Wandering Spirits.\u201d Children holding them sometimes vanish.",
@@ -13169,7 +13169,7 @@ const PokemonData = [
   },
   {
     name: "Drifblim",
-    id: "#426",
+    id: "426",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/426.png",
     xdescription:
       "It's drowsy in daytime, but flies off in the evening in big groups. No one knows where they go.",
@@ -13200,7 +13200,7 @@ const PokemonData = [
   },
   {
     name: "Buneary",
-    id: "#427",
+    id: "427",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/427.png",
     xdescription:
       "When it senses danger, it perks up its ears. On cold nights, it sleeps with its head tucked into its fur.",
@@ -13231,7 +13231,7 @@ const PokemonData = [
   },
   {
     name: "Lopunny",
-    id: "#428",
+    id: "428",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/428.png",
     xdescription:
       "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs.",
@@ -13262,7 +13262,7 @@ const PokemonData = [
   },
   {
     name: "Mismagius",
-    id: "#429",
+    id: "429",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/429.png",
     xdescription:
       "Its cries sound like incantations to torment the foe. It appears where you least expect it.",
@@ -13293,7 +13293,7 @@ const PokemonData = [
   },
   {
     name: "Honchkrow",
-    id: "#430",
+    id: "430",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/430.png",
     xdescription:
       "Becoming active at night, it is known to swarm with numerous Murkrow in tow.",
@@ -13324,7 +13324,7 @@ const PokemonData = [
   },
   {
     name: "Glameow",
-    id: "#431",
+    id: "431",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/431.png",
     xdescription:
       "When it's happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon.",
@@ -13355,7 +13355,7 @@ const PokemonData = [
   },
   {
     name: "Purugly",
-    id: "#432",
+    id: "432",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/432.png",
     xdescription:
       "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails.",
@@ -13386,7 +13386,7 @@ const PokemonData = [
   },
   {
     name: "Chingling",
-    id: "#433",
+    id: "433",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/433.png",
     xdescription:
       "There is an orb inside its mouth. When it hops, the orb bounces all over and makes a ringing sound.",
@@ -13417,7 +13417,7 @@ const PokemonData = [
   },
   {
     name: "Stunky",
-    id: "#434",
+    id: "434",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/434.png",
     xdescription:
       "It protects itself by spraying a noxious fluid from its rear. The stench lingers for 24 hours.",
@@ -13448,7 +13448,7 @@ const PokemonData = [
   },
   {
     name: "Skuntank",
-    id: "#435",
+    id: "435",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/435.png",
     xdescription:
       "It sprays a stinky fluid from its tail. The fluid smells worse the longer it is allowed to fester.",
@@ -13479,7 +13479,7 @@ const PokemonData = [
   },
   {
     name: "Bronzor",
-    id: "#436",
+    id: "436",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/436.png",
     xdescription:
       "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
@@ -13508,7 +13508,7 @@ const PokemonData = [
   },
   {
     name: "Bronzong",
-    id: "#437",
+    id: "437",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/437.png",
     xdescription:
       "Ancient people believed that petitioning Bronzong for rain was the way to make crops grow.",
@@ -13537,7 +13537,7 @@ const PokemonData = [
   },
   {
     name: "Bonsly",
-    id: "#438",
+    id: "438",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/438.png",
     xdescription:
       "It prefers an arid atmosphere. It leaks water that looks like tears when adjusting its moisture level.",
@@ -13568,7 +13568,7 @@ const PokemonData = [
   },
   {
     name: "Mime Jr.",
-    id: "#439",
+    id: "439",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/439.png",
     xdescription:
       "It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pok\u00e9mon.",
@@ -13599,7 +13599,7 @@ const PokemonData = [
   },
   {
     name: "Happiny",
-    id: "#440",
+    id: "440",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/440.png",
     xdescription:
       "It carefully carries a round, white rock that it thinks is an egg. It's bothered by how curly its hair looks.",
@@ -13630,7 +13630,7 @@ const PokemonData = [
   },
   {
     name: "Chatot",
-    id: "#441",
+    id: "441",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/441.png",
     xdescription:
       "It can learn and speak human words. If they gather, they all learn the same saying.",
@@ -13661,7 +13661,7 @@ const PokemonData = [
   },
   {
     name: "Spiritomb",
-    id: "#442",
+    id: "442",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/442.png",
     xdescription:
       "It was bound to a fissure in an odd keystone as punishment for misdeeds 500 years ago.",
@@ -13692,7 +13692,7 @@ const PokemonData = [
   },
   {
     name: "Gible",
-    id: "#443",
+    id: "443",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/443.png",
     xdescription:
       "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
@@ -13723,7 +13723,7 @@ const PokemonData = [
   },
   {
     name: "Gabite",
-    id: "#444",
+    id: "444",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/444.png",
     xdescription:
       "As it digs to expand its nest, it habitually digs up gems that it then hoards in its nest.",
@@ -13754,7 +13754,7 @@ const PokemonData = [
   },
   {
     name: "Garchomp",
-    id: "#445",
+    id: "445",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/445.png",
     xdescription:
       "It flies at speeds equal to a jet fighter plane. It never allows its prey to escape.",
@@ -13785,7 +13785,7 @@ const PokemonData = [
   },
   {
     name: "Munchlax",
-    id: "#446",
+    id: "446",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/446.png",
     xdescription:
       "It conceals food under the long fur on its body. It carts around this food stash and swallows it without chewing.",
@@ -13816,7 +13816,7 @@ const PokemonData = [
   },
   {
     name: "Riolu",
-    id: "#447",
+    id: "447",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/447.png",
     xdescription:
       "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
@@ -13847,7 +13847,7 @@ const PokemonData = [
   },
   {
     name: "Lucario",
-    id: "#448",
+    id: "448",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/448.png",
     xdescription:
       "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
@@ -13878,7 +13878,7 @@ const PokemonData = [
   },
   {
     name: "Hippopotas",
-    id: "#449",
+    id: "449",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/449.png",
     xdescription:
       "It enshrouds itself with sand to protect itself from germs. It does not enjoy getting wet.",
@@ -13909,7 +13909,7 @@ const PokemonData = [
   },
   {
     name: "Hippowdon",
-    id: "#450",
+    id: "450",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/450.png",
     xdescription:
       "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
@@ -13940,7 +13940,7 @@ const PokemonData = [
   },
   {
     name: "Skorupi",
-    id: "#451",
+    id: "451",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/451.png",
     xdescription:
       "It burrows under the sand to lie in wait for prey. Its tail claws can inject its prey with a savage poison.",
@@ -13971,7 +13971,7 @@ const PokemonData = [
   },
   {
     name: "Drapion",
-    id: "#452",
+    id: "452",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/452.png",
     xdescription:
       "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.",
@@ -14002,7 +14002,7 @@ const PokemonData = [
   },
   {
     name: "Croagunk",
-    id: "#453",
+    id: "453",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/453.png",
     xdescription:
       "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
@@ -14033,7 +14033,7 @@ const PokemonData = [
   },
   {
     name: "Toxicroak",
-    id: "#454",
+    id: "454",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/454.png",
     xdescription:
       "Its knuckle claws secrete a toxin so vile that even a scratch could prove fatal.",
@@ -14064,7 +14064,7 @@ const PokemonData = [
   },
   {
     name: "Carnivine",
-    id: "#455",
+    id: "455",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/455.png",
     xdescription:
       "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down.",
@@ -14095,7 +14095,7 @@ const PokemonData = [
   },
   {
     name: "Finneon",
-    id: "#456",
+    id: "456",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/456.png",
     xdescription:
       "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.",
@@ -14126,7 +14126,7 @@ const PokemonData = [
   },
   {
     name: "Lumineon",
-    id: "#457",
+    id: "457",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/457.png",
     xdescription:
       "To avoid detection by predators, it crawls along the seafloor using the two fins on its chest.",
@@ -14157,7 +14157,7 @@ const PokemonData = [
   },
   {
     name: "Mantyke",
-    id: "#458",
+    id: "458",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/458.png",
     xdescription:
       "When it swims close to the surface of the ocean, people aboard ships are able to observe the pattern on its back.",
@@ -14188,7 +14188,7 @@ const PokemonData = [
   },
   {
     name: "Snover",
-    id: "#459",
+    id: "459",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/459.png",
     xdescription:
       "In the spring, it grows berries with the texture of frozen treats around its belly.",
@@ -14227,7 +14227,7 @@ const PokemonData = [
   },
   {
     name: "Abomasnow",
-    id: "#460",
+    id: "460",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/460.png",
     xdescription:
       "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
@@ -14266,7 +14266,7 @@ const PokemonData = [
   },
   {
     name: "Weavile",
-    id: "#461",
+    id: "461",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/461.png",
     xdescription:
       "They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.",
@@ -14297,7 +14297,7 @@ const PokemonData = [
   },
   {
     name: "Magnezone",
-    id: "#462",
+    id: "462",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/462.png",
     xdescription:
       "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
@@ -14326,7 +14326,7 @@ const PokemonData = [
   },
   {
     name: "Lickilicky",
-    id: "#463",
+    id: "463",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/463.png",
     xdescription:
       "Their saliva contains lots of components that can dissolve anything. The numbness caused by their lick does not dissipate.",
@@ -14357,7 +14357,7 @@ const PokemonData = [
   },
   {
     name: "Rhyperior",
-    id: "#464",
+    id: "464",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/464.png",
     xdescription:
       "It puts rocks in holes in its palms and uses its muscles to shoot them. Geodude are shot at rare times.",
@@ -14388,7 +14388,7 @@ const PokemonData = [
   },
   {
     name: "Tangrowth",
-    id: "#465",
+    id: "465",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/465.png",
     xdescription:
       "Its vines grow so profusely that, in the warm season, you can't even see its eyes.",
@@ -14419,7 +14419,7 @@ const PokemonData = [
   },
   {
     name: "Electivire",
-    id: "#466",
+    id: "466",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/466.png",
     xdescription:
       "It pushes the tips of its two tails against the foe, then lets loose with over 20,000 volts of power.",
@@ -14450,7 +14450,7 @@ const PokemonData = [
   },
   {
     name: "Magmortar",
-    id: "#467",
+    id: "467",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/467.png",
     xdescription:
       "It blasts fireballs of over 3,600 degrees Fahrenheit out of its arms. Its breath also sears and sizzles.",
@@ -14481,7 +14481,7 @@ const PokemonData = [
   },
   {
     name: "Togekiss",
-    id: "#468",
+    id: "468",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/468.png",
     xdescription:
       "It shares many blessings with people who respect one another's rights and avoid needless strife.",
@@ -14512,7 +14512,7 @@ const PokemonData = [
   },
   {
     name: "Yanmega",
-    id: "#469",
+    id: "469",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/469.png",
     xdescription:
       "This six-legged Pok\u00e9mon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced.",
@@ -14543,7 +14543,7 @@ const PokemonData = [
   },
   {
     name: "Leafeon",
-    id: "#470",
+    id: "470",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/470.png",
     xdescription:
       "Just like a plant, it uses photosynthesis. As a result, it is always enveloped in clear air.",
@@ -14584,7 +14584,7 @@ const PokemonData = [
   },
   {
     name: "Glaceon",
-    id: "#471",
+    id: "471",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/471.png",
     xdescription:
       "It lowers its body heat to freeze its fur. The hairs then become like needles it can fire.",
@@ -14625,7 +14625,7 @@ const PokemonData = [
   },
   {
     name: "Gliscor",
-    id: "#472",
+    id: "472",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/472.png",
     xdescription:
       "Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest.",
@@ -14656,7 +14656,7 @@ const PokemonData = [
   },
   {
     name: "Mamoswine",
-    id: "#473",
+    id: "473",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/473.png",
     xdescription:
       "Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.",
@@ -14687,7 +14687,7 @@ const PokemonData = [
   },
   {
     name: "Porygon-Z",
-    id: "#474",
+    id: "474",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/474.png",
     xdescription:
       "Its programming was modified to enable it to travel through alien dimensions. Seems there might have been an error...",
@@ -14716,7 +14716,7 @@ const PokemonData = [
   },
   {
     name: "Gallade",
-    id: "#475",
+    id: "475",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/475.png",
     xdescription:
       "A master of courtesy and swordsmanship, it fights using extending swords on its elbows.",
@@ -14747,7 +14747,7 @@ const PokemonData = [
   },
   {
     name: "Probopass",
-    id: "#476",
+    id: "476",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/476.png",
     xdescription:
       "It freely controls three small units called Mini-Noses using magnetic force.",
@@ -14778,7 +14778,7 @@ const PokemonData = [
   },
   {
     name: "Dusknoir",
-    id: "#477",
+    id: "477",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/477.png",
     xdescription:
       "The antenna on its head captures radio waves from the world of spirits that command it to take people there.",
@@ -14809,7 +14809,7 @@ const PokemonData = [
   },
   {
     name: "Froslass",
-    id: "#478",
+    id: "478",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/478.png",
     xdescription:
       "Legends in snowy regions say that a woman who was lost on an icy mountain was reborn as Froslass.",
@@ -14840,7 +14840,7 @@ const PokemonData = [
   },
   {
     name: "Rotom",
-    id: "#479",
+    id: "479",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/479.png",
     xdescription:
       "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
@@ -14869,7 +14869,7 @@ const PokemonData = [
   },
   {
     name: "Uxie",
-    id: "#480",
+    id: "480",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/480.png",
     xdescription:
       "It is said that its emergence gave humans the intelligence to improve their quality of life.",
@@ -14898,7 +14898,7 @@ const PokemonData = [
   },
   {
     name: "Mesprit",
-    id: "#481",
+    id: "481",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/481.png",
     xdescription:
       "It sleeps at the bottom of a lake. Its spirit is said to leave its body to fly on the lake's surface.",
@@ -14927,7 +14927,7 @@ const PokemonData = [
   },
   {
     name: "Azelf",
-    id: "#482",
+    id: "482",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/482.png",
     xdescription:
       "It is thought that Uxie, Mesprit, and Azelf all came from the same egg.",
@@ -14956,7 +14956,7 @@ const PokemonData = [
   },
   {
     name: "Dialga",
-    id: "#483",
+    id: "483",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/483.png",
     xdescription:
       "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
@@ -14985,7 +14985,7 @@ const PokemonData = [
   },
   {
     name: "Palkia",
-    id: "#484",
+    id: "484",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/484.png",
     xdescription:
       "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
@@ -15014,7 +15014,7 @@ const PokemonData = [
   },
   {
     name: "Heatran",
-    id: "#485",
+    id: "485",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/485.png",
     xdescription:
       "Boiling blood, like magma, circulates through its body. It makes its dwelling place in volcanic caves.",
@@ -15045,7 +15045,7 @@ const PokemonData = [
   },
   {
     name: "Regigigas",
-    id: "#486",
+    id: "486",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/486.png",
     xdescription:
       "There is an enduring legend that states this Pok\u00e9mon towed continents with ropes.",
@@ -15074,7 +15074,7 @@ const PokemonData = [
   },
   {
     name: "Giratina",
-    id: "#487",
+    id: "487",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/487.png",
     xdescription:
       "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
@@ -15103,7 +15103,7 @@ const PokemonData = [
   },
   {
     name: "Cresselia",
-    id: "#488",
+    id: "488",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/488.png",
     xdescription:
       "Those who sleep holding Cresselia's feather are assured of joyful dreams. It is said to represent the crescent moon.",
@@ -15134,7 +15134,7 @@ const PokemonData = [
   },
   {
     name: "Phione",
-    id: "#489",
+    id: "489",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/489.png",
     xdescription:
       "It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted.",
@@ -15163,7 +15163,7 @@ const PokemonData = [
   },
   {
     name: "Manaphy",
-    id: "#490",
+    id: "490",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/490.png",
     xdescription:
       "It starts its life with a wondrous power that permits it to bond with any kind of Pok\u00e9mon.",
@@ -15192,7 +15192,7 @@ const PokemonData = [
   },
   {
     name: "Darkrai",
-    id: "#491",
+    id: "491",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/491.png",
     xdescription:
       "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
@@ -15221,7 +15221,7 @@ const PokemonData = [
   },
   {
     name: "Shaymin",
-    id: "#492",
+    id: "492",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/492.png",
     xdescription:
       "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers.",
@@ -15250,7 +15250,7 @@ const PokemonData = [
   },
   {
     name: "Arceus",
-    id: "#493",
+    id: "493",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/493.png",
     xdescription:
       "It is told in mythology that this Pok\u00e9mon was born before the universe even existed.",
@@ -15279,7 +15279,7 @@ const PokemonData = [
   },
   {
     name: "Victini",
-    id: "#494",
+    id: "494",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/494.png",
     xdescription:
       "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
@@ -15308,7 +15308,7 @@ const PokemonData = [
   },
   {
     name: "Snivy",
-    id: "#495",
+    id: "495",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/495.png",
     xdescription:
       "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
@@ -15339,7 +15339,7 @@ const PokemonData = [
   },
   {
     name: "Servine",
-    id: "#496",
+    id: "496",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/496.png",
     xdescription:
       "When it gets dirty, its leaves can't be used in photosynthesis, so it always keeps itself clean.",
@@ -15370,7 +15370,7 @@ const PokemonData = [
   },
   {
     name: "Serperior",
-    id: "#497",
+    id: "497",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/497.png",
     xdescription:
       "It can stop its opponents' movements with just a glare. It takes in solar energy and boosts it internally.",
@@ -15401,7 +15401,7 @@ const PokemonData = [
   },
   {
     name: "Tepig",
-    id: "#498",
+    id: "498",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/498.png",
     xdescription:
       "It loves to eat roasted berries, but sometimes it gets too excited and burns them to a crisp.",
@@ -15432,7 +15432,7 @@ const PokemonData = [
   },
   {
     name: "Pignite",
-    id: "#499",
+    id: "499",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/499.png",
     xdescription:
       "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke.",
@@ -15463,7 +15463,7 @@ const PokemonData = [
   },
   {
     name: "Emboar",
-    id: "#500",
+    id: "500",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/500.png",
     xdescription:
       "It has mastered fast and powerful fighting moves. It grows a beard of fire.",
@@ -15494,7 +15494,7 @@ const PokemonData = [
   },
   {
     name: "Oshawott",
-    id: "#501",
+    id: "501",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/501.png",
     xdescription:
       "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
@@ -15525,7 +15525,7 @@ const PokemonData = [
   },
   {
     name: "Dewott",
-    id: "#502",
+    id: "502",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/502.png",
     xdescription:
       "As a result of strict training, each Dewott learns different forms for using the scalchops.",
@@ -15556,7 +15556,7 @@ const PokemonData = [
   },
   {
     name: "Samurott",
-    id: "#503",
+    id: "503",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/503.png",
     xdescription:
       "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.",
@@ -15587,7 +15587,7 @@ const PokemonData = [
   },
   {
     name: "Patrat",
-    id: "#504",
+    id: "504",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/504.png",
     xdescription:
       "Extremely cautious, one of them will always be on the lookout, but it won't notice a foe coming from behind.",
@@ -15618,7 +15618,7 @@ const PokemonData = [
   },
   {
     name: "Watchog",
-    id: "#505",
+    id: "505",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/505.png",
     xdescription:
       "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
@@ -15649,7 +15649,7 @@ const PokemonData = [
   },
   {
     name: "Lillipup",
-    id: "#506",
+    id: "506",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/506.png",
     xdescription:
       "Though it is a very brave Pok\u00e9mon, it's also smart enough to check its foe's strength and avoid battle.",
@@ -15680,7 +15680,7 @@ const PokemonData = [
   },
   {
     name: "Herdier",
-    id: "#507",
+    id: "507",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/507.png",
     xdescription:
       "It has black, cape-like fur that is very hard and decreases the amount of damage it receives.",
@@ -15711,7 +15711,7 @@ const PokemonData = [
   },
   {
     name: "Stoutland",
-    id: "#508",
+    id: "508",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/508.png",
     xdescription:
       "Being wrapped in its long fur is so comfortable that a person would be fine even overnight on a wintry mountain.",
@@ -15742,7 +15742,7 @@ const PokemonData = [
   },
   {
     name: "Purrloin",
-    id: "#509",
+    id: "509",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/509.png",
     xdescription:
       "They steal from people for fun, but their victims can't help but forgive them. Their deceptively cute act is perfect.",
@@ -15773,7 +15773,7 @@ const PokemonData = [
   },
   {
     name: "Liepard",
-    id: "#510",
+    id: "510",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/510.png",
     xdescription:
       "Stealthily, it sneaks up on its target, striking from behind before its victim has a chance to react.",
@@ -15804,7 +15804,7 @@ const PokemonData = [
   },
   {
     name: "Pansage",
-    id: "#511",
+    id: "511",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/511.png",
     xdescription:
       "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends.",
@@ -15835,7 +15835,7 @@ const PokemonData = [
   },
   {
     name: "Simisage",
-    id: "#512",
+    id: "512",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/512.png",
     xdescription:
       "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
@@ -15866,7 +15866,7 @@ const PokemonData = [
   },
   {
     name: "Pansear",
-    id: "#513",
+    id: "513",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/513.png",
     xdescription:
       "This Pok\u00e9mon lives in caves in volcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit.",
@@ -15897,7 +15897,7 @@ const PokemonData = [
   },
   {
     name: "Simisear",
-    id: "#514",
+    id: "514",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/514.png",
     xdescription:
       "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets.",
@@ -15928,7 +15928,7 @@ const PokemonData = [
   },
   {
     name: "Panpour",
-    id: "#515",
+    id: "515",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/515.png",
     xdescription:
       "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
@@ -15959,7 +15959,7 @@ const PokemonData = [
   },
   {
     name: "Simipour",
-    id: "#516",
+    id: "516",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/516.png",
     xdescription:
       "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail.",
@@ -15990,7 +15990,7 @@ const PokemonData = [
   },
   {
     name: "Munna",
-    id: "#517",
+    id: "517",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/517.png",
     xdescription:
       "It eats the dreams of people and Pok\u00e9mon. When it eats a pleasant dream, it expels pink-colored mist.",
@@ -16021,7 +16021,7 @@ const PokemonData = [
   },
   {
     name: "Musharna",
-    id: "#518",
+    id: "518",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/518.png",
     xdescription:
       "The dream mist coming from its forehead changes into many different colors depending on the dream that was eaten.",
@@ -16052,7 +16052,7 @@ const PokemonData = [
   },
   {
     name: "Pidove",
-    id: "#519",
+    id: "519",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/519.png",
     xdescription:
       "These Pok\u00e9mon live in cities. They are accustomed to people. Flocks often gather in parks and plazas.",
@@ -16083,7 +16083,7 @@ const PokemonData = [
   },
   {
     name: "Tranquill",
-    id: "#520",
+    id: "520",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/520.png",
     xdescription:
       "No matter where in the world it goes, it knows where its nest is, so it never gets separated from its Trainer.",
@@ -16114,7 +16114,7 @@ const PokemonData = [
   },
   {
     name: "Unfezant",
-    id: "#521",
+    id: "521",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/521.png",
     xdescription:
       "Males have plumage on their heads. They will never let themselves feel close to anyone other than their Trainers.",
@@ -16145,7 +16145,7 @@ const PokemonData = [
   },
   {
     name: "Blitzle",
-    id: "#522",
+    id: "522",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/522.png",
     xdescription:
       "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
@@ -16176,7 +16176,7 @@ const PokemonData = [
   },
   {
     name: "Zebstrika",
-    id: "#523",
+    id: "523",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/523.png",
     xdescription:
       "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
@@ -16207,7 +16207,7 @@ const PokemonData = [
   },
   {
     name: "Roggenrola",
-    id: "#524",
+    id: "524",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/524.png",
     xdescription:
       "They were discovered a hundred years ago in an earthquake fissure. Inside each one is an energy core.",
@@ -16238,7 +16238,7 @@ const PokemonData = [
   },
   {
     name: "Boldore",
-    id: "#525",
+    id: "525",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/525.png",
     xdescription:
       "When it is healthy, its core sticks out. Always facing the same way, it swiftly moves front to back and left to right.",
@@ -16269,7 +16269,7 @@ const PokemonData = [
   },
   {
     name: "Gigalith",
-    id: "#526",
+    id: "526",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/526.png",
     xdescription:
       "Compressing the energy from its internal core lets it fire off an attack capable of blowing away a mountain.",
@@ -16300,7 +16300,7 @@ const PokemonData = [
   },
   {
     name: "Woobat",
-    id: "#527",
+    id: "527",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/527.png",
     xdescription:
       "The heart-shaped mark left on a body after a Woobat has been attached to it is said to bring good fortune.",
@@ -16331,7 +16331,7 @@ const PokemonData = [
   },
   {
     name: "Swoobat",
-    id: "#528",
+    id: "528",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/528.png",
     xdescription:
       "Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift.",
@@ -16362,7 +16362,7 @@ const PokemonData = [
   },
   {
     name: "Drilbur",
-    id: "#529",
+    id: "529",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/529.png",
     xdescription:
       "By spinning its body, it can dig straight through the ground at a speed of 30 mph.",
@@ -16393,7 +16393,7 @@ const PokemonData = [
   },
   {
     name: "Excadrill",
-    id: "#530",
+    id: "530",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/530.png",
     xdescription:
       "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.",
@@ -16424,7 +16424,7 @@ const PokemonData = [
   },
   {
     name: "Audino",
-    id: "#531",
+    id: "531",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/531.png",
     xdescription:
       "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.",
@@ -16455,7 +16455,7 @@ const PokemonData = [
   },
   {
     name: "Timburr",
-    id: "#532",
+    id: "532",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/532.png",
     xdescription:
       "Always carrying squared logs, they help out with construction. As they grow, they carry bigger logs.",
@@ -16486,7 +16486,7 @@ const PokemonData = [
   },
   {
     name: "Gurdurr",
-    id: "#533",
+    id: "533",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/533.png",
     xdescription:
       "This Pok\u00e9mon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.",
@@ -16517,7 +16517,7 @@ const PokemonData = [
   },
   {
     name: "Conkeldurr",
-    id: "#534",
+    id: "534",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/534.png",
     xdescription:
       "Rather than rely on force, they master moves that utilize the centrifugal force of spinning concrete.",
@@ -16548,7 +16548,7 @@ const PokemonData = [
   },
   {
     name: "Tympole",
-    id: "#535",
+    id: "535",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/535.png",
     xdescription:
       "By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.",
@@ -16579,7 +16579,7 @@ const PokemonData = [
   },
   {
     name: "Palpitoad",
-    id: "#536",
+    id: "536",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/536.png",
     xdescription:
       "It lives in the water and on land. It uses its long, sticky tongue to immobilize its opponents.",
@@ -16610,7 +16610,7 @@ const PokemonData = [
   },
   {
     name: "Seismitoad",
-    id: "#537",
+    id: "537",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/537.png",
     xdescription:
       "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.",
@@ -16641,7 +16641,7 @@ const PokemonData = [
   },
   {
     name: "Throh",
-    id: "#538",
+    id: "538",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/538.png",
     xdescription:
       "When it encounters a foe bigger than itself, it wants to throw it. It changes belts as it gets stronger.",
@@ -16672,7 +16672,7 @@ const PokemonData = [
   },
   {
     name: "Sawk",
-    id: "#539",
+    id: "539",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/539.png",
     xdescription:
       "Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them.",
@@ -16703,7 +16703,7 @@ const PokemonData = [
   },
   {
     name: "Sewaddle",
-    id: "#540",
+    id: "540",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/540.png",
     xdescription:
       "Since this Pok\u00e9mon makes its own clothes out of leaves, it is a popular mascot for fashion designers.",
@@ -16734,7 +16734,7 @@ const PokemonData = [
   },
   {
     name: "Swadloon",
-    id: "#541",
+    id: "541",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/541.png",
     xdescription:
       "It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests.",
@@ -16765,7 +16765,7 @@ const PokemonData = [
   },
   {
     name: "Leavanny",
-    id: "#542",
+    id: "542",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/542.png",
     xdescription:
       "It keeps its eggs warm with heat from fermenting leaves. It also uses leaves to make warm wrappings for Sewaddle.",
@@ -16796,7 +16796,7 @@ const PokemonData = [
   },
   {
     name: "Venipede",
-    id: "#543",
+    id: "543",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/543.png",
     xdescription:
       "Its bite injects a potent poison, enough to paralyze large bird Pok\u00e9mon that try to prey on it.",
@@ -16827,7 +16827,7 @@ const PokemonData = [
   },
   {
     name: "Whirlipede",
-    id: "#544",
+    id: "544",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/544.png",
     xdescription:
       "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent.",
@@ -16858,7 +16858,7 @@ const PokemonData = [
   },
   {
     name: "Scolipede",
-    id: "#545",
+    id: "545",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/545.png",
     xdescription:
       "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
@@ -16889,7 +16889,7 @@ const PokemonData = [
   },
   {
     name: "Cottonee",
-    id: "#546",
+    id: "546",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/546.png",
     xdescription:
       "Perhaps because they feel more at ease in a group, they stick to others they find. They end up looking like a cloud.",
@@ -16920,7 +16920,7 @@ const PokemonData = [
   },
   {
     name: "Whimsicott",
-    id: "#547",
+    id: "547",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/547.png",
     xdescription:
       "Like the wind, it can slip through any gap, no matter how small. It leaves balls of white fluff behind.",
@@ -16951,7 +16951,7 @@ const PokemonData = [
   },
   {
     name: "Petilil",
-    id: "#548",
+    id: "548",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/548.png",
     xdescription:
       "Since they prefer moist, nutrient-rich soil, the areas where Petilil live are known to be good for growing plants.",
@@ -16982,7 +16982,7 @@ const PokemonData = [
   },
   {
     name: "Lilligant",
-    id: "#549",
+    id: "549",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/549.png",
     xdescription:
       "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pok\u00e9mon is popular with celebrities.",
@@ -17013,7 +17013,7 @@ const PokemonData = [
   },
   {
     name: "Basculin",
-    id: "#550",
+    id: "550",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/550.png",
     xdescription:
       "Red and blue Basculin usually do not get along, but sometimes members of one school mingle with the other's school.",
@@ -17044,7 +17044,7 @@ const PokemonData = [
   },
   {
     name: "Sandile",
-    id: "#551",
+    id: "551",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/551.png",
     xdescription:
       "They live buried in the sands of the desert. The sun-warmed sands prevent their body temperature from dropping.",
@@ -17075,7 +17075,7 @@ const PokemonData = [
   },
   {
     name: "Krokorok",
-    id: "#552",
+    id: "552",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/552.png",
     xdescription:
       "The special membrane covering its eyes can sense the heat of objects, so it can see its surroundings even in darkness.",
@@ -17106,7 +17106,7 @@ const PokemonData = [
   },
   {
     name: "Krookodile",
-    id: "#553",
+    id: "553",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/553.png",
     xdescription:
       "They never allow prey to escape. Their jaws are so powerful, they can crush the body of an automobile.",
@@ -17137,7 +17137,7 @@ const PokemonData = [
   },
   {
     name: "Darumaka",
-    id: "#554",
+    id: "554",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/554.png",
     xdescription:
       "When it sleeps, it pulls its limbs into its body and its internal fire goes down to 1,100 degrees Fahrenheit.",
@@ -17168,7 +17168,7 @@ const PokemonData = [
   },
   {
     name: "Darmanitan",
-    id: "#555",
+    id: "555",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/555.png",
     xdescription:
       "Its internal fire burns at 2,500 degrees Fahrenheit,  making enough power that it can destroy a dump  truck with one punch.",
@@ -17199,7 +17199,7 @@ const PokemonData = [
   },
   {
     name: "Maractus",
-    id: "#556",
+    id: "556",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/556.png",
     xdescription:
       "Arid regions are their habitat. They move  rhythmically, making a sound similar to maracas.",
@@ -17230,7 +17230,7 @@ const PokemonData = [
   },
   {
     name: "Dwebble",
-    id: "#557",
+    id: "557",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/557.png",
     xdescription:
       "When it finds a stone of a suitable size, it secretes  a liquid from its mouth to open up a hole to  crawl into.",
@@ -17261,7 +17261,7 @@ const PokemonData = [
   },
   {
     name: "Crustle",
-    id: "#558",
+    id: "558",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/558.png",
     xdescription:
       "Competing for territory, Crustle fight viciously.  The one whose boulder is broken is the loser of  the battle.",
@@ -17292,7 +17292,7 @@ const PokemonData = [
   },
   {
     name: "Scraggy",
-    id: "#559",
+    id: "559",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/559.png",
     xdescription:
       "Proud of its sturdy skull, it suddenly headbutts  everything, but its weight makes it unstable, too.",
@@ -17323,7 +17323,7 @@ const PokemonData = [
   },
   {
     name: "Scrafty",
-    id: "#560",
+    id: "560",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/560.png",
     xdescription:
       "It can smash concrete blocks with its kicking  attacks. The one with the biggest crest is the  group leader.",
@@ -17354,7 +17354,7 @@ const PokemonData = [
   },
   {
     name: "Sigilyph",
-    id: "#561",
+    id: "561",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/561.png",
     xdescription:
       "The guardians of an ancient city, they always fly  the same route while keeping watch for invaders.",
@@ -17385,7 +17385,7 @@ const PokemonData = [
   },
   {
     name: "Yamask",
-    id: "#562",
+    id: "562",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/562.png",
     xdescription:
       "Each of them carries a mask that used to be its face  when it was human. Sometimes they look at it  and cry.",
@@ -17416,7 +17416,7 @@ const PokemonData = [
   },
   {
     name: "Cofagrigus",
-    id: "#563",
+    id: "563",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/563.png",
     xdescription:
       "Grave robbers who mistake them for real coffins and  get too close end up trapped inside their bodies.",
@@ -17447,7 +17447,7 @@ const PokemonData = [
   },
   {
     name: "Tirtouga",
-    id: "#564",
+    id: "564",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/564.png",
     xdescription:
       "Restored from a fossil, this Pok\u00e9mon can dive to  depths beyond half a mile.",
@@ -17478,7 +17478,7 @@ const PokemonData = [
   },
   {
     name: "Carracosta",
-    id: "#565",
+    id: "565",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/565.png",
     xdescription:
       "It could knock out a foe with a slap from one of its  developed front appendages and chew it up, shell  or bones and all.",
@@ -17509,7 +17509,7 @@ const PokemonData = [
   },
   {
     name: "Archen",
-    id: "#566",
+    id: "566",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/566.png",
     xdescription:
       "Said to be an ancestor of bird Pok\u00e9mon, they were  unable to fly and moved about by hopping from one  branch to another.",
@@ -17540,7 +17540,7 @@ const PokemonData = [
   },
   {
     name: "Archeops",
-    id: "#567",
+    id: "567",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/567.png",
     xdescription:
       "It runs better than it flies. It takes off into the sky  by running at a speed of 25 mph.",
@@ -17571,7 +17571,7 @@ const PokemonData = [
   },
   {
     name: "Trubbish",
-    id: "#568",
+    id: "568",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/568.png",
     xdescription:
       "Inhaling the gas they belch will make you sleep for  a week. They prefer unsanitary places.",
@@ -17602,7 +17602,7 @@ const PokemonData = [
   },
   {
     name: "Garbodor",
-    id: "#569",
+    id: "569",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/569.png",
     xdescription:
       "Consuming garbage makes new kinds of poison  gases and liquids inside their bodies.",
@@ -17633,7 +17633,7 @@ const PokemonData = [
   },
   {
     name: "Zorua",
-    id: "#570",
+    id: "570",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/570.png",
     xdescription:
       "To protect themselves from danger, they hide their  true identities by transforming into people  and Pok\u00e9mon.",
@@ -17664,7 +17664,7 @@ const PokemonData = [
   },
   {
     name: "Zoroark",
-    id: "#571",
+    id: "571",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/571.png",
     xdescription:
       "Bonds between these Pok\u00e9mon are very strong.  It protects the safety of its pack by tricking  its opponents.",
@@ -17695,7 +17695,7 @@ const PokemonData = [
   },
   {
     name: "Minccino",
-    id: "#572",
+    id: "572",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/572.png",
     xdescription:
       "These Pok\u00e9mon prefer a tidy habitat. They are  always sweeping and dusting, using their tails  as brooms.",
@@ -17726,7 +17726,7 @@ const PokemonData = [
   },
   {
     name: "Cinccino",
-    id: "#573",
+    id: "573",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/573.png",
     xdescription:
       "Cinccino's body is coated in a special oil that helps  it deflect attacks, such as punches.",
@@ -17757,7 +17757,7 @@ const PokemonData = [
   },
   {
     name: "Gothita",
-    id: "#574",
+    id: "574",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/574.png",
     xdescription:
       "They intently observe both Trainers and Pok\u00e9mon.  Apparently, they are looking at something that only  Gothita can see.",
@@ -17788,7 +17788,7 @@ const PokemonData = [
   },
   {
     name: "Gothorita",
-    id: "#575",
+    id: "575",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/575.png",
     xdescription:
       "According to many old tales, it creates friends for  itself by controlling sleeping children on  starry nights.",
@@ -17819,7 +17819,7 @@ const PokemonData = [
   },
   {
     name: "Gothitelle",
-    id: "#576",
+    id: "576",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/576.png",
     xdescription:
       "They can predict the future from the placement and  movement of the stars. They can see Trainers'  life spans.",
@@ -17850,7 +17850,7 @@ const PokemonData = [
   },
   {
     name: "Solosis",
-    id: "#577",
+    id: "577",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/577.png",
     xdescription:
       "They drive away attackers by unleashing psychic  power. They can use telepathy to talk with others.",
@@ -17881,7 +17881,7 @@ const PokemonData = [
   },
   {
     name: "Duosion",
-    id: "#578",
+    id: "578",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/578.png",
     xdescription:
       "When their two divided brains think the same  thoughts, their psychic power is maximized.",
@@ -17912,7 +17912,7 @@ const PokemonData = [
   },
   {
     name: "Reuniclus",
-    id: "#579",
+    id: "579",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/579.png",
     xdescription:
       "When Reuniclus shake hands, a network forms  between their brains, increasing their  psychic power.",
@@ -17943,7 +17943,7 @@ const PokemonData = [
   },
   {
     name: "Ducklett",
-    id: "#580",
+    id: "580",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/580.png",
     xdescription:
       "They are better at swimming than flying, and they  happily eat their favorite food, peat moss, as they  dive underwater.",
@@ -17974,7 +17974,7 @@ const PokemonData = [
   },
   {
     name: "Swanna",
-    id: "#581",
+    id: "581",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/581.png",
     xdescription:
       "Swanna start to dance at dusk. The one dancing in  the middle is the leader of the flock.",
@@ -18005,7 +18005,7 @@ const PokemonData = [
   },
   {
     name: "Vanillite",
-    id: "#582",
+    id: "582",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/582.png",
     xdescription:
       "This Pok\u00e9mon formed from icicles bathed in energy  from the morning sun. It sleeps buried in snow.",
@@ -18036,7 +18036,7 @@ const PokemonData = [
   },
   {
     name: "Vanillish",
-    id: "#583",
+    id: "583",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/583.png",
     xdescription:
       "Snowy mountains are this Pok\u00e9mon's habitat.  During an ancient ice age, they moved to  southern areas.",
@@ -18067,7 +18067,7 @@ const PokemonData = [
   },
   {
     name: "Vanilluxe",
-    id: "#584",
+    id: "584",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/584.png",
     xdescription:
       "Swallowing large amounts of water, they make  snow clouds inside their bodies and, when angry,  cause violent blizzards.",
@@ -18098,7 +18098,7 @@ const PokemonData = [
   },
   {
     name: "Deerling",
-    id: "#585",
+    id: "585",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/585.png",
     xdescription:
       "The turning of the seasons changes the color and scent of this Pok\u00e9mon's fur. People use it to mark the seasons.",
@@ -18129,7 +18129,7 @@ const PokemonData = [
   },
   {
     name: "Sawsbuck",
-    id: "#586",
+    id: "586",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/586.png",
     xdescription:
       "They migrate according to the seasons, so some people call Sawsbuck the harbingers of spring.",
@@ -18160,7 +18160,7 @@ const PokemonData = [
   },
   {
     name: "Emolga",
-    id: "#587",
+    id: "587",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/587.png",
     xdescription:
       "The energy made in its cheeks' electric pouches is stored inside its membrane and released while it is gliding.",
@@ -18191,7 +18191,7 @@ const PokemonData = [
   },
   {
     name: "Karrablast",
-    id: "#588",
+    id: "588",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/588.png",
     xdescription:
       "For some reason they evolve when they receive electrical energy while they are attacking Shelmet.",
@@ -18222,7 +18222,7 @@ const PokemonData = [
   },
   {
     name: "Escavalier",
-    id: "#589",
+    id: "589",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/589.png",
     xdescription:
       "These Pok\u00e9mon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.",
@@ -18253,7 +18253,7 @@ const PokemonData = [
   },
   {
     name: "Foongus",
-    id: "#590",
+    id: "590",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/590.png",
     xdescription:
       "It lures Pok\u00e9mon with its pattern that looks just like a Pok\u00e9 Ball, then releases poison spores.",
@@ -18284,7 +18284,7 @@ const PokemonData = [
   },
   {
     name: "Amoonguss",
-    id: "#591",
+    id: "591",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/591.png",
     xdescription:
       "It lures prey close by dancing and waving its arm caps, which resemble Pok\u00e9 Balls, in a swaying motion.",
@@ -18315,7 +18315,7 @@ const PokemonData = [
   },
   {
     name: "Frillish",
-    id: "#592",
+    id: "592",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/592.png",
     xdescription:
       "If its veil-like arms stun and wrap a foe, that foe will be dragged miles below the surface, never to return.",
@@ -18346,7 +18346,7 @@ const PokemonData = [
   },
   {
     name: "Jellicent",
-    id: "#593",
+    id: "593",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/593.png",
     xdescription:
       "The fate of the ships and crew that wander into Jellicent's habitat: all sunken, all lost, all vanished.",
@@ -18377,7 +18377,7 @@ const PokemonData = [
   },
   {
     name: "Alomomola",
-    id: "#594",
+    id: "594",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/594.png",
     xdescription:
       "It gently holds injured and weak Pok\u00e9mon in its fins. Its special membrane heals their wounds.",
@@ -18408,7 +18408,7 @@ const PokemonData = [
   },
   {
     name: "Joltik",
-    id: "#595",
+    id: "595",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/595.png",
     xdescription:
       "They attach themselves to large-bodied Pok\u00e9mon and absorb static electricity, which they store in an electric pouch.",
@@ -18439,7 +18439,7 @@ const PokemonData = [
   },
   {
     name: "Galvantula",
-    id: "#596",
+    id: "596",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/596.png",
     xdescription:
       "When attacked, they create an electric barrier by spitting out many electrically charged threads.",
@@ -18470,7 +18470,7 @@ const PokemonData = [
   },
   {
     name: "Ferroseed",
-    id: "#597",
+    id: "597",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/597.png",
     xdescription:
       "It absorbs the iron it finds in the rock while clinging to the ceiling. It shoots spikes when in danger.",
@@ -18501,7 +18501,7 @@ const PokemonData = [
   },
   {
     name: "Ferrothorn",
-    id: "#598",
+    id: "598",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/598.png",
     xdescription:
       "They attach themselves to cave ceilings, firing steel spikes at targets passing beneath them.",
@@ -18532,7 +18532,7 @@ const PokemonData = [
   },
   {
     name: "Klink",
-    id: "#599",
+    id: "599",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/599.png",
     xdescription:
       "The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing.",
@@ -18561,7 +18561,7 @@ const PokemonData = [
   },
   {
     name: "Klang",
-    id: "#600",
+    id: "600",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/600.png",
     xdescription:
       "A minigear and big gear comprise its body. If the minigear it launches at a foe doesn't return, it will die.",
@@ -18590,7 +18590,7 @@ const PokemonData = [
   },
   {
     name: "Klinklang",
-    id: "#601",
+    id: "601",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/601.png",
     xdescription:
       "Its red core functions as an energy tank. It fires the charged energy through its spikes into an area.",
@@ -18619,7 +18619,7 @@ const PokemonData = [
   },
   {
     name: "Tynamo",
-    id: "#602",
+    id: "602",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/602.png",
     xdescription:
       "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock.",
@@ -18650,7 +18650,7 @@ const PokemonData = [
   },
   {
     name: "Eelektrik",
-    id: "#603",
+    id: "603",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/603.png",
     xdescription:
       "These Pok\u00e9mon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
@@ -18681,7 +18681,7 @@ const PokemonData = [
   },
   {
     name: "Eelektross",
-    id: "#604",
+    id: "604",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/604.png",
     xdescription:
       "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
@@ -18712,7 +18712,7 @@ const PokemonData = [
   },
   {
     name: "Elgyem",
-    id: "#605",
+    id: "605",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/605.png",
     xdescription:
       "Rumors of its origin are linked to a UFO crash site in the desert 50 years ago.",
@@ -18743,7 +18743,7 @@ const PokemonData = [
   },
   {
     name: "Beheeyem",
-    id: "#606",
+    id: "606",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/606.png",
     xdescription:
       "It uses psychic power to control an opponent's brain and tamper with its memories.",
@@ -18774,7 +18774,7 @@ const PokemonData = [
   },
   {
     name: "Litwick",
-    id: "#607",
+    id: "607",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/607.png",
     xdescription:
       "Litwick shines a light that absorbs the life energy of people and Pok\u00e9mon, which becomes the fuel that it burns.",
@@ -18805,7 +18805,7 @@ const PokemonData = [
   },
   {
     name: "Lampent",
-    id: "#608",
+    id: "608",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/608.png",
     xdescription:
       "It arrives near the moment of death and steals spirit from the body.",
@@ -18836,7 +18836,7 @@ const PokemonData = [
   },
   {
     name: "Chandelure",
-    id: "#609",
+    id: "609",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/609.png",
     xdescription:
       "The spirits burned up in its ominous flame lose their way and wander this world forever.",
@@ -18867,7 +18867,7 @@ const PokemonData = [
   },
   {
     name: "Axew",
-    id: "#610",
+    id: "610",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/610.png",
     xdescription:
       "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
@@ -18898,7 +18898,7 @@ const PokemonData = [
   },
   {
     name: "Fraxure",
-    id: "#611",
+    id: "611",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/611.png",
     xdescription:
       "A broken tusk will not grow back, so it diligently sharpens its tusks on river rocks after the end of a battle.",
@@ -18929,7 +18929,7 @@ const PokemonData = [
   },
   {
     name: "Haxorus",
-    id: "#612",
+    id: "612",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/612.png",
     xdescription:
       "Their sturdy tusks will stay sharp even if used to cut steel beams. These Pok\u00e9mon are covered in hard armor.",
@@ -18960,7 +18960,7 @@ const PokemonData = [
   },
   {
     name: "Cubchoo",
-    id: "#613",
+    id: "613",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/613.png",
     xdescription:
       "Their snot is a barometer of health. When healthy, their snot is sticky and the power of their ice moves increases.",
@@ -18991,7 +18991,7 @@ const PokemonData = [
   },
   {
     name: "Beartic",
-    id: "#614",
+    id: "614",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/614.png",
     xdescription:
       "It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat.",
@@ -19022,7 +19022,7 @@ const PokemonData = [
   },
   {
     name: "Cryogonal",
-    id: "#615",
+    id: "615",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/615.png",
     xdescription:
       "They are composed of ice crystals. They capture prey with chains of ice, freezing the prey at -148 degrees Fahrenheit.",
@@ -19051,7 +19051,7 @@ const PokemonData = [
   },
   {
     name: "Shelmet",
-    id: "#616",
+    id: "616",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/616.png",
     xdescription:
       "It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.",
@@ -19082,7 +19082,7 @@ const PokemonData = [
   },
   {
     name: "Accelgor",
-    id: "#617",
+    id: "617",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/617.png",
     xdescription:
       "When its body dries out, it weakens. So, to prevent dehydration, it wraps itself in many layers of thin membrane.",
@@ -19113,7 +19113,7 @@ const PokemonData = [
   },
   {
     name: "Stunfisk",
-    id: "#618",
+    id: "618",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/618.png",
     xdescription:
       "It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of electricity.",
@@ -19144,7 +19144,7 @@ const PokemonData = [
   },
   {
     name: "Mienfoo",
-    id: "#619",
+    id: "619",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/619.png",
     xdescription:
       "In fights, they dominate with onslaughts of flowing, continuous attacks. With their sharp claws, they cut enemies.",
@@ -19175,7 +19175,7 @@ const PokemonData = [
   },
   {
     name: "Mienshao",
-    id: "#620",
+    id: "620",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/620.png",
     xdescription:
       "Using the long fur on its arms like whips, it launches into combo attacks that, once started, no one can stop.",
@@ -19206,7 +19206,7 @@ const PokemonData = [
   },
   {
     name: "Druddigon",
-    id: "#621",
+    id: "621",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/621.png",
     xdescription:
       "It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move.",
@@ -19237,7 +19237,7 @@ const PokemonData = [
   },
   {
     name: "Golett",
-    id: "#622",
+    id: "622",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/622.png",
     xdescription:
       "Ancient science fashioned this Pok\u00e9mon from clay. It's been active for thousands of years.",
@@ -19266,7 +19266,7 @@ const PokemonData = [
   },
   {
     name: "Golurk",
-    id: "#623",
+    id: "623",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/623.png",
     xdescription:
       "It flies across the sky at Mach speeds. Removing the seal on its chest makes its internal energy go out of control.",
@@ -19295,7 +19295,7 @@ const PokemonData = [
   },
   {
     name: "Pawniard",
-    id: "#624",
+    id: "624",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/624.png",
     xdescription:
       "Ignoring their injuries, groups attack by sinking the blades that cover their bodies into their prey.",
@@ -19326,7 +19326,7 @@ const PokemonData = [
   },
   {
     name: "Bisharp",
-    id: "#625",
+    id: "625",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/625.png",
     xdescription:
       "Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.",
@@ -19357,7 +19357,7 @@ const PokemonData = [
   },
   {
     name: "Bouffalant",
-    id: "#626",
+    id: "626",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/626.png",
     xdescription:
       "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt.",
@@ -19388,7 +19388,7 @@ const PokemonData = [
   },
   {
     name: "Rufflet",
-    id: "#627",
+    id: "627",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/627.png",
     xdescription:
       "They will challenge anything, even strong opponents, without fear. Their frequent fights help them become stronger.",
@@ -19419,7 +19419,7 @@ const PokemonData = [
   },
   {
     name: "Braviary",
-    id: "#628",
+    id: "628",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/628.png",
     xdescription:
       "They fight for their friends without any thought about danger to themselves. One can carry a car while flying.",
@@ -19450,7 +19450,7 @@ const PokemonData = [
   },
   {
     name: "Vullaby",
-    id: "#629",
+    id: "629",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/629.png",
     xdescription:
       "Their wings are too tiny to allow them to fly. They guard their posteriors with bones that were gathered by Mandibuzz.",
@@ -19481,7 +19481,7 @@ const PokemonData = [
   },
   {
     name: "Mandibuzz",
-    id: "#630",
+    id: "630",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/630.png",
     xdescription:
       "Watching from the sky, they swoop to strike weakened Pok\u00e9mon on the ground. They decorate themselves with bones.",
@@ -19512,7 +19512,7 @@ const PokemonData = [
   },
   {
     name: "Heatmor",
-    id: "#631",
+    id: "631",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/631.png",
     xdescription:
       "It draws in air through its tail, transforms it into fire, and uses it like a tongue. It melts Durant and eats them.",
@@ -19543,7 +19543,7 @@ const PokemonData = [
   },
   {
     name: "Durant",
-    id: "#632",
+    id: "632",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/632.png",
     xdescription:
       "They attack in groups, covering themselves in steel armor to protect themselves from Heatmor.",
@@ -19574,7 +19574,7 @@ const PokemonData = [
   },
   {
     name: "Deino",
-    id: "#633",
+    id: "633",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/633.png",
     xdescription:
       "Lacking sight, it's unaware of its surroundings, so it bumps into things and eats anything that moves.",
@@ -19605,7 +19605,7 @@ const PokemonData = [
   },
   {
     name: "Zweilous",
-    id: "#634",
+    id: "634",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/634.png",
     xdescription:
       "After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along.",
@@ -19636,7 +19636,7 @@ const PokemonData = [
   },
   {
     name: "Hydreigon",
-    id: "#635",
+    id: "635",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/635.png",
     xdescription:
       "It responds to movement by attacking. This scary, three-headed Pok\u00e9mon devours everything in its path!",
@@ -19667,7 +19667,7 @@ const PokemonData = [
   },
   {
     name: "Larvesta",
-    id: "#636",
+    id: "636",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/636.png",
     xdescription:
       "The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies.",
@@ -19698,7 +19698,7 @@ const PokemonData = [
   },
   {
     name: "Volcarona",
-    id: "#637",
+    id: "637",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/637.png",
     xdescription:
       "When volcanic ash darkened the atmosphere, it is said that Volcarona's fire provided a replacement for the sun.",
@@ -19729,7 +19729,7 @@ const PokemonData = [
   },
   {
     name: "Cobalion",
-    id: "#638",
+    id: "638",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/638.png",
     xdescription:
       "It has a body and heart of steel. It worked with its allies to punish people when they hurt Pok\u00e9mon.",
@@ -19758,7 +19758,7 @@ const PokemonData = [
   },
   {
     name: "Terrakion",
-    id: "#639",
+    id: "639",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/639.png",
     xdescription:
       "Spoken of in legend, this Pok\u00e9mon used its phenomenal power to destroy a castle in its effort to protect Pok\u00e9mon.",
@@ -19795,7 +19795,7 @@ const PokemonData = [
   },
   {
     name: "Virizion",
-    id: "#640",
+    id: "640",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/640.png",
     xdescription:
       "Legends say this Pok\u00e9mon confounded opponents with its swift movements.",
@@ -19824,7 +19824,7 @@ const PokemonData = [
   },
   {
     name: "Tornadus",
-    id: "#641",
+    id: "641",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/641.png",
     xdescription:
       "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
@@ -19855,7 +19855,7 @@ const PokemonData = [
   },
   {
     name: "Thundurus",
-    id: "#642",
+    id: "642",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/642.png",
     xdescription:
       "As it flies around, it shoots lightning all over the place and causes forest fires. It is therefore disliked.",
@@ -19886,7 +19886,7 @@ const PokemonData = [
   },
   {
     name: "Reshiram",
-    id: "#643",
+    id: "643",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/643.png",
     xdescription:
       "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather.",
@@ -19915,7 +19915,7 @@ const PokemonData = [
   },
   {
     name: "Zekrom",
-    id: "#644",
+    id: "644",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/644.png",
     xdescription:
       "Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail.",
@@ -19944,7 +19944,7 @@ const PokemonData = [
   },
   {
     name: "Landorus",
-    id: "#645",
+    id: "645",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/645.png",
     xdescription:
       "From the forces of lightning and wind, it creates energy to give nutrients to the soil and make the land abundant.",
@@ -19975,7 +19975,7 @@ const PokemonData = [
   },
   {
     name: "Kyurem",
-    id: "#646",
+    id: "646",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/646.png",
     xdescription:
       "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
@@ -20004,7 +20004,7 @@ const PokemonData = [
   },
   {
     name: "Keldeo",
-    id: "#647",
+    id: "647",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/647.png",
     xdescription:
       "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
@@ -20033,7 +20033,7 @@ const PokemonData = [
   },
   {
     name: "Meloetta",
-    id: "#648",
+    id: "648",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/648.png",
     xdescription:
       "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
@@ -20062,7 +20062,7 @@ const PokemonData = [
   },
   {
     name: "Genesect",
-    id: "#649",
+    id: "649",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/649.png",
     xdescription:
       "This Pok\u00e9mon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
@@ -20091,7 +20091,7 @@ const PokemonData = [
   },
   {
     name: "Chespin",
-    id: "#650",
+    id: "650",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/650.png",
     xdescription:
       "Such a thick shell of wood covers its head and back that even a direct hit from a truck wouldn't faze it.",
@@ -20122,7 +20122,7 @@ const PokemonData = [
   },
   {
     name: "Quilladin",
-    id: "#651",
+    id: "651",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/651.png",
     xdescription:
       "They strengthen their lower bodies by running into one another. They are very kind and won't start fights.",
@@ -20153,7 +20153,7 @@ const PokemonData = [
   },
   {
     name: "Chesnaught",
-    id: "#652",
+    id: "652",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/652.png",
     xdescription:
       "When it takes a defensive posture with its fists guarding its face, it could withstand a bomb blast.",
@@ -20184,7 +20184,7 @@ const PokemonData = [
   },
   {
     name: "Fennekin",
-    id: "#653",
+    id: "653",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/653.png",
     xdescription:
       "As it walks, it munches on a twig in place of a snack. It intimidates opponents by puffing hot air out of its ears.",
@@ -20215,7 +20215,7 @@ const PokemonData = [
   },
   {
     name: "Braixen",
-    id: "#654",
+    id: "654",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/654.png",
     xdescription:
       "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.",
@@ -20246,7 +20246,7 @@ const PokemonData = [
   },
   {
     name: "Delphox",
-    id: "#655",
+    id: "655",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/655.png",
     xdescription:
       "Using psychic power, it generates a fiery vortex of 5,400 degrees Fahrenheit, incinerating foes swept into this whirl of flame.",
@@ -20277,7 +20277,7 @@ const PokemonData = [
   },
   {
     name: "Froakie",
-    id: "#656",
+    id: "656",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/656.png",
     xdescription:
       "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
@@ -20308,7 +20308,7 @@ const PokemonData = [
   },
   {
     name: "Frogadier",
-    id: "#657",
+    id: "657",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/657.png",
     xdescription:
       "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute's time.",
@@ -20339,7 +20339,7 @@ const PokemonData = [
   },
   {
     name: "Greninja",
-    id: "#658",
+    id: "658",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/658.png",
     xdescription:
       "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
@@ -20370,7 +20370,7 @@ const PokemonData = [
   },
   {
     name: "Bunnelby",
-    id: "#659",
+    id: "659",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/659.png",
     xdescription:
       "It has ears like shovels. Digging holes strengthens its ears so much that they can sever thick roots effortlessly.",
@@ -20401,7 +20401,7 @@ const PokemonData = [
   },
   {
     name: "Diggersby",
-    id: "#660",
+    id: "660",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/660.png",
     xdescription:
       "As powerful as an excavator, its ears can reduce dense bedrock to rubble. When it's finished digging, it lounges lazily.",
@@ -20432,7 +20432,7 @@ const PokemonData = [
   },
   {
     name: "Fletchling",
-    id: "#661",
+    id: "661",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/661.png",
     xdescription:
       "Despite the beauty of its lilting voice, it's merciless to intruders that enter its territory.",
@@ -20463,7 +20463,7 @@ const PokemonData = [
   },
   {
     name: "Fletchinder",
-    id: "#662",
+    id: "662",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/662.png",
     xdescription:
       "The hotter the flame sac on its belly, the faster it can fly, but it takes some time to get the fire going.",
@@ -20494,7 +20494,7 @@ const PokemonData = [
   },
   {
     name: "Talonflame",
-    id: "#663",
+    id: "663",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/663.png",
     xdescription:
       "When attacking prey, it can reach speeds of up to 310 mph. It finishes its prey off with a colossal kick.",
@@ -20525,7 +20525,7 @@ const PokemonData = [
   },
   {
     name: "Scatterbug",
-    id: "#664",
+    id: "664",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/664.png",
     xdescription:
       "The powder that covers its body regulates its temperature, so it can live in any region or climate.",
@@ -20556,7 +20556,7 @@ const PokemonData = [
   },
   {
     name: "Spewpa",
-    id: "#665",
+    id: "665",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/665.png",
     xdescription:
       "The beaks of bird Pok\u00e9mon can't begin to scratch its stalwart body. To defend itself, it spews powder.",
@@ -20587,7 +20587,7 @@ const PokemonData = [
   },
   {
     name: "Vivillon",
-    id: "#666",
+    id: "666",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/666.png",
     xdescription:
       "The patterns on this Pok\u00e9mon's wings depend on the climate and topography of its habitat. It scatters colorful scales.",
@@ -20618,7 +20618,7 @@ const PokemonData = [
   },
   {
     name: "Litleo",
-    id: "#667",
+    id: "667",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/667.png",
     xdescription:
       "They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pok\u00e9mon are quick to fight.",
@@ -20649,7 +20649,7 @@ const PokemonData = [
   },
   {
     name: "Pyroar",
-    id: "#668",
+    id: "668",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/668.png",
     xdescription:
       "With fiery breath of more than 10,000 degrees Fahrenheit, they viciously threaten any challenger. The females protect the pride's cubs.",
@@ -20680,7 +20680,7 @@ const PokemonData = [
   },
   {
     name: "Flab\u00e9b\u00e9",
-    id: "#669",
+    id: "669",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/669.png",
     xdescription:
       "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
@@ -20711,7 +20711,7 @@ const PokemonData = [
   },
   {
     name: "Floette",
-    id: "#670",
+    id: "670",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/670.png",
     xdescription:
       "When the flowers of a well-tended flower bed bloom, it appears and celebrates with an elegant dance.",
@@ -20742,7 +20742,7 @@ const PokemonData = [
   },
   {
     name: "Florges",
-    id: "#671",
+    id: "671",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/671.png",
     xdescription:
       "In times long past, governors of castles would invite Florges to create flower gardens to embellish the castle domains.",
@@ -20773,7 +20773,7 @@ const PokemonData = [
   },
   {
     name: "Skiddo",
-    id: "#672",
+    id: "672",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/672.png",
     xdescription:
       "If it has sunshine and water, it doesn't need to eat, because it can generate energy from the leaves on its back.",
@@ -20804,7 +20804,7 @@ const PokemonData = [
   },
   {
     name: "Gogoat",
-    id: "#673",
+    id: "673",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/673.png",
     xdescription:
       "They inhabit mountainous regions. The leader of the herd is decided by a battle of clashing horns.",
@@ -20835,7 +20835,7 @@ const PokemonData = [
   },
   {
     name: "Pancham",
-    id: "#674",
+    id: "674",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/674.png",
     xdescription:
       "It does its level best to glare and pull a scary face, but it can't help grinning if anyone pats its head.",
@@ -20866,7 +20866,7 @@ const PokemonData = [
   },
   {
     name: "Pangoro",
-    id: "#675",
+    id: "675",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/675.png",
     xdescription:
       "It charges ahead and bashes its opponents like a berserker, uncaring about any hits it might take. Its arms are mighty enough to snap a telephone pole.",
@@ -20897,7 +20897,7 @@ const PokemonData = [
   },
   {
     name: "Furfrou",
-    id: "#676",
+    id: "676",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/676.png",
     xdescription:
       "Historically, in the Kalos region, these Pok\u00e9mon were the designated guardians of the king.",
@@ -20928,7 +20928,7 @@ const PokemonData = [
   },
   {
     name: "Espurr",
-    id: "#677",
+    id: "677",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/677.png",
     xdescription:
       "It has enough psychic energy to blast everything within 300 feet of itself, but it has no control over its power.",
@@ -20959,7 +20959,7 @@ const PokemonData = [
   },
   {
     name: "Meowstic",
-    id: "#678",
+    id: "678",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/678.png",
     xdescription:
       "The eyeball patterns on the interior of its ears emit psychic energy. It keeps the patterns tightly covered because that power is too immense.",
@@ -20990,7 +20990,7 @@ const PokemonData = [
   },
   {
     name: "Honedge",
-    id: "#679",
+    id: "679",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/679.png",
     xdescription:
       "If anyone dares to grab its hilt, it wraps a blue cloth around that person's arm and drains that person's life energy completely.",
@@ -21021,7 +21021,7 @@ const PokemonData = [
   },
   {
     name: "Doublade",
-    id: "#680",
+    id: "680",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/680.png",
     xdescription:
       "The complex attack patterns of its two swords are unstoppable, even for an opponent greatly accomplished at swordplay.",
@@ -21052,7 +21052,7 @@ const PokemonData = [
   },
   {
     name: "Aegislash",
-    id: "#681",
+    id: "681",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/681.png",
     xdescription:
       "Apparently, it can detect the innate qualities of leadership. According to legend, whoever it recognizes is destined to become king.",
@@ -21083,7 +21083,7 @@ const PokemonData = [
   },
   {
     name: "Spritzee",
-    id: "#682",
+    id: "682",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/682.png",
     xdescription:
       "In the past, rather than using perfume, royal ladies carried a Spritzee that would waft a fragrance they liked.",
@@ -21114,7 +21114,7 @@ const PokemonData = [
   },
   {
     name: "Aromatisse",
-    id: "#683",
+    id: "683",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/683.png",
     xdescription:
       "Its scent is so overpowering that, unless a Trainer happens to really enjoy the smell, he or she will have a hard time walking alongside it.",
@@ -21145,7 +21145,7 @@ const PokemonData = [
   },
   {
     name: "Swirlix",
-    id: "#684",
+    id: "684",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/684.png",
     xdescription:
       "Because it eats nothing but sweets, its fur is as sticky sweet as cotton candy.",
@@ -21176,7 +21176,7 @@ const PokemonData = [
   },
   {
     name: "Slurpuff",
-    id: "#685",
+    id: "685",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/685.png",
     xdescription:
       "Its sense of smell is 100 million times better than a human's, so even the faintest scent tells it about everything in the area. It's like it can see with its nose!",
@@ -21207,7 +21207,7 @@ const PokemonData = [
   },
   {
     name: "Inkay",
-    id: "#686",
+    id: "686",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/686.png",
     xdescription:
       "It flashes the light-emitting spots on its body, which drains its opponent's will to fight. It takes the opportunity to scuttle away and hide.",
@@ -21238,7 +21238,7 @@ const PokemonData = [
   },
   {
     name: "Malamar",
-    id: "#687",
+    id: "687",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/687.png",
     xdescription:
       "It lures its prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.",
@@ -21269,7 +21269,7 @@ const PokemonData = [
   },
   {
     name: "Binacle",
-    id: "#688",
+    id: "688",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/688.png",
     xdescription:
       "They stretch and then contract, yanking their rocks along with them in bold hops. They eat seaweed that washes up on the shoreline.",
@@ -21300,7 +21300,7 @@ const PokemonData = [
   },
   {
     name: "Barbaracle",
-    id: "#689",
+    id: "689",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/689.png",
     xdescription:
       "Barbaracle's legs and hands have minds of their own, and they will move independently. But they usually follow the head's orders.",
@@ -21331,7 +21331,7 @@ const PokemonData = [
   },
   {
     name: "Skrelp",
-    id: "#690",
+    id: "690",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/690.png",
     xdescription:
       "It looks just like rotten kelp. It hides from foes while storing up power for its evolution.",
@@ -21362,7 +21362,7 @@ const PokemonData = [
   },
   {
     name: "Dragalge",
-    id: "#691",
+    id: "691",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/691.png",
     xdescription:
       "Tales are told of ships that wander into seas where Dragalge live, never to return.",
@@ -21393,7 +21393,7 @@ const PokemonData = [
   },
   {
     name: "Clauncher",
-    id: "#692",
+    id: "692",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/692.png",
     xdescription:
       "Through controlled explosions of internal gas, it can expel water like a pistol shot. At close distances, it can shatter rock.",
@@ -21424,7 +21424,7 @@ const PokemonData = [
   },
   {
     name: "Clawitzer",
-    id: "#693",
+    id: "693",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/693.png",
     xdescription:
       "By expelling water from the nozzle in the back of its claw, it can move at a speed of 60 knots.",
@@ -21455,7 +21455,7 @@ const PokemonData = [
   },
   {
     name: "Helioptile",
-    id: "#694",
+    id: "694",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/694.png",
     xdescription:
       "The frills on either side of its head have cells that generate electricity when exposed to sunlight.",
@@ -21486,7 +21486,7 @@ const PokemonData = [
   },
   {
     name: "Heliolisk",
-    id: "#695",
+    id: "695",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/695.png",
     xdescription:
       "It stimulates its muscles with electricity, boosting the strength in its legs and enabling it to run 100 yards in five seconds.",
@@ -21517,7 +21517,7 @@ const PokemonData = [
   },
   {
     name: "Tyrunt",
-    id: "#696",
+    id: "696",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/696.png",
     xdescription:
       "Its immense jaws have enough destructive force that it can chew up an automobile. It lived 100 million years ago.",
@@ -21548,7 +21548,7 @@ const PokemonData = [
   },
   {
     name: "Tyrantrum",
-    id: "#697",
+    id: "697",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/697.png",
     xdescription:
       "Nothing could stop this Pok\u00e9mon 100 million years ago, so it behaved like a king.",
@@ -21579,7 +21579,7 @@ const PokemonData = [
   },
   {
     name: "Amaura",
-    id: "#698",
+    id: "698",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/698.png",
     xdescription:
       "This calm Pok\u00e9mon lived in a cold land where there were no violent predators like Tyrantrum.",
@@ -21610,7 +21610,7 @@ const PokemonData = [
   },
   {
     name: "Aurorus",
-    id: "#699",
+    id: "699",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/699.png",
     xdescription:
       "Using its diamond-shaped crystals, it can instantly create a wall of ice to block an opponent's attack.",
@@ -21641,7 +21641,7 @@ const PokemonData = [
   },
   {
     name: "Sylveon",
-    id: "#700",
+    id: "700",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/700.png",
     xdescription:
       "It wraps its ribbonlike feelers around the arm of its beloved Trainer and walks with him or her.",
@@ -21682,7 +21682,7 @@ const PokemonData = [
   },
   {
     name: "Hawlucha",
-    id: "#701",
+    id: "701",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/701.png",
     xdescription:
       "With its wings, it controls its position in the air. It likes to attack from above, a maneuver that is difficult to defend against.",
@@ -21713,7 +21713,7 @@ const PokemonData = [
   },
   {
     name: "Dedenne",
-    id: "#702",
+    id: "702",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/702.png",
     xdescription:
       "It uses its tail to absorb electricity from power plants or from outlets in houses, and then it fires the electricity from its whiskers.",
@@ -21744,7 +21744,7 @@ const PokemonData = [
   },
   {
     name: "Carbink",
-    id: "#703",
+    id: "703",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/703.png",
     xdescription:
       "It has slept underground for hundreds of millions of years since its birth. It's occasionally found during the excavation of caves.",
@@ -21773,7 +21773,7 @@ const PokemonData = [
   },
   {
     name: "Goomy",
-    id: "#704",
+    id: "704",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/704.png",
     xdescription:
       "It's covered in a slimy membrane that makes any punches or kicks slide off it harmlessly.",
@@ -21804,7 +21804,7 @@ const PokemonData = [
   },
   {
     name: "Sliggoo",
-    id: "#705",
+    id: "705",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/705.png",
     xdescription:
       "Its four horns are a high-performance radar system. It uses them to sense sounds and smells, rather than using ears or a nose.",
@@ -21835,7 +21835,7 @@ const PokemonData = [
   },
   {
     name: "Goodra",
-    id: "#706",
+    id: "706",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/706.png",
     xdescription:
       "It attacks with retractable horns. It throws a punch that's the equivalent of the force of a hundred pro boxers.",
@@ -21866,7 +21866,7 @@ const PokemonData = [
   },
   {
     name: "Klefki",
-    id: "#707",
+    id: "707",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/707.png",
     xdescription:
       "It never lets go of a key that it likes, so people give it the keys to vaults and safes as a way to prevent crime.",
@@ -21897,7 +21897,7 @@ const PokemonData = [
   },
   {
     name: "Phantump",
-    id: "#708",
+    id: "708",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/708.png",
     xdescription:
       "According to old tales, these Pok\u00e9mon are stumps possessed by the spirits of children who died while lost in the forest.",
@@ -21928,7 +21928,7 @@ const PokemonData = [
   },
   {
     name: "Trevenant",
-    id: "#709",
+    id: "709",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/709.png",
     xdescription:
       "Using its roots as a nervous system, it controls the trees in the forest. It's kind to the Pok\u00e9mon that reside in its body.",
@@ -21959,7 +21959,7 @@ const PokemonData = [
   },
   {
     name: "Pumpkaboo",
-    id: "#710",
+    id: "710",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/710.png",
     xdescription:
       "It is said to carry wandering spirits to the place where they belong so they can move on.",
@@ -21990,7 +21990,7 @@ const PokemonData = [
   },
   {
     name: "Gourgeist",
-    id: "#711",
+    id: "711",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/711.png",
     xdescription:
       "It enwraps its prey in its hairlike arms. It sings joyfully as it observes the suffering of its prey.",
@@ -22021,7 +22021,7 @@ const PokemonData = [
   },
   {
     name: "Bergmite",
-    id: "#712",
+    id: "712",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/712.png",
     xdescription:
       "Using air of -150 degrees Fahrenheit, they freeze opponents solid. They live in herds above the snow line on mountains.",
@@ -22052,7 +22052,7 @@ const PokemonData = [
   },
   {
     name: "Avalugg",
-    id: "#713",
+    id: "713",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/713.png",
     xdescription:
       "The way several Bergmite huddle on its back makes it look like an aircraft carrier made of ice.",
@@ -22083,7 +22083,7 @@ const PokemonData = [
   },
   {
     name: "Noibat",
-    id: "#714",
+    id: "714",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/714.png",
     xdescription:
       "Even a robust wrestler will become dizzy and unable to stand when exposed to its 200,000-hertz ultrasonic waves.",
@@ -22114,7 +22114,7 @@ const PokemonData = [
   },
   {
     name: "Noivern",
-    id: "#715",
+    id: "715",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/715.png",
     xdescription:
       "The ultrasonic waves it emits from its ears can reduce a large boulder to pebbles. It swoops out of the dark to attack.",
@@ -22145,7 +22145,7 @@ const PokemonData = [
   },
   {
     name: "Xerneas",
-    id: "#716",
+    id: "716",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/716.png",
     xdescription:
       "When the horns on its head shine in seven colors, it is said to be sharing everlasting life.",
@@ -22174,7 +22174,7 @@ const PokemonData = [
   },
   {
     name: "Yveltal",
-    id: "#717",
+    id: "717",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/717.png",
     xdescription:
       "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.",
@@ -22203,7 +22203,7 @@ const PokemonData = [
   },
   {
     name: "Zygarde",
-    id: "#718",
+    id: "718",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/718.png",
     xdescription:
       "It's thought to be monitoring the ecosystem. There are rumors that even greater power lies hidden within it.",
@@ -22232,7 +22232,7 @@ const PokemonData = [
   },
   {
     name: "Diancie",
-    id: "#719",
+    id: "719",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/719.png",
     xdescription:
       "It can instantly create many diamonds by compressing the carbon in the air between its hands.",
@@ -22261,7 +22261,7 @@ const PokemonData = [
   },
   {
     name: "Hoopa",
-    id: "#720",
+    id: "720",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/720.png",
     xdescription:
       "It is said to be able to seize anything it desires with its six rings and six huge arms. With its power sealed, it is transformed into a much smaller form.",
@@ -22290,7 +22290,7 @@ const PokemonData = [
   },
   {
     name: "Volcanion",
-    id: "#721",
+    id: "721",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/721.png",
     xdescription:
       "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
@@ -22319,7 +22319,7 @@ const PokemonData = [
   },
   {
     name: "Rowlet",
-    id: "#722",
+    id: "722",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/722.png",
     xdescription:
       "Silently it glides, drawing near its targets. Before they even notice it, it begins to pelt them with vicious kicks.",
@@ -22350,7 +22350,7 @@ const PokemonData = [
   },
   {
     name: "Dartrix",
-    id: "#723",
+    id: "723",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/723.png",
     xdescription:
       "It throws sharp feathers called blade quills at enemies or prey. It seldom misses.",
@@ -22381,7 +22381,7 @@ const PokemonData = [
   },
   {
     name: "Decidueye",
-    id: "#724",
+    id: "724",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/724.png",
     xdescription:
       "Although basically cool and cautious, when it's caught by surprise, it's seized by panic.",
@@ -22412,7 +22412,7 @@ const PokemonData = [
   },
   {
     name: "Litten",
-    id: "#725",
+    id: "725",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/725.png",
     xdescription:
       "It doesn't allow its emotions to be easily seen. Earning its trust takes time. It prefers solitude.",
@@ -22443,7 +22443,7 @@ const PokemonData = [
   },
   {
     name: "Torracat",
-    id: "#726",
+    id: "726",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/726.png",
     xdescription:
       "It boasts powerful front legs. With a single punch, it can bend an iron bar right over.",
@@ -22474,7 +22474,7 @@ const PokemonData = [
   },
   {
     name: "Incineroar",
-    id: "#727",
+    id: "727",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/727.png",
     xdescription:
       "After hurling ferocious punches and flinging furious kicks, it finishes opponents off by spewing fire from around its navel.",
@@ -22505,7 +22505,7 @@ const PokemonData = [
   },
   {
     name: "Popplio",
-    id: "#728",
+    id: "728",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/728.png",
     xdescription:
       "This Pok\u00e9mon can control water bubbles. It practices diligently so it can learn to make big bubbles.",
@@ -22536,7 +22536,7 @@ const PokemonData = [
   },
   {
     name: "Brionne",
-    id: "#729",
+    id: "729",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/729.png",
     xdescription:
       "It cares deeply for its companions. When its Trainer is feeling down, it performs a cheery dance to try and help.",
@@ -22567,7 +22567,7 @@ const PokemonData = [
   },
   {
     name: "Primarina",
-    id: "#730",
+    id: "730",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/730.png",
     xdescription:
       "Its singing voice is its chief weapon in battle. This Pok\u00e9mon's Trainer must prioritize the daily maintenance of its throat at all costs.",
@@ -22598,7 +22598,7 @@ const PokemonData = [
   },
   {
     name: "Pikipek",
-    id: "#731",
+    id: "731",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/731.png",
     xdescription:
       "This Pok\u00e9mon feeds on berries, whose leftover seeds become the ammunition for the attacks it fires off from its mouth.",
@@ -22629,7 +22629,7 @@ const PokemonData = [
   },
   {
     name: "Trumbeak",
-    id: "#732",
+    id: "732",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/732.png",
     xdescription:
       "By bending its beak, it can produce a variety of calls and brand itself a noisy nuisance for its neighbors.",
@@ -22660,7 +22660,7 @@ const PokemonData = [
   },
   {
     name: "Toucannon",
-    id: "#733",
+    id: "733",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/733.png",
     xdescription:
       "Within its beak, its internal gas ignites, explosively launching seeds with enough power to pulverize boulders.",
@@ -22691,7 +22691,7 @@ const PokemonData = [
   },
   {
     name: "Yungoos",
-    id: "#734",
+    id: "734",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/734.png",
     xdescription:
       "It wanders around in a never-ending search for food. At dusk, it collapses from exhaustion and falls asleep on the spot.",
@@ -22722,7 +22722,7 @@ const PokemonData = [
   },
   {
     name: "Gumshoos",
-    id: "#735",
+    id: "735",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/735.png",
     xdescription:
       "It adores having Rattata and Raticate for dinner, but as it's diurnal, it never encounters them. This Pok\u00e9mon boasts incredible patience.",
@@ -22753,7 +22753,7 @@ const PokemonData = [
   },
   {
     name: "Grubbin",
-    id: "#736",
+    id: "736",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/736.png",
     xdescription:
       "They often gather near places frequented by electric Pok\u00e9mon in order to avoid being attacked by bird Pok\u00e9mon.",
@@ -22784,7 +22784,7 @@ const PokemonData = [
   },
   {
     name: "Charjabug",
-    id: "#737",
+    id: "737",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/737.png",
     xdescription:
       "From the food it digests, it generates electricity, and it stores this energy in its electric sac.",
@@ -22815,7 +22815,7 @@ const PokemonData = [
   },
   {
     name: "Vikavolt",
-    id: "#738",
+    id: "738",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/738.png",
     xdescription:
       "It produces electricity via an electrical organ in its abdomen. It overwhelms bird Pok\u00e9mon with shocking beams of electrical energy.",
@@ -22846,7 +22846,7 @@ const PokemonData = [
   },
   {
     name: "Crabrawler",
-    id: "#739",
+    id: "739",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/739.png",
     xdescription:
       "It punches so much, its pincers often come off from overuse, but they grow back quickly. What little meat they contain is rich and delicious.",
@@ -22877,7 +22877,7 @@ const PokemonData = [
   },
   {
     name: "Crabominable",
-    id: "#740",
+    id: "740",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/740.png",
     xdescription:
       "It just throws punches indiscriminately. In times of desperation, it can lop off its own pincers and fire them like rockets.",
@@ -22908,7 +22908,7 @@ const PokemonData = [
   },
   {
     name: "Oricorio",
-    id: "#741",
+    id: "741",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/741.png",
     xdescription:
       "This Oricorio has sipped red nectar. Its passionate dance moves cause its enemies to combust in both body and mind.",
@@ -22939,7 +22939,7 @@ const PokemonData = [
   },
   {
     name: "Cutiefly",
-    id: "#742",
+    id: "742",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/742.png",
     xdescription:
       "Myriads of Cutiefly flutter above the heads of people who have auras resembling those of flowers.",
@@ -22970,7 +22970,7 @@ const PokemonData = [
   },
   {
     name: "Ribombee",
-    id: "#743",
+    id: "743",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/743.png",
     xdescription:
       "Some of Ribombee's pollen puffs are highly nutritious. They are sometimes sold as supplements.",
@@ -23001,7 +23001,7 @@ const PokemonData = [
   },
   {
     name: "Rockruff",
-    id: "#744",
+    id: "744",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/744.png",
     xdescription:
       "This Pok\u00e9mon has lived with people since times long ago. It can sense when its Trainer is in the dumps and will stick close by its Trainer's side.",
@@ -23032,7 +23032,7 @@ const PokemonData = [
   },
   {
     name: "Lycanroc",
-    id: "#745",
+    id: "745",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/745.png",
     xdescription:
       "When properly raised from a young age, it will become a trustworthy partner that will absolutely never betray its Trainer.",
@@ -23063,7 +23063,7 @@ const PokemonData = [
   },
   {
     name: "Wishiwashi",
-    id: "#746",
+    id: "746",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/746.png",
     xdescription:
       "It's awfully weak and notably tasty, so everyone is always out to get it. As it happens, anyone trying to bully it receives a painful lesson.",
@@ -23094,7 +23094,7 @@ const PokemonData = [
   },
   {
     name: "Mareanie",
-    id: "#747",
+    id: "747",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/747.png",
     xdescription:
       "It's found crawling on beaches and seafloors. The coral that grows on Corsola's head is as good as a five-star banquet to this Pok\u00e9mon.",
@@ -23125,7 +23125,7 @@ const PokemonData = [
   },
   {
     name: "Toxapex",
-    id: "#748",
+    id: "748",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/748.png",
     xdescription:
       "Those attacked by Toxapex's poison will suffer intense pain for three days and three nights. Post-recovery, there will be some aftereffects.",
@@ -23156,7 +23156,7 @@ const PokemonData = [
   },
   {
     name: "Mudbray",
-    id: "#749",
+    id: "749",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/749.png",
     xdescription:
       "It has a stubborn, individualistic disposition. Eating dirt, making mud, and playing in the mire all form part of its daily routine.",
@@ -23187,7 +23187,7 @@ const PokemonData = [
   },
   {
     name: "Mudsdale",
-    id: "#750",
+    id: "750",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/750.png",
     xdescription:
       "Its heavy, mud-covered kicks are its best means of attack, and it can reduce large trucks to scrap without breaking a sweat.",
@@ -23218,7 +23218,7 @@ const PokemonData = [
   },
   {
     name: "Dewpider",
-    id: "#751",
+    id: "751",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/751.png",
     xdescription:
       "When it comes across enemies or potential prey, this Pok\u00e9mon smashes its water-bubble-covered head into them.",
@@ -23249,7 +23249,7 @@ const PokemonData = [
   },
   {
     name: "Araquanid",
-    id: "#752",
+    id: "752",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/752.png",
     xdescription:
       "Despite what its appearance suggests, it cares for others. If it finds vulnerable, weak Pok\u00e9mon, it protectively brings them into its water bubble.",
@@ -23280,7 +23280,7 @@ const PokemonData = [
   },
   {
     name: "Fomantis",
-    id: "#753",
+    id: "753",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/753.png",
     xdescription:
       "They give off a sweet and refreshing scent. Cutiefly often gather near the tall grass where Fomantis are hiding.",
@@ -23311,7 +23311,7 @@ const PokemonData = [
   },
   {
     name: "Lurantis",
-    id: "#754",
+    id: "754",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/754.png",
     xdescription:
       "It fires beams from its sickle-shaped petals. These beams are powerful enough to cleave through thick metal plates.",
@@ -23342,7 +23342,7 @@ const PokemonData = [
   },
   {
     name: "Morelull",
-    id: "#755",
+    id: "755",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/755.png",
     xdescription:
       "As it drowses the day away, it nourishes itself by sucking from tree roots. It wakens at the fall of night, wandering off in search of a new tree.",
@@ -23373,7 +23373,7 @@ const PokemonData = [
   },
   {
     name: "Shiinotic",
-    id: "#756",
+    id: "756",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/756.png",
     xdescription:
       "It emits flickering spores that cause drowsiness. When its prey succumb to sleep, this Pok\u00e9mon feeds on them by sucking in their energy.",
@@ -23404,7 +23404,7 @@ const PokemonData = [
   },
   {
     name: "Salandit",
-    id: "#757",
+    id: "757",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/757.png",
     xdescription:
       "Volcanoes or dry, craggy places are its home. It emanates a sweet-smelling poisonous gas that attracts bug Pok\u00e9mon, then attacks them.",
@@ -23435,7 +23435,7 @@ const PokemonData = [
   },
   {
     name: "Salazzle",
-    id: "#758",
+    id: "758",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/758.png",
     xdescription:
       "Filled with pheromones, its poisonous gas can be diluted to use in the production of luscious perfumes.",
@@ -23466,7 +23466,7 @@ const PokemonData = [
   },
   {
     name: "Stufful",
-    id: "#759",
+    id: "759",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/759.png",
     xdescription:
       "A touch from anyone except a known friend sends it into a surging frenzy. It's an incredibly dangerous Pok\u00e9mon.",
@@ -23497,7 +23497,7 @@ const PokemonData = [
   },
   {
     name: "Bewear",
-    id: "#760",
+    id: "760",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/760.png",
     xdescription:
       "This Pok\u00e9mon has the habit of hugging its companions. Many Trainers have left this world after their spines were squashed by its hug.",
@@ -23528,7 +23528,7 @@ const PokemonData = [
   },
   {
     name: "Bounsweet",
-    id: "#761",
+    id: "761",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/761.png",
     xdescription:
       "Although it's too sugary for human consumption, Bounsweet's sweat can be watered down into a juice with just the right amount of sweetness.",
@@ -23559,7 +23559,7 @@ const PokemonData = [
   },
   {
     name: "Steenee",
-    id: "#762",
+    id: "762",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/762.png",
     xdescription:
       "This Pok\u00e9mon is always bouncing around energetically. Other Pok\u00e9mon are attracted by its lively appearance and pleasant aroma.",
@@ -23590,7 +23590,7 @@ const PokemonData = [
   },
   {
     name: "Tsareena",
-    id: "#763",
+    id: "763",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/763.png",
     xdescription:
       "A Pok\u00e9mon known for the beauty of its well-shaped legs, it sometimes appears as a mascot in advertisements for beauty salons.",
@@ -23621,7 +23621,7 @@ const PokemonData = [
   },
   {
     name: "Comfey",
-    id: "#764",
+    id: "764",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/764.png",
     xdescription:
       "Baths prepared with the flowers from its vine have a relaxing effect, so this Pok\u00e9mon is a hit with many people.",
@@ -23652,7 +23652,7 @@ const PokemonData = [
   },
   {
     name: "Oranguru",
-    id: "#765",
+    id: "765",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/765.png",
     xdescription:
       "Deep in the jungle, high in the lofty canopy, this Pok\u00e9mon abides. On rare occasions, it shows up at the beach to match wits with Slowking.",
@@ -23683,7 +23683,7 @@ const PokemonData = [
   },
   {
     name: "Passimian",
-    id: "#766",
+    id: "766",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/766.png",
     xdescription:
       "They battle with hard berries for weapons. Their techniques are passed from the boss to the group, generation upon generation.",
@@ -23714,7 +23714,7 @@ const PokemonData = [
   },
   {
     name: "Wimpod",
-    id: "#767",
+    id: "767",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/767.png",
     xdescription:
       "Its habitat varies from beaches to seabeds. A natural scavenger, it will gleefully chow down on anything edible, no matter how rotten.",
@@ -23745,7 +23745,7 @@ const PokemonData = [
   },
   {
     name: "Golisopod",
-    id: "#768",
+    id: "768",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/768.png",
     xdescription:
       "It battles skillfully with its six arms, but spends most of its time peacefully meditating in caves deep beneath the sea.",
@@ -23776,7 +23776,7 @@ const PokemonData = [
   },
   {
     name: "Sandygast",
-    id: "#769",
+    id: "769",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/769.png",
     xdescription:
       "It takes control of anyone who puts a hand in its mouth. And so it adds to the accumulation of its sand-mound body.",
@@ -23807,7 +23807,7 @@ const PokemonData = [
   },
   {
     name: "Palossand",
-    id: "#770",
+    id: "770",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/770.png",
     xdescription:
       "Buried beneath the castle are masses of dried-up bones from those whose vitality it has drained.",
@@ -23838,7 +23838,7 @@ const PokemonData = [
   },
   {
     name: "Pyukumuku",
-    id: "#771",
+    id: "771",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/771.png",
     xdescription:
       "These Pok\u00e9mon line the beaches. The sticky mucous that covers their bodies can be used to soothe sunburned skin. How convenient!",
@@ -23869,7 +23869,7 @@ const PokemonData = [
   },
   {
     name: "Type: Null",
-    id: "#772",
+    id: "772",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/772.png",
     xdescription:
       "Due to the danger that this synthetic Pok\u00e9mon may go on a rampage, it wears a control mask to restrain its power.",
@@ -23898,7 +23898,7 @@ const PokemonData = [
   },
   {
     name: "Silvally",
-    id: "#773",
+    id: "773",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/773.png",
     xdescription:
       "Although its name was Type: Null at first, the boy who evolved it into this form gave it the name by which it is now known.",
@@ -23927,7 +23927,7 @@ const PokemonData = [
   },
   {
     name: "Minior",
-    id: "#774",
+    id: "774",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/774.png",
     xdescription:
       "Strong impacts can knock it out of its shell. This Pok\u00e9mon was born from mutated nanoparticles.",
@@ -23956,7 +23956,7 @@ const PokemonData = [
   },
   {
     name: "Komala",
-    id: "#775",
+    id: "775",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/775.png",
     xdescription:
       "The log it holds was given to it by its parents at birth. It has also been known to cling to the arm of a friendly Trainer.",
@@ -23987,7 +23987,7 @@ const PokemonData = [
   },
   {
     name: "Turtonator",
-    id: "#776",
+    id: "776",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/776.png",
     xdescription:
       "It gushes fire and poisonous gases from its nostrils. Its dung is an explosive substance and can be put to various uses.",
@@ -24018,7 +24018,7 @@ const PokemonData = [
   },
   {
     name: "Togedemaru",
-    id: "#777",
+    id: "777",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/777.png",
     xdescription:
       "The long hairs on its back act as lightning rods. The bolts of lightning it attracts are stored as energy in its electric sac.",
@@ -24049,7 +24049,7 @@ const PokemonData = [
   },
   {
     name: "Mimikyu",
-    id: "#778",
+    id: "778",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/778.png",
     xdescription:
       "A lonely Pok\u00e9mon, it conceals its terrifying appearance beneath an old rag so it can get closer to people and other Pok\u00e9mon.",
@@ -24080,7 +24080,7 @@ const PokemonData = [
   },
   {
     name: "Bruxish",
-    id: "#779",
+    id: "779",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/779.png",
     xdescription:
       "It stuns its prey with psychokinesis and then grinds them to mush with its strong teeth. Even Shellder's shell is no match for it.",
@@ -24111,7 +24111,7 @@ const PokemonData = [
   },
   {
     name: "Drampa",
-    id: "#780",
+    id: "780",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/780.png",
     xdescription:
       "This Pok\u00e9mon is friendly to people and loves children most of all. It comes from deep in the mountains to play with children it likes in town.",
@@ -24142,7 +24142,7 @@ const PokemonData = [
   },
   {
     name: "Dhelmise",
-    id: "#781",
+    id: "781",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/781.png",
     xdescription:
       "The soul of seaweed adrift in the waves became reborn as this Pok\u00e9mon. It maintains itself with new infusions of seabed detritus and seaweed.",
@@ -24171,7 +24171,7 @@ const PokemonData = [
   },
   {
     name: "Jangmo-o",
-    id: "#782",
+    id: "782",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/782.png",
     xdescription:
       "They live in mountains where no trace of humans can be detected. Jangmo-o grow little by little as they battle one another.",
@@ -24202,7 +24202,7 @@ const PokemonData = [
   },
   {
     name: "Hakamo-o",
-    id: "#783",
+    id: "783",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/783.png",
     xdescription:
       "It sheds and regrows its scales on a continuous basis. The scales become harder and sharper each time they're regrown.",
@@ -24233,7 +24233,7 @@ const PokemonData = [
   },
   {
     name: "Kommo-o",
-    id: "#784",
+    id: "784",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/784.png",
     xdescription:
       "Its rigid scales function as offense and defense. In the past, its scales were processed and used to make weapons and other commodities.",
@@ -24264,7 +24264,7 @@ const PokemonData = [
   },
   {
     name: "Tapu Koko",
-    id: "#785",
+    id: "785",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/785.png",
     xdescription:
       "It confuses its enemies by flying too quickly for the eye to follow. It has a hair-trigger temper but forgets what made it angry an instant later.",
@@ -24293,7 +24293,7 @@ const PokemonData = [
   },
   {
     name: "Tapu Lele",
-    id: "#786",
+    id: "786",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/786.png",
     xdescription:
       "As it flutters about, it scatters its strangely glowing scales. Touching them is said to restore good health on the spot.",
@@ -24322,7 +24322,7 @@ const PokemonData = [
   },
   {
     name: "Tapu Bulu",
-    id: "#787",
+    id: "787",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/787.png",
     xdescription:
       "The guardian deity of Ula'ula is a lazy Pok\u00e9mon. It commands plants to immobilize its foes and then deals them a savage blow with its horns.",
@@ -24351,7 +24351,7 @@ const PokemonData = [
   },
   {
     name: "Tapu Fini",
-    id: "#788",
+    id: "788",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/788.png",
     xdescription:
       "The guardian deity of Poni, it can control water. People say it can create pure water that will wash away any uncleanness.",
@@ -24380,7 +24380,7 @@ const PokemonData = [
   },
   {
     name: "Cosmog",
-    id: "#789",
+    id: "789",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/789.png",
     xdescription:
       "In ages past, it was called the child of the stars. It's said to be a Pok\u00e9mon from another world, but no specific details are known.",
@@ -24409,7 +24409,7 @@ const PokemonData = [
   },
   {
     name: "Cosmoem",
-    id: "#790",
+    id: "790",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/790.png",
     xdescription:
       "There's something accumulating around the black core within its hard shell. People think this Pok\u00e9mon may come from another world.",
@@ -24438,7 +24438,7 @@ const PokemonData = [
   },
   {
     name: "Solgaleo",
-    id: "#791",
+    id: "791",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/791.png",
     xdescription:
       "This Pok\u00e9mon is said to be a male evolution of Cosmog. At the activation of its third eye, it departs for another world.",
@@ -24467,7 +24467,7 @@ const PokemonData = [
   },
   {
     name: "Lunala",
-    id: "#792",
+    id: "792",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/792.png",
     xdescription:
       "Said to live in another world, this Pok\u00e9mon devours light, drawing the moonless dark veil of night over the brightness of day.",
@@ -24496,7 +24496,7 @@ const PokemonData = [
   },
   {
     name: "Nihilego",
-    id: "#793",
+    id: "793",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/793.png",
     xdescription:
       "One of the Ultra Beasts. It's unclear whether or not this Pok\u00e9mon is sentient, but sometimes it can be observed behaving like a young girl.",
@@ -24525,7 +24525,7 @@ const PokemonData = [
   },
   {
     name: "Buzzwole",
-    id: "#794",
+    id: "794",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/794.png",
     xdescription:
       "A mysterious life-form called an Ultra Beast. Witnesses saw it pulverize a dump truck with a single punch.",
@@ -24554,7 +24554,7 @@ const PokemonData = [
   },
   {
     name: "Pheromosa",
-    id: "#795",
+    id: "795",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/795.png",
     xdescription:
       "One of the Ultra Beasts. It refuses to touch anything, perhaps because it senses some uncleanness in this world.",
@@ -24583,7 +24583,7 @@ const PokemonData = [
   },
   {
     name: "Xurkitree",
-    id: "#796",
+    id: "796",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/796.png",
     xdescription:
       "It appeared from the Ultra Wormhole. It raided a power plant, so people think it energizes itself with electricity.",
@@ -24612,7 +24612,7 @@ const PokemonData = [
   },
   {
     name: "Celesteela",
-    id: "#797",
+    id: "797",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/797.png",
     xdescription:
       "One kind of Ultra Beast. Witnesses have seen it burn down a forest by expelling gas from its two arms.",
@@ -24641,7 +24641,7 @@ const PokemonData = [
   },
   {
     name: "Kartana",
-    id: "#798",
+    id: "798",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/798.png",
     xdescription:
       "One of the Ultra Beast life-forms, it was observed cutting down a gigantic steel tower with one stroke of its blade.",
@@ -24670,7 +24670,7 @@ const PokemonData = [
   },
   {
     name: "Guzzlord",
-    id: "#799",
+    id: "799",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/799.png",
     xdescription:
       "A dangerous Ultra Beast, it appears to be eating constantly, but for some reason its droppings have never been found.",
@@ -24699,7 +24699,7 @@ const PokemonData = [
   },
   {
     name: "Necrozma",
-    id: "#800",
+    id: "800",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/800.png",
     xdescription:
       "Light is apparently the source of its energy. It has an extraordinarily vicious disposition and is constantly firing off laser beams.",
@@ -24728,7 +24728,7 @@ const PokemonData = [
   },
   {
     name: "Magearna",
-    id: "#801",
+    id: "801",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/801.png",
     xdescription:
       "Its mechanized body is merely a vessel. Its true self is its Soul-Heart, an artificial soul.",
@@ -24757,7 +24757,7 @@ const PokemonData = [
   },
   {
     name: "Marshadow",
-    id: "#802",
+    id: "802",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/802.png",
     xdescription:
       "It sinks into the shadows of people and  Pok\u00e9mon, where it can understand their feelings  and copy their capabilities.",
@@ -24786,7 +24786,7 @@ const PokemonData = [
   },
   {
     name: "Poipole",
-    id: "#803",
+    id: "803",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/803.png",
     xdescription:
       "An Ultra Beast that lives in a different world, it  cackles wildly as it sprays its opponents with  poison from the needles on its head.",
@@ -24815,7 +24815,7 @@ const PokemonData = [
   },
   {
     name: "Naganadel",
-    id: "#804",
+    id: "804",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/804.png",
     xdescription:
       "One kind of Ultra Beast, it fires a glowing,  venomous liquid from its needles. This liquid  is also immensely adhesive.",
@@ -24844,7 +24844,7 @@ const PokemonData = [
   },
   {
     name: "Stakataka",
-    id: "#805",
+    id: "805",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/805.png",
     xdescription:
       "When stone walls started moving and attacking,  the brute's true identity was this mysterious  life-form, which brings to mind an Ultra Beast.",
@@ -24873,7 +24873,7 @@ const PokemonData = [
   },
   {
     name: "Blacephalon",
-    id: "#806",
+    id: "806",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/806.png",
     xdescription:
       "A UB that appeared from an Ultra Wormhole, it  causes explosions, then takes advantage of  opponents' surprise to rob them of their vitality.",
@@ -24902,7 +24902,7 @@ const PokemonData = [
   },
   {
     name: "Zeraora",
-    id: "#807",
+    id: "807",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/807.png",
     xdescription:
       "It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws.",
@@ -24931,7 +24931,7 @@ const PokemonData = [
   },
   {
     name: "Meltan",
-    id: "#808",
+    id: "808",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/808.png",
     xdescription:
       "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
@@ -24960,7 +24960,7 @@ const PokemonData = [
   },
   {
     name: "Melmetal",
-    id: "#809",
+    id: "809",
     imageurl: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/809.png",
     xdescription:
       "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
