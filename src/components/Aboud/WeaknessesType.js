@@ -19,7 +19,7 @@ const WeaknessesType = ({ pokemonType }) => {
   };
   newtypeData();
 
-  const WeaknessType = () => {
+  const WeaknessType = ({ item }) => {
     return (
       <View
         style={{
@@ -29,7 +29,7 @@ const WeaknessesType = ({ pokemonType }) => {
       >
         <View
           style={{
-            backgroundColor: colors[weakness[1]],
+            backgroundColor: colors[item],
             alignItems: "center",
             justifyContent: "center",
             borderRadius: 4,
@@ -37,7 +37,7 @@ const WeaknessesType = ({ pokemonType }) => {
             width: 25,
           }}
         >
-          <TypeIcon name={weakness[1]} color={"white"} width={15} height={15} />
+          <TypeIcon name={item} color={"white"} width={15} height={15} />
         </View>
       </View>
     );
@@ -47,26 +47,10 @@ const WeaknessesType = ({ pokemonType }) => {
     <View style={styles.container}>
       <Text style={styles.Title}>Weaknesses</Text>
 
-      {/* {newtypeData().map((item, index) => {
-        return (
-          <View style={{ marginTop: 10 }}>
-            <View style={{ marginLeft: 5, backgroundColor: "red" }}>
-              <TypeIcon
-                key={index}
-                name={item}
-                height={18}
-                width={18}
-                color={colors[item]}
-                style={styles.icon}
-              />
-            </View>
-          </View>
-        );
-      })} */}
-
       <View style={{ marginLeft: 45, flexDirection: "row" }}>
-        <WeaknessType />
-        <WeaknessType />
+        {newtypeData().map((item, index) => {
+          return <WeaknessType item={item} key={index} />;
+        })}
       </View>
     </View>
   );

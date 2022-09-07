@@ -5,6 +5,7 @@ import Space from "../Space";
 import { Tablo, TabloTitle, WeaknessesType } from "./index";
 
 const Aboud = ({ pokemon }) => {
+  console.log(pokemon);
   return (
     <View style={styles.Container}>
       <Text style={styles.Info}>
