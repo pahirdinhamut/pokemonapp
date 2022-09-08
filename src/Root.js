@@ -1,5 +1,4 @@
 import React from "react";
-import { View, Text } from "react-native";
 import HomeScreen from "./screen/HomeScreen";
 import Detail from "./screen/Detail";
 import { NavigationContainer } from "@react-navigation/native";
@@ -25,7 +24,6 @@ const Root = () => {
         />
       </Stack.Navigator>
     </NavigationContainer>
-    // <HomeScreen />
   );
 };
 

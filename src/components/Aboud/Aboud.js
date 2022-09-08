@@ -5,7 +5,6 @@ import Space from "../Space";
 import { Tablo, TabloTitle, WeaknessesType } from "./index";
 
 const Aboud = ({ pokemon }) => {
-  console.log(pokemon);
   return (
     <View style={styles.Container}>
       <Text style={styles.Info}>
@@ -25,6 +24,10 @@ const Aboud = ({ pokemon }) => {
         discription={pokemon.abilities[0].ability.name}
       />
       <WeaknessesType pokemonType={pokemon.types[0].type.name} />
+      <TabloTitle
+        title={"Training"}
+        color={colors[pokemon.types[0].type.name]}
+      />
     </View>
   );
 };
