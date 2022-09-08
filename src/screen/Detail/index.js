@@ -24,6 +24,7 @@ import TypeView from "../../components/Type/TypeView";
 import Svg10X5 from "../../components/icons/10X5";
 import Menu from "./Menu";
 import Aboud from "../../components/Aboud/Aboud";
+import Stats from "../../components/Stats/Stats";
 
 const Detail = () => {
   const navigation = useNavigation();
@@ -33,7 +34,6 @@ const Detail = () => {
   const [selectIndex, setSelectIndex] = useState(0);
   const [pokeball, setPokeball] = useState("-6%");
   const [selecetionMode, setSelectionMode] = useState("aboud");
-  console.log(selectIndex);
 
   const SelectMode = (value) => {
     switch (value.name) {
@@ -140,7 +140,7 @@ const Detail = () => {
       </View>
       <View style={styles.detail}>
         {selecetionMode === "aboud" && <Aboud pokemon={pokemon} />}
-        {selecetionMode === "stats" && <Text>Stats</Text>}
+        {selecetionMode === "stats" && <Stats pokemon={pokemon} />}
         {selecetionMode === "evolution" && <Text>evolution</Text>}
       </View>
     </View>

@@ -7,6 +7,7 @@ import {
   ScrollView,
   StyleSheet,
   ActivityIndicator,
+  Animated,
 } from "react-native";
 import { height, width } from "../../../assets/Size/Size";
 import { textColor } from "../../../assets/COLORS/Color";
@@ -115,7 +116,7 @@ function HomeScreen() {
       >
         {/* Hedaer Icons */}
 
-        <View style={styles.headerIconContainer}>
+        <Animated.View style={styles.headerIconContainer}>
           <Space onPress={() => selecetMode("filter")} size={7}>
             <Generation fill={"black"} />
           </Space>
@@ -125,7 +126,7 @@ function HomeScreen() {
           <Space size={7} onPress={() => selecetMode("generation")}>
             <Filter fill={"black"} />
           </Space>
-        </View>
+        </Animated.View>
 
         <Text style={{ fontSize: 32, fontWeight: "700" }}>Pokéwiki</Text>
         <Text
@@ -191,7 +192,7 @@ const styles = StyleSheet.create({
   headerIconContainer: {
     flexDirection: "row",
     justifyContent: "flex-end",
-    marginTop: height / 7.5,
+    marginTop: height / 8,
   },
 });
 
