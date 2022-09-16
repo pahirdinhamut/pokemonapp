@@ -1,32 +1,50 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import { colors } from "../../../assets/COLORS/Color";
-import Space from "../../components/Space";
+import { colors, textColor } from "../../../assets/COLORS/Color";
+import StatsCard from "./StatsCard";
 
 const Stats = ({ pokemon }) => {
+  const { stats } = pokemon;
+
   return (
     <View style={styles.Container}>
-      <Text
-        style={[styles.title, { color: colors[pokemon.types[0].type.name] }]}
-      >
-        Base Stats
-      </Text>
+      <View style={styles.ContainerTitle}>
+        <Text
+          style={[
+            styles.ContainerTitleText,
+            { color: colors[pokemon.types[0].type.name] },
+          ]}
+        >
+          Base Stats
+        </Text>
+      </View>
+      {/* pokemon stats card  */}
+      {stats.map((stat, index) => {
+        const baseStat = stat.base_stat;
+        const statName = stat.stat.name;
+        const statPercent = baseStat;
+        const statColor = colors[pokemon.types[0].type.name];
+        const statMin = 0;
+        const statMax = 255;
 
-      <View style={styles.StatsContainer}>
-        <View style={{ flexDirection: "row", marginHorizontal: 20 }}>
-          <Text>HP</Text>
-          <Space size={5}>
-            <Text>45</Text>
-          </Space>
-        </View>
-        <View
-          style={{ height: 5, width: 120, backgroundColor: "red", flex: 1 }}
-        />
-        <View style={{ flexDirection: "row", marginHorizontal: 20 }}>
-          <Text>200</Text>
-          <Space size={5} />
-          <Text>294</Text>
-        </View>
+        return (
+          <StatsCard
+            key={index}
+            title={statName}
+            value={baseStat}
+            lineHeight={statPercent}
+            lineColor={statColor}
+            min={statMin}
+            max={statMax}
+          />
+        );
+      })}
+      <View style={styles.Disctription}>
+        <Text style={styles.DispText}>
+          The ranges shown on the right are for a level 100 Pokémon. Maximum
+          values are based on a beneficial nature, 252 EVs, 31 IVs; minimum
+          values are based on a hindering nature, 0 EVs, 0 IVs.
+        </Text>
       </View>
     </View>
   );
@@ -34,16 +52,25 @@ const Stats = ({ pokemon }) => {
 
 const styles = StyleSheet.create({
   Container: {
-    marginVertical: 30,
+    marginVertical: 10,
   },
-  title: {
+
+  ContainerTitle: {
+    marginVertical: 15,
+    marginHorizontal: 10,
+  },
+  ContainerTitleText: {
     fontWeight: "700",
-    fontSize: 16,
+    fontSize: 20,
   },
-  StatsContainer: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
+  Disctription: {
+    marginHorizontal: 10,
+    marginVertical: 10,
+  },
+  DispText: {
+    color: textColor.grey,
+    fontSize: 14,
+    fontWeight: "500",
   },
 });
 export default Stats;
