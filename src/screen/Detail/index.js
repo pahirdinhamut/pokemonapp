@@ -25,6 +25,7 @@ import Svg10X5 from "../../components/icons/10X5";
 import Menu from "./Menu";
 import Aboud from "../../components/Aboud/Aboud";
 import Stats from "../../components/Stats/Stats";
+import Evolution from "../../components/Evolution/Evolution";
 
 const Detail = () => {
   const navigation = useNavigation();
@@ -141,7 +142,7 @@ const Detail = () => {
       <View style={styles.detail}>
         {selecetionMode === "aboud" && <Aboud pokemon={pokemon} />}
         {selecetionMode === "stats" && <Stats pokemon={pokemon} />}
-        {selecetionMode === "evolution" && <Text>evolution</Text>}
+        {selecetionMode === "evolution" && <Evolution pokemon={pokemon} />}
       </View>
     </View>
   );
